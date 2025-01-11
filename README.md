@@ -53,5 +53,5 @@ This project is a collaborative effort by:
 - **Fabien Scalzo** - Pepperdine University  
 - **Ira Kurtz** - University of California, Los Angeles (UCLA)
 
-We appreciate the collective expertise and dedication of our team, which made this work possible.
 
+## WILL ADD PAPER LINK WHEN WE ARE DONE
