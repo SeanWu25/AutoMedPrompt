@@ -1,11 +1,10 @@
 # Automating Prompt Engineering for Medicine
 
-Prompt engineering is key to enhancing the performance of large language models (LLMs). Traditional methods, while effective, often rely on manual effort or require adding additional information to the context window. This project introduces a novel automated framework, using **TextGrad**, to optimize LLMs for medical benchmarks with minimal intervention.
+Prompt engineering is key to enhancing the performance of large language models (LLMs). Traditional methods, while effective, often rely on manual effort or require adding additional information to the context window. This project introduces a novel automated framework, using **TextGrad**, to automate LLM prompt engineering with minimal intervention.
 
 ## About the Project
 
-This framework streamlines prompt engineering by automating the process. Traditional in-context learning, which typically involves providing a few examples, may not effectively leverage broader dataset trends to optimize prompts. Our framework addresses this limitation by analyzing textual gradients across the entire dataset to identify specific improvements. We evaluate its effectiveness within the medical domain through rigorous testing on established benchmarks such as MedQA, MedMCQA, PubMedQA, and the medical subset of MMLU.
-
+This framework streamlines prompt engineering by automating the process. Traditional in-context learning, which typically involves providing a few examples, may not effectively leverage broader dataset trends to optimize prompts. Our framework addresses this limitation by analyzing textual gradients across multiple training examples to identify specific improvements to the prompt. 
 ## Methodology
 
 The core of the project is **TextGrad**, a powerful package that optimizes multi-stage LLM agents by backpropagating textual gradients. This innovative approach allows for the systematic refinement of prompts, improving their effectiveness across a variety of tasks.
@@ -15,8 +14,6 @@ Key benchmarks for evaluation include:
 - **MedMCQA**: Indian postgraduate medical exam questions.
 - **PubMedQA**: Questions derived from PubMed abstracts.
 - **MMLU (Medical Subset)**: Nine clinically relevant topics in natural language understanding.
-
-The framework is evaluated on both quantitative metrics (accuracy) and qualitative insights (clinical relevance of generated system prompts).
 
 ---
 
@@ -45,4 +42,16 @@ For more information about TextGrad, visit their [GitHub repository](https://git
 
 We extend our gratitude to the creators of TextGrad for their groundbreaking work, which was integral to this research.
 
+---
+
+## Project Authors
+
+This project is a collaborative effort by:
+
+- **Sean Wu** - Pepperdine University  
+- **Michael Koo** - University of Chicago  
+- **Fabien Scalzo** - Pepperdine University  
+- **Ira Kurtz** - University of California, Los Angeles (UCLA)
+
+We appreciate the collective expertise and dedication of our team, which made this work possible.
 
