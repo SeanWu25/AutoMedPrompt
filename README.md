@@ -40,7 +40,7 @@ This project would not have been possible without the **TextGrad** package, deve
 We leveraged TextGrad to systematically enhance LLM performance across medical benchmarks, facilitating meaningful comparisons with traditional methods.
 For more information about TextGrad, visit their [GitHub repository](https://github.com/zou-group/textgrad) and [official documentation](https://textgrad.readthedocs.io/en/latest/).
 
-We extend our gratitude to the creators of TextGrad for their groundbreaking work, which was integral to this research.
+We extend our gratitude to the creators of TextGrad for their work, which was the backbone to this research.
 
 ---
 
