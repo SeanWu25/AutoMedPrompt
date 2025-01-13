@@ -1,2 +1,4 @@
 .env
 auto_prompt/
+logs/
+prompt_logs/
