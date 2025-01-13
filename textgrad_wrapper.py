@@ -84,7 +84,7 @@ class Prompt_Optimizer:
            self.previous_prompt_var = copy.deepcopy(self.system_prompt_var)
            self.previous_performance = current_score
            self.no_improvement_steps = 0
-           self.log_prompt_update(self.system_prompt_var)  # Log prompt update here
+           self.log_prompt_update(self.system_prompt_var, val_metrics)  # Log prompt update here
 
 
        print(f"Validation Metrics: {val_metrics}")
@@ -211,12 +211,20 @@ class Prompt_Optimizer:
             json.dump({"events": [log_data]}, log_file, indent=4)
         return log_filename
 
-   def log_prompt_update(self, updated_prompt):
+   def log_prompt_update(self, updated_prompt, val_accuracy):
+        
+
+        gradients_serializable = (
+        [str(grad.value) for grad in updated_prompt.gradients]
+        if updated_prompt.gradients is not None
+        else None
+        )
         log_data = {
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "event": "System Prompt Updated",
-            "updated_prompt": updated_prompt.value,
-            "system_prompt_gradients": updated_prompt.gradients
+            "updated_prompt": str(updated_prompt.value),
+            "system_prompt_gradients": list(gradients_serializable),
+            "validation_accuracy (soft)": str(val_accuracy)
         }
         if self.log_file:
             with open(self.log_file, "r+") as log_file:
