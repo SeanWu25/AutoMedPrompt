@@ -30,14 +30,15 @@ class Prompt_Optimizer:
        #for logging experiments
        self.log_dir = "prompt_logs"
        os.makedirs(self.log_dir, exist_ok=True)
-       self.log_file = self.log_training_start()
 
 
        self.system_prompt_var = tg.Variable(
            starting_prompt,
            requires_grad=True,
-           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions."
+           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions both concisely and accurately."
        )
+       self.log_file = self.log_training_start()
+
        optimizer_engine = tg.get_engine(engine_name="gpt-4o-mini")
 
        self.optimizer = tg.TextualGradientDescent(
@@ -91,17 +92,17 @@ class Prompt_Optimizer:
        print(f"Updated system prompt: {self.system_prompt_var.value}")
       
 
-   def train_step(self, batch_x, batch_y):
+   def train_step(self, batch_x, batch_y, batch_z):
        """
        Perform a training step with the given batch of data.
        """
        losses = []
        self.optimizer.zero_grad()
-       for (x, reference) in zip(batch_x, batch_y):
+       for (x,ground_truth, explanation) in zip(batch_x, batch_y, batch_z):
            x = tg.Variable(x, requires_grad=False, role_description="query to the language model")
            response = self._forward(x.value)
 
-           eval_output_variable = self.eval_item(x.value, response, reference)
+           eval_output_variable = self.eval_item(response,ground_truth, explanation)
            losses.append(eval_output_variable)
             
        total_loss = tg.sum(losses)
@@ -122,15 +123,19 @@ class Prompt_Optimizer:
        for _, (batch) in enumerate(tqdm(data_loader)):
            batch_x = batch[0]
            batch_y = batch[1]
+           batch_z = batch[2]
 
-           for x, reference in zip(batch_x, batch_y):
+           for x, ground_truth, _ in zip(batch_x, batch_y, batch_z):
                response = self._forward(x)
                
-               metrics = self.evaluate(x, response, reference)
+               metrics = self.evaluate(x, response, ground_truth)
   
                aggregator.aggregate(metrics)
 
        overall_metrics = aggregator.get_aggregated_metrics()
+
+       print("Overall Metrics: ")
+       print(overall_metrics)
        return overall_metrics
 
 
@@ -140,7 +145,9 @@ class Prompt_Optimizer:
            print(f"Training Step: {step + 1}")
            batch_x = batch[0]
            batch_y = batch[1]
-           self.train_step(batch_x, batch_y)
+           batch_z = batch[2]
+
+           self.train_step(batch_x, batch_y, batch_z)
            self._run_validation_revert(val_loader)
 
            if self.no_improvement_steps >= self.patience:
@@ -169,15 +176,30 @@ class Prompt_Optimizer:
     
        print("FINISHED TESTING ON TEST SET!")
 
-   def eval_item(self, question, response, reference) -> tg.Variable:
-       evaluation_instruction = (f"Here's a question: {question}. "
-                                f"Evaluate any given answer to this question based on the ground truth:{reference}"
-                                "be smart, logical, and very critical. "
-                                "Just provide concise feedback.")
 
-       loss_fn = tg.TextLoss(evaluation_instruction)
-       loss = loss_fn(response)
-       return loss
+   def eval_item(self, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
+        evaluation_instruction = tg.Variable(
+            "Evaluate the given answer based on the correct answer choice and the explanation provided. "
+            "Consider accuracy, logical coherence, and completeness. Provide concise feedback.",
+            requires_grad=False,
+            role_description="evaluation instruction"
+        )
+        role_descriptions = ["response", "ground_truth", "reference"]
+
+        loss_fn = tg.MultiFieldEvaluation(
+            evaluation_instruction=evaluation_instruction,
+            role_descriptions=role_descriptions
+        )
+        inputs = [
+            response.set_role_description("Language model response"),
+            tg.Variable(ground_truth, requires_grad=False, role_description="Ground truth correct answer choice"),
+            tg.Variable(reference, requires_grad=False, role_description="Correct Explanation")
+        ]
+
+        loss = loss_fn.forward(inputs)
+
+        print("LOSS IS: ", loss)
+        return loss
    
    def evaluate(self, question, response, reference):
 
@@ -186,7 +208,6 @@ class Prompt_Optimizer:
        evaluation_result = qa_evaluator._evaluate_strings(
            prediction=response.value,
            reference=reference,
-           input=question
        )
        metrics_dict = {
            "question": question,
@@ -202,6 +223,7 @@ class Prompt_Optimizer:
             "event": "Training Start",
             "model_name": self.model_name,
             "starting_prompt": self.starting_prompt,
+            "prompt_role_desc: ":  self.system_prompt_var.role_description
         }
         log_filename = os.path.join(
             self.log_dir, f"training_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"

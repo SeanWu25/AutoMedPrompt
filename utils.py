@@ -8,14 +8,15 @@ import random
 
 def subset(dataset, seed = 42):
     random.seed(seed) 
-    return random.sample(dataset, 50)
+    return random.sample(dataset, 5)
 
-def make_loader(train_set, dev_set,test_set, batch_size = 3):
+def make_loader(train_set, dev_set,test_set, batch_size = 1):
     def json_to_list(set):
         questions = [question['question'] for question in set]
-        references = [f"Correct Answer is: {reference['answer_idx']}, {reference['answer']}" for reference in set]
-        return list(zip(questions,references))
-    
+        references = [reference['answer_idx'] for reference in set]
+        explanation = [reference['answer'] for reference in set]
+        return list(zip(questions,references,explanation))
+
 
     print("*" * 50)
     train_set = json_to_list(train_set)
@@ -67,54 +68,33 @@ class CustomQAEvaluator(StringEvaluator):
         """Initialize the evaluator with GPT-4o-mini."""
         self.chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0)
         self.prompt_template = PromptTemplate(
-            input_variables=["input", "prediction", "reference"],
-
+            input_variables=["prediction", "reference"],
             template = """
-            You are an expert evaluator assessing the accuracy of an AI's response to a medical multiple-choice question. Your task is to determine if the AI's answer aligns with the ground truth reference and label it as either CORRECT or INCORRECT.
-
-            Example Format:
-            AI ANSWER: AI's answer here
-            TRUE ANSWER: true answer here
-            GRADE: CORRECT or INCORRECT here
-
-            Grade the student answers based ONLY on whether it matches the TRUE answer.
-            AI ANSWER: {prediction}
+            Evaluate if the student's answer matches the true answer. Respond with one word only: Correct or Incorrect.
+            Student ANSWER: {prediction}
             TRUE ANSWER:{reference}
             GRADE:"""
         )
 
-
-
-        
-
-    @property
-    def evaluation_name(self) -> str:
-        """Return the name of the evaluator."""
-        return "CustomQAEvaluator"
-
-    @property
-    def requires_reference(self) -> bool:
-        return True
-
-    @property
-    def requires_input(self) -> bool:
-        return True
-
     def _evaluate_strings(
         self,
         prediction: str,
-        input: Optional[str] = None,
         reference: Optional[str] = None,
         **kwargs: Any,
     ) -> dict:
         """Evaluate the prediction against the reference using a comprehensive QA approach."""
-        prompt = self.prompt_template.format(input=input, prediction=prediction, reference=reference)
+        prompt = self.prompt_template.format(prediction=prediction, reference=reference)
+        
+        print("Prompt to evaluate: ", prompt)
         result = self.chat_model([HumanMessage(content=prompt)])
-        #print("RESULT: ", result.content.lower())
-       # print(result.content.lower())
+
+        print("evaluation result: ", result.content.lower())
+
         if "incorrect" in result.content.lower():
+            print("Incorrect")
             return {"score": 0}
         else:
+            print("Correct")
             return {"score": 1}
         
    
