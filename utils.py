@@ -16,10 +16,17 @@ def make_loader(train_set, dev_set,test_set, batch_size = 3):
         references = [f"Correct Answer is: {reference['answer_idx']}, {reference['answer']}" for reference in set]
         return list(zip(questions,references))
     
+
+    print("*" * 50)
     train_set = json_to_list(train_set)
     dev_set = json_to_list(dev_set)
     test_set = json_to_list(test_set)
 
+    print("Length of train set: ", len(train_set))
+    print("Length of dev set ", len(dev_set))
+    print("Length of test set ", len(test_set))
+
+    print("*"* 50)
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(dev_set, batch_size=batch_size, shuffle=False)
     test_loader = DataLoader(test_set, batch_size=1, shuffle=False)
@@ -59,7 +66,7 @@ class CustomQAEvaluator(StringEvaluator):
     def __init__(self) -> None:
         """Initialize the evaluator with GPT-4o-mini."""
         self.chat_model = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-        self.loss_template = PromptTemplate(
+        self.prompt_template = PromptTemplate(
             input_variables=["input", "prediction", "reference"],
 
             template = """
@@ -102,8 +109,6 @@ class CustomQAEvaluator(StringEvaluator):
     ) -> dict:
         """Evaluate the prediction against the reference using a comprehensive QA approach."""
         prompt = self.prompt_template.format(input=input, prediction=prediction, reference=reference)
-
-        #print(prompt)
         result = self.chat_model([HumanMessage(content=prompt)])
         #print("RESULT: ", result.content.lower())
        # print(result.content.lower())

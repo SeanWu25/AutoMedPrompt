@@ -3,6 +3,8 @@ from tqdm import tqdm
 import os
 import csv
 from dotenv import load_dotenv
+from datetime import datetime
+import json
 from textgrad.engine.together import ChatTogether
 from utils import MetricsAggregator, CustomQAEvaluator
 load_dotenv()
@@ -16,10 +18,20 @@ tg.set_backward_engine(backward_engine, override=True)
 
 
 class Prompt_Optimizer:
-   def __init__(self, model_name,starting_prompt,patience=5):
+   def __init__(self, model_name,starting_prompt,patience=3):
        self.patience = patience
        self.no_improvement_steps = 0
        self.model_name = model_name
+
+       self.starting_prompt = starting_prompt
+       self.previous_performance = -float('inf')
+
+
+       #for logging experiments
+       self.log_dir = "prompt_logs"
+       os.makedirs(self.log_dir, exist_ok=True)
+       self.log_file = self.log_training_start()
+
 
        self.system_prompt_var = tg.Variable(
            starting_prompt,
@@ -72,6 +84,8 @@ class Prompt_Optimizer:
            self.previous_prompt_var = copy.deepcopy(self.system_prompt_var)
            self.previous_performance = current_score
            self.no_improvement_steps = 0
+           self.log_prompt_update(self.system_prompt_var)  # Log prompt update here
+
 
        print(f"Validation Metrics: {val_metrics}")
        print(f"Updated system prompt: {self.system_prompt_var.value}")
@@ -93,10 +107,10 @@ class Prompt_Optimizer:
        total_loss = tg.sum(losses)
        total_loss.backward()
 
-       print("System prompt gradients", self.system_prompt_var.gradients)
+       #print("System prompt gradients", self.system_prompt_var.gradients)
 
        self.optimizer.step()
-       self._modify_or_set_agent()
+       self._modify_or_set_forward_pass()
 
 
    def evaluate_dataset(self, data_loader):
@@ -115,7 +129,6 @@ class Prompt_Optimizer:
                metrics = self.evaluate(x, response, reference)
   
                aggregator.aggregate(metrics)
-
 
        overall_metrics = aggregator.get_aggregated_metrics()
        return overall_metrics
@@ -182,6 +195,36 @@ class Prompt_Optimizer:
        }
        metrics_dict["correctness"] = evaluation_result['score']
        return metrics_dict
+   
+   def log_training_start(self):
+        log_data = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "event": "Training Start",
+            "model_name": self.model_name,
+            "starting_prompt": self.starting_prompt,
+        }
+        log_filename = os.path.join(
+            self.log_dir, f"training_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        )
+
+        with open(log_filename, "w") as log_file:
+            json.dump({"events": [log_data]}, log_file, indent=4)
+        return log_filename
+
+   def log_prompt_update(self, updated_prompt):
+        log_data = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "event": "System Prompt Updated",
+            "updated_prompt": updated_prompt.value,
+            "system_prompt_gradients": updated_prompt.gradients
+        }
+        if self.log_file:
+            with open(self.log_file, "r+") as log_file:
+                data = json.load(log_file)
+                data["events"].append(log_data)
+                log_file.seek(0)
+                json.dump(data, log_file, indent=4)
+
 
 
 
