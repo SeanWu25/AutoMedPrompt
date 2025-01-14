@@ -1,0 +1,174 @@
+Question,Ground Truth,Prediction,Updated Prompt
+"A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. The tendon is repaired without complication. The attending tells the resident that the patient will do fine, and there is no need to report this minor complication that will not harm the patient, as he does not want to make the patient worry unnecessarily. He tells the resident to leave this complication out of the operative report. Which of the following is the correct next action for the resident to take?",C,"The correct answer is B. Disclose the error to the patient and put it in the operative report.
+
+Justification:
+
+The attending physician's instruction to omit the complication from the operative report is unethical and potentially harmful to the patient. As a healthcare professional, it is the resident's duty to prioritize transparency, honesty, and patient safety. Failing to disclose the error and document it in the operative report can lead to several negative consequences:
+
+1. Incomplete medical record: Omitting the complication from the operative report can result in an incomplete and inaccurate medical record, which may affect future medical decisions and patient care.
+2. Patient autonomy: Withholding information from the patient denies them the right to make informed decisions about their care and potentially compromises their trust in the healthcare system.
+3. Legal and ethical implications: Failing to disclose a medical error can lead to legal and ethical consequences, including potential lawsuits and damage to the healthcare provider's reputation.
+
+The resident should disclose the error to the patient in a timely and empathetic manner, ensuring that the patient is fully informed about the complication and its potential impact on their recovery. This disclosure should also be documented in the operative report to maintain an accurate and complete medical record.
+
+Comparative analysis:
+
+Option A is incorrect because disclosing the error to the patient without documenting it in the operative report is incomplete and may not provide a complete picture of the patient's medical history.
+
+Option C is not a direct action the resident can take, as it does not address the immediate issue of disclosure and documentation.
+
+Option D is not necessary at this point, as the resident should first address the issue with the attending physician and ensure that the patient is informed and the operative report is accurate.
+
+Option E is not a viable solution, as refusing to dictate the operative report may not resolve the issue and may lead to further complications.
+
+Clinical relevance:
+
+Disclosing medical errors and documenting them in the medical record is essential for maintaining patient trust, ensuring accurate medical records, and promoting a culture of transparency and accountability in healthcare. The American College of Surgeons (ACS) and the Joint Commission emphasize the importance of disclosing medical errors to patients and families.
+
+References:
+
+* American College of Surgeons. (2019). Statement on Principles of Patient Safety. Retrieved from <https://www.facs.org/-/media/files/about-acs/statements/principles-of-patient-safety.ashx>
+* The Joint Commission. (2019). Sentinel Event Alert 57: The Essential Role of Disclosure in Health Care. Retrieved from <https://www.jointcommission.org/-/media/tjc/documents/resources/patient-safety-topics/sentinel-event-alert/sea_57_the_essential_role_of_disclosure_in_health_care.pdf>",Success
+A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemotherapy 1 week ago. Pure tone audiometry shows a sensorineural hearing loss of 45 dB. The expected beneficial effect of the drug that caused this patient's symptoms is most likely due to which of the following actions?,E,"The correct answer is C. Hyperstabilization of microtubules.
+
+Justification:
+
+The patient's symptoms of ringing in the ear (tinnitus) and sensorineural hearing loss are indicative of ototoxicity, a known side effect of certain chemotherapeutic agents. Given the patient's recent treatment with neoadjuvant chemotherapy for transitional cell carcinoma of the bladder, it is likely that the culprit drug is a platinum-based agent, such as cisplatin.
+
+Cisplatin is known to cause ototoxicity by damaging the hair cells in the cochlea, leading to sensorineural hearing loss. The expected beneficial effect of cisplatin is due to its ability to hyperstabilize microtubules, which inhibits cell division and leads to apoptosis (programmed cell death) in cancer cells.
+
+Comparative analysis:
+
+* Option A, inhibition of thymidine synthesis, is a mechanism of action for antimetabolite chemotherapeutic agents, such as methotrexate, which is not typically associated with ototoxicity.
+* Option B, inhibition of proteasome, is a mechanism of action for proteasome inhibitors, such as bortezomib, which is not typically used to treat bladder cancer.
+* Option D, generation of free radicals, is a mechanism of action for some chemotherapeutic agents, but it is not specific to cisplatin or ototoxicity.
+* Option E, cross-linking of DNA, is a mechanism of action for alkylating agents, such as cyclophosphamide, which is not typically associated with ototoxicity.
+
+Clinical relevance:
+
+Cisplatin is a commonly used chemotherapeutic agent for various types of cancer, including bladder cancer. Ototoxicity is a significant side effect of cisplatin, and patients should be monitored for hearing loss and tinnitus. Audiometric testing, such as pure tone audiometry, is essential for detecting ototoxicity early, and dose reduction or discontinuation of cisplatin may be necessary to prevent permanent hearing loss.
+
+References:
+
+* National Cancer Institute. (2020). Cisplatin. Retrieved from <https://www.cancer.gov/about-cancer/treatment/drugs/cisplatin>
+* American Speech-Language-Hearing Association. (n.d.). Ototoxicity. Retrieved from <https://www.asha.org/public/articles/Ototoxicity.htm>
+* Rybak, L. P., & Ramkumar, V. (2007). Ototoxicity. Kidney International, 72(8), 931-935. doi: 10.1038/sj.ki.5002431",Success
+"Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus and osteoarthritis of the hips. Prior to admission, his medications were insulin and naproxen. He was also started on aspirin, clopidogrel, and metoprolol after the coronary intervention. His temperature is 38°C (100.4°F), pulse is 93/min, and blood pressure is 125/85 mm Hg. Examination shows mottled, reticulated purplish discoloration of the feet. Laboratory studies show:
+Hemoglobin count 14 g/dL
+Leukocyte count 16,400/mm3
+Segmented neutrophils 56%
+Eosinophils 11%
+Lymphocytes 31%
+Monocytes 2%
+Platelet count 260,000/mm3
+Erythrocyte sedimentation rate 68 mm/h
+Serum
+Urea nitrogen 25 mg/dL
+Creatinine 4.2 mg/dL
+Renal biopsy shows intravascular spindle-shaped vacuoles. Which of the following is the most likely cause of this patient's symptoms?""",C,"The correct answer is C. Cholesterol embolization.
+
+Justification:
+
+The patient's symptoms, laboratory findings, and renal biopsy results strongly suggest cholesterol embolization as the most likely cause of his symptoms. Here are the key clinical indicators supporting this diagnosis:
+
+1. **Mottled, reticulated purplish discoloration of the feet**: This skin manifestation is a classic sign of cholesterol embolization, which occurs when cholesterol crystals from atherosclerotic plaques break off and travel to smaller arteries, causing occlusion and tissue ischemia.
+2. **Eosinophilia**: The patient's eosinophil count is elevated (11%), which is a common finding in cholesterol embolization. Eosinophils are often recruited to the site of inflammation in response to the presence of cholesterol crystals.
+3. **Renal biopsy findings**: The presence of intravascular spindle-shaped vacuoles on renal biopsy is a characteristic feature of cholesterol embolization. These vacuoles represent cholesterol crystals that have embolized to the kidneys, causing renal damage.
+4. **Acute kidney injury**: The patient's elevated serum creatinine (4.2 mg/dL) and decreased urinary output suggest acute kidney injury, which is a common complication of cholesterol embolization.
+5. **Recent cardiac catheterization**: The patient's recent cardiac catheterization with stenting increases the risk of cholesterol embolization, as the procedure can dislodge atherosclerotic plaques and release cholesterol crystals into the bloodstream.
+
+Comparative analysis with other options:
+
+* A. Renal papillary necrosis is unlikely, as it typically occurs in patients with diabetes and analgesic nephropathy, and the patient's renal biopsy findings do not support this diagnosis.
+* B. Allergic interstitial nephritis is possible, given the patient's recent medication changes, but the presence of eosinophilia and characteristic renal biopsy findings make cholesterol embolization a more likely diagnosis.
+* D. Eosinophilic granulomatosis with polyangiitis is a rare condition that can cause eosinophilia and renal damage, but it is less likely in this patient, given the absence of other characteristic symptoms and the presence of cholesterol embolization on renal biopsy.
+* E. Polyarteritis nodosa is a systemic vasculitis that can cause renal damage, but it is less likely in this patient, given the absence of other characteristic symptoms and the presence of cholesterol embolization on renal biopsy.
+
+Clinical relevance and treatment:
+
+Cholesterol embolization is a serious complication that requires prompt recognition and management. Treatment typically involves supportive care, including hydration, blood pressure control, and management of electrolyte imbalances. In some cases, medications such as statins and antiplatelet agents may be used to reduce the risk of further embolization.
+
+References:
+
+* KDIGO Clinical Practice Guideline for Acute Kidney Injury (2012)
+* American Heart Association. (2011). 2011 ACCF/AHA Focused Update Incorporated Into the ACC/AHA 2007 Guidelines for the Management of Patients With Unstable Angina/Non-ST-Elevation Myocardial Infarction. Circulation, 123(22), 2623-2635.
+* Korzets, A., et al. (2000). Cholesterol embolization: a rare complication of cardiac catheterization. Nephrology, Dialysis, Transplantation, 15(11), 1751-1753.",Success
+"A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and blood pressure is 80/50 mm Hg. There is blood oozing around the site of a peripheral intravenous line. Pelvic examination shows mucopurulent discharge from the cervical os and left adnexal tenderness. Laboratory studies show:
+Platelet count 14,200/mm3
+Fibrinogen 83 mg/mL (N = 200–430 mg/dL)
+D-dimer 965 ng/mL (N < 500 ng/mL)
+When phenol is applied to a sample of the patient's blood at 90°C, a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain is identified. A blood culture is most likely to show which of the following?""",D,"The correct answer is B. Encapsulated, gram-negative coccobacilli forming grey-colored colonies on charcoal blood agar.
+
+Justification:
+
+The patient presents with severe sepsis, characterized by fever, tachycardia, tachypnea, and hypotension. The pelvic examination reveals mucopurulent discharge and left adnexal tenderness, suggesting a genital tract infection. The laboratory results show thrombocytopenia (low platelet count), hypofibrinogenemia (low fibrinogen level), and elevated D-dimer levels, indicating disseminated intravascular coagulation (DIC).
+
+The identification of a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain in the patient's blood, using phenol at 90°C, is a diagnostic test for Neisseria meningitidis. This bacterium is a gram-negative coccobacillus that forms grey-colored colonies on charcoal blood agar.
+
+Comparative analysis:
+
+Option A describes Staphylococcus aureus, which is a gram-positive coccus that forms mauve-colored colonies on methicillin-containing agar. While S. aureus can cause sepsis, the laboratory results and the pelvic examination findings are not consistent with this diagnosis.
+
+Option C describes Bacillus anthracis, which is a gram-positive bacillus that forms yellow colonies on casein agar. This bacterium is not typically associated with genital tract infections or DIC.
+
+Option D describes Escherichia coli, which is a gram-negative rod that forms pink colonies on MacConkey agar. While E. coli can cause sepsis, the laboratory results and the pelvic examination findings are not consistent with this diagnosis.
+
+Option E describes Enterococcus faecalis, which is a gram-positive coccus that forms green colonies on vancomycin agar. This bacterium is not typically associated with genital tract infections or DIC.
+
+Clinical relevance:
+
+Neisseria meningitidis is a serious and potentially life-threatening pathogen that requires prompt antibiotic treatment. The patient should be started on empirical antibiotic therapy, such as ceftriaxone or cefotaxime, and closely monitored for signs of sepsis progression. Supportive care, including fluid resuscitation and vasopressor therapy, may be necessary to manage the patient's hemodynamic instability.
+
+References:
+
+* Centers for Disease Control and Prevention. (2020). Meningococcal Disease. Retrieved from <https://www.cdc.gov/meningococcal/index.html>
+* Mandell, G. L., Bennett, J. E., & Dolin, R. (2019). Mandell, Douglas, and Bennett's Principles and Practice of Infectious Diseases. 9th ed. Philadelphia, PA: Elsevier.",Success
+"A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around springtime. He has iron deficiency anemia and ankylosing spondylitis. Current medications include ferrous sulfate, artificial tear drops, and indomethacin. He works as an elementary school teacher. His vital signs are within normal limits. Visual acuity is 20/20 without correction. Physical examination shows bilateral conjunctival injection with watery discharge. The pupils are 3 mm, equal, and reactive to light. Examination of the anterior chamber of the eye is unremarkable. Which of the following is the most appropriate treatment?",B,"The correct answer is B. Ketotifen eye drops.
+
+Justification:
+
+The patient's symptoms of itchy, watery eyes, and sneezing multiple times a day, particularly during the spring season, are consistent with allergic conjunctivitis. The physical examination findings of bilateral conjunctival injection with watery discharge further support this diagnosis. Allergic conjunctivitis is a common condition that occurs when the eyes come into contact with an allergen, such as pollen, dust, or pet dander, triggering an allergic response.
+
+Ketotifen eye drops are an antihistamine and mast cell stabilizer, which are commonly used to treat allergic conjunctivitis. They work by blocking the release of histamine from mast cells, reducing the allergic response and alleviating symptoms such as itching, redness, and tearing.
+
+In contrast, erythromycin ointment (Option A) is an antibiotic used to treat bacterial conjunctivitis, which is not consistent with the patient's symptoms. Warm compresses (Option C) may provide temporary relief from discomfort, but they do not address the underlying allergic response. Fluorometholone eye drops (Option D) are a corticosteroid, which may be used to treat more severe cases of allergic conjunctivitis, but they can have side effects such as increased intraocular pressure and cataract formation. Latanoprost eye drops (Option E) are used to treat glaucoma, which is not relevant to this patient's symptoms.
+
+The patient's medical history of ankylosing spondylitis and iron deficiency anemia does not appear to be related to the current symptoms. The use of ferrous sulfate, artificial tear drops, and indomethacin does not contraindicate the use of ketotifen eye drops.
+
+Clinical relevance:
+
+Allergic conjunctivitis is a common condition that can significantly impact quality of life. Prompt treatment with ketotifen eye drops can provide rapid relief from symptoms, allowing the patient to return to normal activities. It is essential to educate the patient on the proper use of the medication and the importance of avoiding exposure to allergens.
+
+Reference:
+
+* American Academy of Ophthalmology. (2020). Conjunctivitis: A Review of the Literature. Ophthalmology, 127(12), 1731-1743. doi: 10.1016/j.ophtha.2020.06.024",Success
+A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. He has a 5-year history of untreated hypertension. He has smoked 1 pack of cigarettes daily for the past 5 years and started abusing cocaine 2 weeks before his emergency room visit. The patient is diaphoretic and in marked distress. What should be the first step in management?,E,"The correct answer is C. Nitroglycerin.
+
+Justification:
+
+The patient's symptoms, including chest pain radiating to the epigastric area, nausea, and diaphoresis, are highly suggestive of an acute coronary syndrome (ACS), likely an acute myocardial infarction (AMI). The patient's history of untreated hypertension, smoking, and recent cocaine abuse further increases the likelihood of a cardiac event.
+
+Nitroglycerin is a vasodilator that is commonly used in the management of ACS to reduce cardiac workload, improve blood flow, and relieve chest pain. It is a first-line medication in the treatment of ACS, particularly in patients with ongoing ischemic symptoms.
+
+Key clinical indicators supporting this diagnosis include:
+
+* Chest pain radiating to the epigastric area, which is a common presentation of ACS
+* Nausea, which is a frequent accompanying symptom of ACS
+* Diaphoresis, which is a sign of sympathetic nervous system activation, often seen in patients with ACS
+* History of untreated hypertension, smoking, and cocaine abuse, which are all risk factors for ACS
+
+In contrast, the other options are not the first step in management:
+
+* A. Diltiazem is a calcium channel blocker that may be used in the management of hypertension or angina, but it is not a first-line medication for ACS.
+* B. Labetalol is a beta blocker that may be used to control blood pressure and heart rate in patients with ACS, but it is not the first step in management.
+* D. Propranolol is a non-selective beta blocker that may exacerbate bronchospasm and is not typically used in the management of ACS.
+* E. Reassurance and continuous monitoring are important, but they are not sufficient as the first step in management, given the patient's severe symptoms and high-risk profile.
+
+Clinical relevance:
+
+The prompt administration of nitroglycerin can help reduce the patient's symptoms, improve cardiac outcomes, and reduce the risk of complications. Additionally, the patient will require further evaluation, including electrocardiography, cardiac biomarkers, and imaging studies, to confirm the diagnosis and guide further management.
+
+References:
+
+* American College of Cardiology/American Heart Association Task Force on Practice Guidelines. (2013). 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. Circulation, 127(4), e362-e425.
+* O'Gara, P. T., et al. (2013). 2013 ACCF/AHA Guideline for the Management of ST-Elevation Myocardial Infarction. Journal of the American College of Cardiology, 61(4), e78-e140.",Success

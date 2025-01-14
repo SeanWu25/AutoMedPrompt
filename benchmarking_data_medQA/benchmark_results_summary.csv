@@ -1,4 +1,0 @@
-Dataset,Accuracy,Total Correct,Total Questions
-Zero Shot,0.7470542026708562,951,1273
-Few Shot,0.7415553809897879,944,1273
-Chain of Thought,0.7164179104477612,912,1273

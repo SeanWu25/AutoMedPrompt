@@ -9,7 +9,6 @@ from data import load_data
 from tqdm import tqdm
 
 load_dotenv()
-os.getenv("GROQ_API_KEY")
 os.getenv("TOGETHER_API_KEY")
 
 def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):

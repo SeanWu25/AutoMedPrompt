@@ -144,6 +144,8 @@ class Prompt_Optimizer:
 
    def train(self, train_loader, val_loader):
        step = 0
+       self._run_validation_revert(val_loader)
+
        for batch in train_loader:
            print(f"Training Step: {step + 1}")
            batch_x = batch[0]

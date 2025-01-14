@@ -6,11 +6,13 @@ def main():
     parser.add_argument("--benchmark", type=str)
     parser.add_argument("--method", type=str)
     parser.add_argument("--model", type = str)
+    parser.add_argument("--post", type=bool, default=False)
     args = parser.parse_args()
 
     benchmark = args.benchmark  # medQA, pubmedQA, etc
     method = args.method        # can be zero-shot, few-shot, CoT, etc, or auto_prompt
     model = args.model          # open sourced LLM choice
+    post = args.post            # whether to evaluate post training
 
     # Map methods to corresponding functions
     methods = {
@@ -20,7 +22,10 @@ def main():
         "auto-prompt": auto_prompt
     }
     method_function = methods.get(method)
-    if method_function:
+
+    if method_function == auto_prompt:
+        method_function(model, benchmark, post=post)
+    elif method_function:
         method_function(model, benchmark)
     else:
         print(f"Error: Unknown method '{method}'. Please choose from {', '.join(methods.keys())}.")

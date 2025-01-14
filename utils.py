@@ -8,9 +8,9 @@ import random
 
 def subset(dataset, seed = 42):
     random.seed(seed) 
-    return random.sample(dataset, 5)
+    return random.sample(dataset, 30)
 
-def make_loader(train_set, dev_set,test_set, batch_size = 1):
+def make_loader(train_set, dev_set,test_set, batch_size = 3):
     def json_to_list(set):
         questions = [question['question'] for question in set]
         references = [reference['answer_idx'] for reference in set]
@@ -121,10 +121,9 @@ class RegExCustomQAEvaluator:
         Evaluate the prediction against the ground truth.
         Returns 1 if the prediction matches the ground truth, otherwise 0.
         """
-        print(prediction)
         pred_answer = self.extract_answer(prediction)
         true_answer = self.extract_answer(ground_truth)
 
-        print("Prediction: ", pred_answer)
-        print("True Answer: ", true_answer)
+
+
         return 1 if pred_answer == true_answer else 0  
