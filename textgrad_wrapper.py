@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import json
 from textgrad.engine.together import ChatTogether
-from utils import MetricsAggregator, CustomQAEvaluator
+from utils import MetricsAggregator, CustomQAEvaluator, RegExCustomQAEvaluator
 load_dotenv()
 os.getenv("OPENAI_API_KEY")
 os.getenv("TOGETHER_API_KEY")
@@ -18,10 +18,12 @@ tg.set_backward_engine(backward_engine, override=True)
 
 
 class Prompt_Optimizer:
-   def __init__(self, model_name,starting_prompt,patience=3):
+   def __init__(self, model_name,starting_prompt,patience=3, eval_type = "code"):
        self.patience = patience
        self.no_improvement_steps = 0
        self.model_name = model_name
+
+       self.eval_type = eval_type
 
        self.starting_prompt = starting_prompt
        self.previous_performance = -float('inf')
@@ -102,6 +104,7 @@ class Prompt_Optimizer:
            x = tg.Variable(x, requires_grad=False, role_description="query to the language model")
            response = self._forward(x.value)
 
+
            eval_output_variable = self.eval_item(response,ground_truth, explanation)
            losses.append(eval_output_variable)
             
@@ -179,42 +182,63 @@ class Prompt_Optimizer:
 
    def eval_item(self, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
         evaluation_instruction = tg.Variable(
-            "Evaluate the given answer based on the correct answer choice and the explanation provided. "
-            "Consider accuracy, logical coherence, and completeness. Provide concise feedback.",
+            "Evaluate the given answer based on the correct answer choice (A-E) and the explanation provided. "
+            "Ensure the response clearly identifies a choice (A, B, C, D, E) and assess its accuracy, logical coherence, and completeness.",
             requires_grad=False,
             role_description="evaluation instruction"
         )
         role_descriptions = ["response", "ground_truth", "reference"]
 
-        loss_fn = tg.MultiFieldEvaluation(
+        loss_fn = tg.loss.MultiFieldEvaluation(
             evaluation_instruction=evaluation_instruction,
             role_descriptions=role_descriptions
         )
+
+        ground_truth_variable = tg.Variable(ground_truth, requires_grad=False, role_description="Ground truth correct answer choice")
+        reference_variable = tg.Variable(reference, requires_grad=False, role_description="Correct Explanation")
+        
+
+        response.set_role_description("Language model response.")
+
         inputs = [
-            response.set_role_description("Language model response"),
-            tg.Variable(ground_truth, requires_grad=False, role_description="Ground truth correct answer choice"),
-            tg.Variable(reference, requires_grad=False, role_description="Correct Explanation")
+            response,
+            ground_truth_variable,
+            reference_variable
         ]
 
-        loss = loss_fn.forward(inputs)
+        for var in inputs:
+            if not isinstance(var, tg.Variable):
+                raise ValueError(f"Input {var} is not a valid Variable object.")
 
-        print("LOSS IS: ", loss)
+        loss = loss_fn(inputs)
+
         return loss
+
+
    
    def evaluate(self, question, response, reference):
-
-       qa_evaluator = CustomQAEvaluator()
-          
-       evaluation_result = qa_evaluator._evaluate_strings(
-           prediction=response.value,
-           reference=reference,
-       )
        metrics_dict = {
            "question": question,
            "agent_answer": response.value,
            "correct_answer": reference
        }
-       metrics_dict["correctness"] = evaluation_result['score']
+       if self.eval_type == "code":
+            qa_evaluator = RegExCustomQAEvaluator()
+            evaluation_result = qa_evaluator.evaluate(
+                prediction=response.value,
+                ground_truth=reference,
+            )
+            metrics_dict["correctness"] = evaluation_result
+
+       else:
+            qa_evaluator = CustomQAEvaluator()
+                
+            evaluation_result = qa_evaluator._evaluate_strings(
+                prediction=response.value,
+                reference=reference,
+            )
+            metrics_dict["correctness"] = evaluation_result['score']
+
        return metrics_dict
    
    def log_training_start(self):

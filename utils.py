@@ -98,3 +98,33 @@ class CustomQAEvaluator(StringEvaluator):
             return {"score": 1}
         
    
+
+class RegExCustomQAEvaluator:
+    def __init__(self) -> None:
+        """
+        Initialize the evaluator object. This evaluator uses a regular expression method
+        to check if the prediction matches the ground truth.
+        """
+        pass
+
+    @staticmethod
+    def extract_answer(text: str) -> Optional[str]:
+        """
+        Extract the answer (A-E) from a given text using regular expressions.
+        """
+        import re
+        match = re.search(r"\b[A-E]\b", text)
+        return match.group(0) if match else None
+
+    def evaluate(self, prediction: str, ground_truth: str) -> int:
+        """
+        Evaluate the prediction against the ground truth.
+        Returns 1 if the prediction matches the ground truth, otherwise 0.
+        """
+        print(prediction)
+        pred_answer = self.extract_answer(prediction)
+        true_answer = self.extract_answer(ground_truth)
+
+        print("Prediction: ", pred_answer)
+        print("True Answer: ", true_answer)
+        return 1 if pred_answer == true_answer else 0  
