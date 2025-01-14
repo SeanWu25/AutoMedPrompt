@@ -144,7 +144,6 @@ class Prompt_Optimizer:
 
    def train(self, train_loader, val_loader):
        step = 0
-       self._run_validation_revert(val_loader)
 
        for batch in train_loader:
            print(f"Training Step: {step + 1}")
@@ -184,20 +183,20 @@ class Prompt_Optimizer:
 
    def eval_item(self, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
         evaluation_instruction = tg.Variable(
-            "Evaluate the given answer based on the correct answer choice (A-E) and the explanation provided. "
-            "Ensure the response clearly identifies a choice (A, B, C, D, E) and assess its accuracy, logical coherence, and completeness.",
-            requires_grad=False,
+           "Assess the provided answer by comparing it with the correct solution and its explanation. "
+            "Evaluate the response for medical accuracy, logical reasoning, and depth of understanding. "
+            "Ensure the evaluation considers whether the explanation justifies the answer effectively and aligns with established medical knowledge.",
             role_description="evaluation instruction"
         )
-        role_descriptions = ["response", "ground_truth", "reference"]
+        role_descriptions = ["Lanugage Model Response", "Ground Truth Answer Choice", "Correct Explanation"]
 
         loss_fn = tg.loss.MultiFieldEvaluation(
             evaluation_instruction=evaluation_instruction,
             role_descriptions=role_descriptions
         )
 
-        ground_truth_variable = tg.Variable(ground_truth, requires_grad=False, role_description="Ground truth correct answer choice")
-        reference_variable = tg.Variable(reference, requires_grad=False, role_description="Correct Explanation")
+        ground_truth_variable = tg.Variable(ground_truth, requires_grad=False, role_description="ground truth answer choice")
+        reference_variable = tg.Variable(reference, requires_grad=False, role_description="correct explanation")
         
 
         response.set_role_description("Language model response.")
@@ -213,6 +212,9 @@ class Prompt_Optimizer:
                 raise ValueError(f"Input {var} is not a valid Variable object.")
 
         loss = loss_fn(inputs)
+
+        print(loss)
+        print()
 
         return loss
 
