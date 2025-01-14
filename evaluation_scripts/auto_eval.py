@@ -8,7 +8,7 @@ def extract_answer(prediction):
     match = re.search(r"\b[A-E]\b", prediction)
     return match.group(0) if match else None
 
-def process_dataset(df, name):
+def process_dataset(df):
     """
     Process a dataset to clean predictions and calculate accuracy.
     """
@@ -17,5 +17,5 @@ def process_dataset(df, name):
     accuracy = df['Correct'].mean()
     total_correct = df['Correct'].sum()
     total_questions = len(df)
-    return accuracy, total_correct, total_questions, df
+    return accuracy, total_correct, total_questions
 
