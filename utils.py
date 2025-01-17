@@ -7,7 +7,7 @@ from typing import Optional, Any
 import random
 
 def subset(dataset, seed = 42):
-    random.seed(seed) 
+   # random.seed(seed) 
     return random.sample(dataset, 30)
 def make_loader(train_set, dev_set,test_set, batch_size = 3):
     def json_to_list(set):

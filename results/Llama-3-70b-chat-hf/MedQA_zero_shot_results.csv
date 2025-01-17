@@ -1,0 +1,335 @@
+Question,Ground Truth,Prediction,Status
+"A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. The tendon is repaired without complication. The attending tells the resident that the patient will do fine, and there is no need to report this minor complication that will not harm the patient, as he does not want to make the patient worry unnecessarily. He tells the resident to leave this complication out of the operative report. Which of the following is the correct next action for the resident to take?",C,"The correct answer is B. Disclose the error to the patient and put it in the operative report.
+
+As a healthcare professional, it is essential to maintain transparency and honesty with patients, even when mistakes occur. Failing to disclose the error to the patient and omitting it from the operative report is unethical and can lead to a breakdown of trust between the patient and the healthcare team.
+
+The resident should discuss the error with the patient, explaining what happened, how it was repaired, and what follow-up care is necessary. This disclosure should also be documented in the operative report to ensure accurate and complete medical records.
+
+Options A, C, D, and E are not correct because:
+
+A. Disclosing the error to the patient but leaving it out of the operative report is incomplete and inconsistent.
+
+C. Telling the attending that he cannot fail to disclose the mistake may lead to conflict, but it does not address the primary issue of patient disclosure and documentation.
+
+D. Reporting the physician to the ethics committee may be premature and may not address the immediate need for patient disclosure and documentation.
+
+E. Refusing to dictate the operative report is not a constructive solution and may lead to further complications.",Success
+A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemotherapy 1 week ago. Pure tone audiometry shows a sensorineural hearing loss of 45 dB. The expected beneficial effect of the drug that caused this patient's symptoms is most likely due to which of the following actions?,E,"The correct answer is E. Cross-linking of DNA.
+
+The patient's symptoms, specifically the ringing sensation in the ear (tinnitus) and sensorineural hearing loss, are likely caused by cisplatin, a chemotherapy drug commonly used to treat transitional cell carcinoma of the bladder. Cisplatin is a platinum-based agent that works by cross-linking DNA, which leads to DNA damage and apoptosis (cell death) in cancer cells. Unfortunately, cisplatin can also cause ototoxicity, leading to hearing loss and tinnitus, as seen in this patient.
+
+The other options are not directly related to the expected beneficial effect of cisplatin:
+
+A. Inhibition of thymidine synthesis is a mechanism of action for antimetabolite chemotherapy drugs, such as methotrexate.
+
+B. Inhibition of proteasome is a mechanism of action for proteasome inhibitors, such as bortezomib.
+
+C. Hyperstabilization of microtubules is a mechanism of action for taxane chemotherapy drugs, such as paclitaxel.
+
+D. Generation of free radicals is a mechanism of action for some chemotherapy drugs, but it is not directly related to cisplatin's effect on DNA.",Success
+"Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus and osteoarthritis of the hips. Prior to admission, his medications were insulin and naproxen. He was also started on aspirin, clopidogrel, and metoprolol after the coronary intervention. His temperature is 38°C (100.4°F), pulse is 93/min, and blood pressure is 125/85 mm Hg. Examination shows mottled, reticulated purplish discoloration of the feet. Laboratory studies show:
+Hemoglobin count 14 g/dL
+Leukocyte count 16,400/mm3
+Segmented neutrophils 56%
+Eosinophils 11%
+Lymphocytes 31%
+Monocytes 2%
+Platelet count 260,000/mm3
+Erythrocyte sedimentation rate 68 mm/h
+Serum
+Urea nitrogen 25 mg/dL
+Creatinine 4.2 mg/dL
+Renal biopsy shows intravascular spindle-shaped vacuoles. Which of the following is the most likely cause of this patient's symptoms?""",C,"The correct answer is C. Cholesterol embolization.
+
+The patient's symptoms and laboratory results are consistent with cholesterol embolization, which is a complication of cardiac catheterization. The mottled, reticulated purplish discoloration of the feet, known as ""livedo reticularis,"" is a characteristic skin finding in cholesterol embolization. The renal biopsy showing intravascular spindle-shaped vacuoles is also consistent with this diagnosis.
+
+Cholesterol embolization occurs when plaque material from the aorta is dislodged during cardiac catheterization and travels to smaller arteries, including those in the kidneys, causing occlusion and ischemia. This can lead to acute kidney injury, as seen in this patient.
+
+The other options are not as likely:
+
+A. Renal papillary necrosis is a condition that typically occurs in patients with diabetes and is characterized by necrosis of the renal papillae. While the patient has diabetes, the presentation and biopsy findings are not consistent with this diagnosis.
+
+B. Allergic interstitial nephritis is a possible cause of acute kidney injury, but it is not typically associated with the skin findings and biopsy results seen in this patient.
+
+D. Eosinophilic granulomatosis with polyangiitis is a rare vasculitis that can cause kidney injury, but it is not typically associated with the skin findings and biopsy results seen in this patient.
+
+E. Polyarteritis nodosa is a vasculitis that can cause kidney injury, but it is not typically associated with the skin findings and biopsy results seen in this patient.",Success
+"A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and blood pressure is 80/50 mm Hg. There is blood oozing around the site of a peripheral intravenous line. Pelvic examination shows mucopurulent discharge from the cervical os and left adnexal tenderness. Laboratory studies show:
+Platelet count 14,200/mm3
+Fibrinogen 83 mg/mL (N = 200–430 mg/dL)
+D-dimer 965 ng/mL (N < 500 ng/mL)
+When phenol is applied to a sample of the patient's blood at 90°C, a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain is identified. A blood culture is most likely to show which of the following?""",D,"The correct answer is B. Encapsulated, gram-negative coccobacilli forming grey-colored colonies on charcoal blood agar.
+
+The patient's symptoms and laboratory results suggest septic shock, likely caused by a bacterial infection. The presence of mucopurulent discharge from the cervical os and left adnexal tenderness suggests a genital tract infection, such as pelvic inflammatory disease (PID).
+
+The identification of a phosphorylated N-acetylglucosamine dimer with 6 fatty acids attached to a polysaccharide side chain in the patient's blood suggests the presence of lipoteichoic acid, a component of the cell wall of gram-positive bacteria. However, the patient's symptoms and laboratory results are more consistent with a gram-negative bacterial infection.
+
+The correct answer is Neisseria meningitidis, which is a gram-negative coccobacillus that forms grey-colored colonies on charcoal blood agar. N. meningitidis is a common cause of septic shock and can cause PID.
+
+The other options are not consistent with the patient's symptoms and laboratory results:
+
+A. Coagulase-positive, gram-positive cocci (Staphylococcus aureus) are not typically associated with PID or septic shock.
+
+C. Spore-forming, gram-positive bacilli (Bacillus species) are not typically associated with PID or septic shock.
+
+D. Lactose-fermenting, gram-negative rods (Escherichia coli) can cause PID, but the patient's symptoms and laboratory results are more consistent with N. meningitidis.
+
+E. Gamma-hemolytic, gram-positive cocci (Streptococcus species) are not typically associated with PID or septic shock.",Success
+"A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around springtime. He has iron deficiency anemia and ankylosing spondylitis. Current medications include ferrous sulfate, artificial tear drops, and indomethacin. He works as an elementary school teacher. His vital signs are within normal limits. Visual acuity is 20/20 without correction. Physical examination shows bilateral conjunctival injection with watery discharge. The pupils are 3 mm, equal, and reactive to light. Examination of the anterior chamber of the eye is unremarkable. Which of the following is the most appropriate treatment?",B,"The correct answer is B. Ketotifen eye drops.
+
+The patient's symptoms of itchy, watery eyes, and sneezing are consistent with allergic conjunctivitis, which is likely caused by seasonal allergies (hay fever or allergic rhinitis) given the timing of the episode (springtime) and the similar episode last year. The physical examination findings of bilateral conjunctival injection with watery discharge support this diagnosis.
+
+Ketotifen eye drops are an antihistamine and mast cell stabilizer that can help relieve the symptoms of allergic conjunctivitis, including itching, redness, and watery discharge.
+
+Erythromycin ointment (A) is an antibiotic used to treat bacterial infections, which is not the likely cause of the patient's symptoms. Warm compresses (C) may provide some relief, but they are not a specific treatment for allergic conjunctivitis. Fluorometholone eye drops (D) are a corticosteroid that can be used to treat more severe cases of allergic conjunctivitis, but they may have side effects and are not the first-line treatment. Latanoprost eye drops (E) are used to treat glaucoma, which is not relevant to this patient's symptoms.",Success
+A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. He has a 5-year history of untreated hypertension. He has smoked 1 pack of cigarettes daily for the past 5 years and started abusing cocaine 2 weeks before his emergency room visit. The patient is diaphoretic and in marked distress. What should be the first step in management?,E,"The correct answer is C. Nitroglycerin.
+
+The patient's symptoms, such as chest pain radiating to the epigastric area, nausea, and diaphoresis, are consistent with a possible acute coronary syndrome (ACS) or myocardial infarction (MI). Given the patient's history of hypertension, smoking, and recent cocaine use, the risk of ACS/MI is high.
+
+Nitroglycerin is a vasodilator that can help relieve chest pain by reducing myocardial oxygen demand and improving coronary blood flow. It is a first-line medication for ACS/MI and should be administered promptly.
+
+Diltiazem (A) is a calcium channel blocker that can be used for rate control in atrial fibrillation, but it is not the first step in managing ACS/MI.
+
+Labetalol (B) is a beta blocker that can be used to control blood pressure and heart rate, but it may not be the best initial choice in this scenario.
+
+Propranolol (D) is a non-selective beta blocker that can exacerbate cocaine-induced vasoconstriction and is contraindicated in this scenario.
+
+Reassurance and continuous monitoring (E) are important, but they should not be the first step in management. The patient's symptoms require immediate attention and treatment.",Success
+A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows abdominal tenderness and right flank tenderness. An ultrasound shows dilation of the right ureter and renal pelvis. Which of the following is the most likely underlying cause of this patient's condition?,D,"The correct answer is B. Benign prostatic hyperplasia.
+
+The patient's symptoms of right flank pain, abdominal tenderness, and right flank tenderness, along with the ultrasound finding of dilation of the right ureter and renal pelvis, suggest an obstruction of the urinary tract. Benign prostatic hyperplasia (BPH) is a common cause of urinary tract obstruction in older men, and it can cause hydronephrosis (dilation of the renal pelvis and ureter) due to blockage of the urethra.
+
+Renal artery stenosis (Option A) would not typically cause hydronephrosis or flank pain. Diabetic nephropathy (Option C) is a complication of diabetes that can cause kidney damage, but it would not typically cause hydronephrosis or flank pain. A common iliac artery aneurysm (Option D) is a vascular condition that would not typically cause urinary tract obstruction or hydronephrosis. A urethral stricture (Option E) could cause urinary retention and obstruction, but it would not typically cause hydronephrosis or flank pain.
+
+BPH is a common condition in older men, and it is a likely cause of the patient's symptoms and ultrasound findings.",Success
+"A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an albuterol inhaler. He appears pale and diaphoretic. His pulse is 114/min and blood pressure is 130/88 mm Hg. An ECG shows ST-segment depressions in leads II, III, and aVF. Laboratory studies show an increased serum troponin T concentration. The patient is treated for acute coronary syndrome and undergoes percutaneous transluminal coronary angioplasty. At the time of discharge, echocardiography shows a left ventricular ejection fraction of 58%. In addition to aspirin, which of the following drugs should be added to this patient's medication regimen?",C,"The correct answer is C. Clopidogrel.
+
+The patient has been diagnosed with acute coronary syndrome and has undergone percutaneous transluminal coronary angioplasty. Aspirin is already part of his medication regimen. Clopidogrel is an antiplatelet agent that is commonly used in combination with aspirin to prevent thrombotic events in patients with acute coronary syndrome, particularly those who have undergone percutaneous coronary intervention (PCI).
+
+Nifedipine (A) is a calcium channel blocker that is not typically used in the management of acute coronary syndrome. Enoxaparin (B) is an anticoagulant that may be used in the acute management of acute coronary syndrome, but it is not typically used long-term. Spironolactone (D) is a potassium-sparing diuretic that is used to treat heart failure, but it is not indicated in this patient with a preserved left ventricular ejection fraction (58%). Propranolol (E) is a beta blocker that may be used to treat hypertension, angina, or heart failure, but it is not specifically indicated in this patient with acute coronary syndrome who has undergone PCI.
+
+Clopidogrel is recommended by the American College of Cardiology (ACC) and the American Heart Association (AHA) as part of the dual antiplatelet therapy (DAPT) regimen in patients with acute coronary syndrome who have undergone PCI.",Success
+"A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an intrauterine device (IUD). Her vital signs are: blood pressure 118/78 mm Hg, pulse 73/min and respiratory rate 16/min. She is afebrile. Physical examination is within normal limits. Which of the following past medical history statements would make copper IUD placement contraindicated in this patient?",C,"The correct answer is C. Active or recurrent pelvic inflammatory disease (PID).
+
+Copper IUDs are generally safe and effective forms of contraception, but they are contraindicated in women with active or recurrent pelvic inflammatory disease (PID). This is because the IUD can increase the risk of ascending infection and worsen PID.
+
+The other options are not contraindications for copper IUD placement:
+
+A. A history of stroke or venous thromboembolism is a contraindication for hormonal contraception, such as oral contraceptive pills, but not for copper IUDs.
+
+B. Current tobacco use is a risk factor for many health problems, but it is not a contraindication for copper IUD placement.
+
+D. Past medical history of breast cancer is not a contraindication for copper IUD placement, as copper IUDs do not contain hormones that could stimulate breast cancer growth.
+
+E. Known liver neoplasm is not a contraindication for copper IUD placement, unless the liver disease is severe and affects the patient's overall health.
+
+It's worth noting that other contraindications for copper IUD placement may include:
+
+* Pregnancy or suspected pregnancy
+* Uterine anomalies or fibroids that distort the uterine cavity
+* Unexplained vaginal bleeding
+* Allergy to copper
+* Wilson's disease (a genetic disorder that affects copper metabolism)",Success
+A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph of the nails is shown. Which of the following additional findings is most likely in this patient?,A,"The correct answer is C. Erosions of the dental enamel.
+
+The photograph of the nails is not provided, but based on the description of the patient's concern about the appearance of her nails, it is likely that she has Beau's lines or nail pitting, which are common findings in patients with alopecia areata. Alopecia areata is an autoimmune disease that can also cause dental enamel erosion, which is why option C is the most likely additional finding in this patient.",Success
+"A 24-year-old G2P1 woman at 39 weeks’ gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. She says she has not experienced vaginal discharge, bleeding, or fluid leakage, and is currently taking no medications. On physical examination, her blood pressure is 110/70 mm Hg, heart rate is 86/min, and temperature is 37.6°C (99.7°F). She has had little prenatal care and uses condoms inconsistently. Her sexually transmitted infections status is unknown. As part of the patient’s workup, she undergoes a series of rapid screening tests that result in the administration of zidovudine during delivery. The infant is also given zidovudine to reduce the risk of transmission. A confirmatory test is then performed in the mother to confirm the diagnosis of HIV. Which of the following is most true about the confirmatory test?",E,"The correct answer is E. It is an HIV-1/HIV2 antibody differentiation immunoassay.
+
+The scenario describes a patient who undergoes rapid screening tests for HIV during labor, which are likely to be rapid antibody tests. These tests are designed to detect the presence of HIV antibodies in the blood, but they may not be able to distinguish between HIV-1 and HIV-2, which are two different types of HIV.
+
+A confirmatory test is then performed to confirm the diagnosis of HIV. In this case, the correct answer is an HIV-1/HIV-2 antibody differentiation immunoassay, which is a test that can distinguish between HIV-1 and HIV-2 antibodies.
+
+The other options are incorrect:
+
+A. Genotyping tests are used to determine the genetic makeup of the virus, but they are not typically used as confirmatory tests for HIV diagnosis.
+
+B. A Western blot is a type of confirmatory test used to detect the presence of HIV antibodies, but it is not a test that determines the genotype of the virus.
+
+C. A Northern blot is a laboratory technique used to detect specific RNA sequences, but it is not typically used for HIV diagnosis.
+
+D. A Northern blot is not used to detect DNA, but rather RNA.
+
+It's worth noting that the current standard for HIV diagnosis typically involves a combination of tests, including a fourth-generation antigen/antibody combination immunoassay, followed by an HIV-1/HIV-2 antibody differentiation immunoassay, and then a nucleic acid test (NAT) if necessary.",Success
+"A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertion. Over the past 3 months, he has had a 5.6-kg (12-lb) weight loss. He had a myocardial infarction 3 years ago. He has hypertension, diabetes mellitus, and chronic bronchitis. His medications include insulin, aspirin, lisinopril, and an albuterol inhaler. He has smoked half a pack of cigarettes for the past 45 years. Vital signs are within normal limits. The spleen is palpated 6 cm below the left costal margin. Laboratory studies show:
+Hemoglobin 6.4 g/dL
+Mean corpuscular volume 85 μm3
+Leukocyte count 5,200/mm3
+Platelet count 96,000/mm3
+A blood smear is shown. Bone marrow aspiration shows extensive fibrosis and a few scattered plasma cells. A JAK 2 assay is positive. Which of the following is the most appropriate next step in management?""",D,"The correct answer is D. Ruxolitinib.
+
+The patient's symptoms and laboratory results are consistent with Primary Myelofibrosis (PMF), a type of myeloproliferative neoplasm. The presence of a palpable spleen, anemia, leukopenia, thrombocytopenia, and a positive JAK2 assay support this diagnosis. The bone marrow aspiration showing extensive fibrosis and scattered plasma cells is also consistent with PMF.
+
+Ruxolitinib is a JAK1/2 inhibitor that is approved for the treatment of intermediate- or high-risk myelofibrosis, including PMF. It has been shown to reduce spleen size, improve symptoms, and reduce the risk of thrombotic events.
+
+Cladribine (A) is a chemotherapy agent that is not typically used to treat PMF. Prednisone (B) may be used to treat anemia or other symptoms, but it is not a primary treatment for PMF. Imatinib (C) is a tyrosine kinase inhibitor that is used to treat chronic myeloid leukemia, not PMF. Stem cell transplantation (E) may be considered for some patients with PMF, but it is typically reserved for younger patients or those with more advanced disease.",Success
+A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period. He has no history of serious medical illness and takes no medications. Audiometry shows bilateral sensorineural hearing loss. Genetic evaluation shows a mutation of a tumor suppressor gene on chromosome 22 that encodes merlin. This patient is at increased risk for which of the following conditions?,B,"The correct answer is B. Meningioma.
+
+The patient's symptoms, including gait unsteadiness, bilateral hearing loss, and tingling sensations on the cheeks, are consistent with a neurological disorder. The genetic evaluation showing a mutation of the NF2 (neurofibromatosis type 2) tumor suppressor gene on chromosome 22, which encodes merlin, is diagnostic of neurofibromatosis type 2 (NF2).
+
+NF2 is a rare genetic disorder that increases the risk of developing certain types of tumors, particularly meningiomas, schwannomas, and ependymomas. Meningiomas are the most common type of tumor associated with NF2, and they can occur in multiple locations, including the brain and spinal cord.
+
+The other options are not directly related to NF2:
+
+A. Renal cell carcinoma is a type of kidney cancer, which is not typically associated with NF2.
+
+C. Astrocytoma is a type of brain tumor, but it is not specifically linked to NF2.
+
+D. Vascular malformations can occur in NF2, but they are not a primary feature of the disorder.
+
+E. Telangiectasias are small, dilated blood vessels near the surface of the skin, which are not typically associated with NF2.",Success
+"A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be “as fit as a fiddle.” The physical examination findings are unremarkable, except for a mid-systolic murmur heard in the 2nd left intercostal space that radiates to the carotids on auscultation. The physician instructs the patient to stand from a supine position with the stethoscope still placed on his chest. Which of the following changes would occur with this maneuver?",E,"The correct answer is E. A reduction in diastolic filling time.
+
+When the patient stands up from a supine position, there is a decrease in venous return to the heart due to gravity. This leads to a decrease in diastolic filling time, which is the time it takes for the ventricles to fill with blood during diastole. As a result, the murmur of hypertrophic obstructive cardiomyopathy (HOCM) will increase in intensity, as the decreased filling time and volume will exacerbate the left ventricular outflow tract obstruction.
+
+The other options are not directly related to the effect of standing up on the murmur:
+
+A. Right atrial pressure may increase with standing due to increased venous return, but this is not directly related to the murmur.
+
+B. Left ventricular end-diastolic pressure may decrease with standing due to decreased venous return, but this is not directly related to the murmur.
+
+C. Pulmonary capillary wedge pressure is a measure of left atrial pressure and is not directly affected by standing up.
+
+D. The slope of the pacemaker potential is related to the electrical activity of the heart and is not directly affected by standing up.",Success
+"A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2 viruses from the same virus family. Within the host cell, concomitant production of various genome segments from both viruses occurs. Ultimately, the different genome segments from the viruses are packaged into a unique and novel virus particle. The newly formed virus particle is both stable and viable and is a new strain from the virus family that caused the outbreak of infection. Which of the following viruses is capable of undergoing the above-mentioned process?",D,"The correct answer is D. Rotavirus.
+
+The process described by the microbiologist is called reassortment, which is a mechanism of genetic recombination that occurs in certain viruses, including rotaviruses. Rotaviruses have a segmented genome, consisting of 11 segments of double-stranded RNA. When a host cell is co-infected with two different rotaviruses, the genome segments from each virus can reassort and combine in new ways, resulting in the formation of novel virus particles with unique combinations of genome segments. This process can lead to the emergence of new strains of rotavirus.
+
+The other options are not correct because:
+
+A. Cytomegalovirus and B. Epstein-Barr virus are both herpesviruses, which do not have segmented genomes and do not undergo reassortment.
+
+C. Human immunodeficiency virus (HIV) is a retrovirus that undergoes recombination through a different mechanism, called template switching, during reverse transcription.
+
+E. Vaccinia virus is a poxvirus that does not have a segmented genome and does not undergo reassortment.",Success
+"A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiting several times. Her pain has no relation with food. Her past medical history is significant for recurrent abdominal pain due to cholelithiasis. Her father died at the age of 60 with some form of abdominal cancer. Her temperature is 37°C (98.6°F), respirations are 15/min, pulse is 67/min, and blood pressure is 122/98 mm Hg. Physical exam is unremarkable. However, a CT scan of the abdomen shows a calcified mass near her gallbladder. Which of the following diagnoses should be excluded first in this patient?",B,"The correct answer is B. Gallbladder cancer.
+
+The patient's symptoms, such as severe abdominal pain, nausea, and vomiting, are concerning for a more serious condition than recurrent cholelithiasis. The presence of a calcified mass near the gallbladder on the CT scan raises the suspicion of gallbladder cancer. Gallbladder cancer is a rare but potentially life-threatening condition that can present with similar symptoms to cholelithiasis. Given the patient's family history of abdominal cancer and the abnormal CT scan findings, gallbladder cancer should be excluded first.
+
+While acute cholecystitis (A) is a possible diagnosis, the presence of a calcified mass suggests a more complex condition. Choledocholithiasis (C) is also possible, but the CT scan findings are more consistent with a mass lesion. Pancreatitis (D) is unlikely given the patient's symptoms and CT scan findings. Duodenal peptic ulcer (E) is not supported by the patient's symptoms or CT scan findings.",Success
+"A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently on a β-agonist inhaler because of exacerbation of his symptoms. He has observed that his symptoms are more prominent in springtime, especially when the new flowers are blooming. His mother has a backyard garden and whenever he goes out to play there, he experiences chest tightness with associated shortness of breath. He has been advised to take more precaution during this seasonal change and to stay away from pollen. He is also being considered for an experimental therapy, which attenuates the activity of certain mediators which cause his asthmatic attack. The targeted mediator favors the class switching of antibodies. A reduction in this mechanism will eventually reduce the exaggerated response observed during his asthmatic attacks, even when exposed to an allergen. Which of the following mediators is described in this experimental study?",E,"The correct answer is E. IL-4.
+
+The description of the experimental therapy suggests that it targets a mediator that promotes class switching of antibodies, which is a hallmark of an allergic response. IL-4 is a cytokine that plays a key role in promoting class switching to IgE, which is the primary antibody involved in allergic reactions. IL-4 is also known to promote the development of Th2 cells, which are involved in the allergic response.
+
+IL-5 (Option A) is involved in the recruitment of eosinophils, which are also involved in allergic reactions, but it does not directly promote class switching of antibodies.
+
+IL-2 (Option B) is a cytokine involved in T cell activation and proliferation, but it is not directly involved in class switching of antibodies.
+
+IL-10 (Option C) is an anti-inflammatory cytokine that can suppress the allergic response, but it does not promote class switching of antibodies.
+
+IL-13 (Option D) is a cytokine involved in the allergic response, but it is not directly involved in class switching of antibodies.
+
+Therefore, the correct answer is IL-4.",Success
+"A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact etiology of the boy's symptoms and the episode is classified as a brief resolved unexplained event (BRUE). The risk profile for BRUE in infants remains largely unknown. The pediatrician who saw the boy in the emergency department is trying to identify risk factors for BRUE. She is aware of several confounders, including age, socioeconomic background, and family history of medical illness. She recruits 75 infants under 1 year of age with BRUE and 75 infants without BRUE of the same age, socioeconomic background, and family history of medical illness. She then compares the two groups with regard to history of feeding problems and history of recent upper respiratory infection. Which of the following methods was conducted to control confounding bias in the study?",E,"The correct answer is E. Matching.
+
+In this study, the pediatrician recruited 75 infants with BRUE and 75 infants without BRUE, matching them on confounding variables such as age, socioeconomic background, and family history of medical illness. This is an example of matching, which is a method used to control for confounding bias by ensuring that the groups being compared are similar in terms of potential confounding factors.
+
+Matching helps to reduce confounding bias by creating groups that are comparable in terms of factors that could affect the outcome, allowing the researcher to isolate the effect of the exposure (in this case, history of feeding problems and history of recent upper respiratory infection) on the outcome (BRUE).
+
+The other options are not correct:
+
+A. Stratified analysis is a method used to control for confounding bias by dividing the data into subgroups based on the confounding variable and analyzing the effect of the exposure within each subgroup.
+
+B. Blinding is a method used to reduce bias by concealing information from participants or researchers, but it is not relevant to controlling confounding bias in this study.
+
+C. Restriction is a method used to control for confounding bias by limiting the study population to a specific subgroup, but it is not used in this study.
+
+D. Randomization is a method used to reduce bias by randomly assigning participants to groups, but it is not used in this study, which is an observational study.",Success
+"A 29-year-old man presents to the emergency department due to central chest pain over the past 3 days which is constant and unrelated to exertion. The pain is sharp, severe, increases when lying down, and improves with leaning forward. The pain also radiates to his shoulders and neck. The patient has no past medical history. He has smoked 10 cigarettes per day for the past 7 years and occasionally drinks alcohol. He presents with vital signs: blood pressure 110/70 mm Hg, regular radial pulse of 95/min, and temperature 37.3°C (99.1°F). On physical exam, a scratching sound of to-and-from character is audible over the left sternal border at end-expiration with the patient leaning forward. His chest X-ray is normal and ECG is shown in the picture. Which of the following is the optimal therapy for this patient?",B,"The correct answer is B. Ibuprofen + colchicine +/- omeprazole.
+
+The patient's symptoms and physical examination are consistent with acute pericarditis, an inflammation of the pericardium, the sac that surrounds the heart. The characteristic scratching sound (pericardial friction rub) and the patient's positional changes that affect the pain are classic findings.
+
+The ECG shows diffuse ST-segment elevation, which is also consistent with acute pericarditis.
+
+The optimal therapy for acute pericarditis is a combination of ibuprofen and colchicine. Ibuprofen is used to reduce inflammation and relieve pain, while colchicine is added to reduce the risk of recurrence. Omeprazole may be added to protect the stomach from the gastrointestinal side effects of ibuprofen.
+
+Indomethacin (Option A) is not the optimal choice because it can cause gastrointestinal side effects and may not be as effective as ibuprofen in reducing inflammation.
+
+Prednisone (Option C) is not recommended as a first-line therapy for acute pericarditis, especially in a patient with no underlying conditions, as it can lead to rebound pericarditis when stopped.
+
+Pericardiocentesis (Option D) is a procedure to drain fluid from the pericardial space and is not indicated in this patient, as there is no evidence of pericardial effusion or tamponade.
+
+Pericardiectomy (Option E) is a surgical procedure to remove the pericardium and is not indicated in this patient, as it is typically reserved for patients with constrictive pericarditis or recurrent pericarditis that is refractory to medical therapy.",Success
+"A 46-year-old man is brought to the emergency department for evaluation of altered mental status. He was found on the floor in front of his apartment. He is somnolent but responsive when aroused. His pulse is 64/min, respiratory rate is 15/min, and blood pressure is 120/75 mm Hg. On physical examination, an alcoholic smell and slurred speech are noted. Neurological exam shows diminished deep tendon reflexes bilaterally and an ataxic gait. His pupils are normal. Blood alcohol concentration is 0.04%. An ECG shows no abnormalities. Which of the following is the most likely cause of this patient's symptoms?",E,"The correct answer is A. Hypoglycemia.
+
+Here's why:
+
+* The patient's blood alcohol concentration is 0.04%, which is below the legal limit of intoxication and unlikely to cause altered mental status.
+* The patient's symptoms, such as somnolence, slurred speech, and ataxic gait, are consistent with hypoglycemia.
+* The patient's diminished deep tendon reflexes bilaterally are also consistent with hypoglycemia.
+* There is no evidence to suggest cerebral ischemia, cannabis intoxication, or benzodiazepine intoxication.
+
+It's possible that the patient has a history of alcohol abuse, which may have contributed to his hypoglycemic state. The emergency department should perform a bedside glucose test to confirm the diagnosis.",Success
+"A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a weekly basis. She has a remote history of breast cancer in her 60s that was treated with radiation and chemotherapy. She also reports a history of extensive travel to Africa and a 30-pack-year history of smoking. On physical exam, several axillary lymph nodes are palpable with a large non-tender palpable mass in her right axilla measuring 10 x 8 cm. Fine-needle aspiration demonstrates what the pathologist describes as ""a centroblastic and immunoblastic cell presence, suspicious for non-Hodgkin’s lymphoma (NHL)–diffuse large B cell variant"". Which of the following risk factors is responsible for this patient’s condition?",C,"The correct answer is C. Previous radiation therapy.
+
+The patient's history of radiation therapy for breast cancer is a risk factor for developing non-Hodgkin's lymphoma (NHL), specifically diffuse large B-cell lymphoma. Radiation therapy is a known risk factor for the development of NHL, particularly for diffuse large B-cell lymphoma.
+
+The other options are not directly related to the development of NHL in this patient:
+
+A. Travel to Africa is not a known risk factor for NHL.
+
+B. Axillary lymph node involvement is a symptom of the patient's condition, not a risk factor.
+
+D. Female gender is not a significant risk factor for NHL, although the incidence of NHL is slightly higher in males.
+
+E. Previous breast cancer is not a direct risk factor for NHL, although the radiation therapy used to treat the breast cancer is a risk factor.",Success
+"A 3-month-old infant is brought to her pediatrician because she coughs and seems to have difficulty breathing while feeding. In addition, she seems to have less energy compared to other babies and appears listless throughout the day. She was born by cesarean section to a G1P1 woman with no prior medical history and had a normal APGAR score at birth. Her parents say that she has never been observed to turn blue. Physical exam reveals a high-pitched holosystolic murmur that is best heard at the lower left sternal border. The most likely cause of this patient's symptoms is associated with which of the following abnormalities?",A,"The correct answer is A. 22q11 deletion.
+
+The symptoms described in the question, such as coughing, difficulty breathing while feeding, and listlessness, are consistent with a congenital heart defect. The high-pitched holosystolic murmur heard at the lower left sternal border is also suggestive of a heart defect.
+
+The 22q11 deletion is a genetic disorder that is associated with a range of congenital anomalies, including heart defects, particularly ventricular septal defects (VSDs) and tetralogy of Fallot. This deletion is also known as DiGeorge syndrome or velocardiofacial syndrome.
+
+The other options are not directly related to the symptoms described:
+
+B. Deletion of genes on chromosome 7 is associated with cystic fibrosis, which is not typically associated with congenital heart defects.
+
+C. Lithium exposure in utero is associated with Ebstein's anomaly, a congenital heart defect, but it is not the most likely cause of the symptoms described.
+
+D. Maternal alcohol consumption is associated with fetal alcohol syndrome, which can cause a range of birth defects, but it is not typically associated with congenital heart defects.
+
+E. Retinoic acid exposure in utero is associated with a range of birth defects, including heart defects, but it is not the most likely cause of the symptoms described.
+
+Therefore, the correct answer is A. 22q11 deletion.",Success
+"A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches, joint pain, fever, and chills. Ten days ago, she was hiking with her family in Mississippi. The patient has asthma that is treated with an albuterol inhaler. Her mother has a lung disease treated with methotrexate. The patient has smoked one pack of cigarettes daily for the past 10 years. Her temperature is 38°C (100.4°F). Physical examination shows slight wheezes throughout both lung fields. Laboratory studies and urinalysis are positive for polysaccharide antigen. Bronchoalveolar lavage using silver/PAS-staining shows macrophages filled with a dimorphic fungus with septate hyphae. Which of the following is the most likely cause of this patient's symptoms?",D,"The correct answer is E. Blastomyces dermatitidis infection.
+
+Here's why:
+
+* The patient's symptoms, such as dry cough, chest discomfort, headaches, muscle aches, joint pain, fever, and chills, are consistent with a fungal infection.
+* The patient's history of hiking in Mississippi suggests exposure to a fungal pathogen endemic to that region.
+* The laboratory studies and urinalysis showing a positive polysaccharide antigen suggest a fungal infection.
+* The bronchoalveolar lavage (BAL) findings of macrophages filled with a dimorphic fungus with septate hyphae are characteristic of Blastomyces dermatitidis.
+
+Blastomyces dermatitidis is a dimorphic fungus that is commonly found in the southeastern United States, including Mississippi. It can cause a range of symptoms, including respiratory, cutaneous, and systemic disease.
+
+The other options are not as likely:
+
+* A. Legionella pneumophila infection is a bacterial infection that typically causes pneumonia, but it is not consistent with the BAL findings.
+* B. Aspergillus fumigatus infection is a fungal infection, but it is not typically associated with the symptoms and BAL findings described.
+* C. Pneumocystis pneumonia is a fungal infection that typically affects immunocompromised individuals, which is not the case here.
+* D. Histoplasma capsulatum infection is a fungal infection that can cause respiratory symptoms, but it is not typically associated with the BAL findings described.",Success
+"A 62-year-old patient has been hospitalized for a week due to a stroke. One week into the hospitalization, he develops a fever and purulent cough. His vitals include: heart rate 88/min, respiratory rate 20/min, temperature 38.4°C (101.1°F), and blood pressure 110/85 mm Hg. On physical examination, he has basal crackles on the right side of the chest. Chest radiography shows a new consolidation on the same side. Complete blood count is as follows:
+Hemoglobin 16 mg/dL
+Hematocrit 50%
+Leukocyte count 8,900/mm3
+Neutrophils 72%
+Bands 4%
+Eosinophils 2%
+Basophils 0%
+Lymphocytes 17%
+Monocytes 5%
+Platelet count 280,000/mm3
+What is the most likely causal microorganism?",E,"The correct answer is B. Streptococcus pneumoniae.
+
+Here's why:
+
+* The patient is a 62-year-old hospitalized for a week, which puts them at risk for hospital-acquired pneumonia (HAP).
+* The patient develops a fever, purulent cough, and basal crackles on the right side of the chest, which are all consistent with pneumonia.
+* The chest radiography shows a new consolidation on the right side, which further supports the diagnosis of pneumonia.
+* The complete blood count (CBC) shows a normal leukocyte count with a slight increase in neutrophils, which is consistent with a bacterial infection.
+* Streptococcus pneumoniae is a common cause of community-acquired pneumonia (CAP) and HAP, especially in older adults.
+* The other options are less likely:
+	+ Pseudomona aeruginosa is more commonly associated with ventilator-associated pneumonia (VAP) and has a higher mortality rate.
+	+ Mycobacterium tuberculosis is unlikely given the patient's symptoms and radiographic findings, which are more consistent with an acute bacterial infection.
+	+ Haemophilus influenzae is a possible cause of CAP, but it is less common than S. pneumoniae in this age group.
+	+ Staphylococcus aureus is a possible cause of HAP, but it is often associated with more severe symptoms and a higher mortality rate.
+
+Therefore, based on the patient's symptoms, radiographic findings, and CBC results, Streptococcus pneumoniae is the most likely causal microorganism.",Success

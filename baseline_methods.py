@@ -12,11 +12,13 @@ load_dotenv()
 os.getenv("TOGETHER_API_KEY")
 
 def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
-    csv_filename = f"{output_dir}/llama3-70BChat_{benchmark_name}_zero_shot_results.csv"
+    model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
+    model_output_dir = os.path.join(output_dir, model_name_part)
+    os.makedirs(model_output_dir, exist_ok=True)  
+    csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_zero_shot_results.csv")
 
-    system_prompt = "Respond to the multiple choice question."
-    engine = ChatTogether(model_name)
-    model = tg.BlackboxLLM(engine, system_prompt=system_prompt)
+    system_prompt = "Respond to the following question"
+    model = ChatTogether(model_name, system_prompt=system_prompt)
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -27,7 +29,7 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            question_text = (
+            question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
@@ -37,15 +39,9 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 f"E. {question_string['options']['E']}\n"
             )
 
-            question = tg.Variable(
-                question_text,
-                role_description="question to the LLM",
-                requires_grad=False
-            )
-
             ground_truth = question_string['answer_idx']
 
-            prediction = model(question)
+            prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
             writer.writerow([question_string['question'], ground_truth, prediction, status])
@@ -78,11 +74,13 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
         return random.sample(train_set, 3)
 
 
-    csv_filename = f"{output_dir}/llama3-70BChat_{benchmark_name}_few_shot_results.csv"
-    system_prompt = "Respond to the multiple choice question. A few examples are provided."
+    model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
+    model_output_dir = os.path.join(output_dir, model_name_part)
+    os.makedirs(model_output_dir, exist_ok=True)  
+    csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_few_shot_results.csv")
+    system_prompt = "Respond to the following question. A few examples are provided."
 
-    engine = ChatTogether(model_name)
-    model = tg.BlackboxLLM(engine, system_prompt=system_prompt)
+    model = ChatTogether(model_name, system_prompt=system_prompt)
     train_set, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -115,17 +113,12 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 f"E. {question_string['options']['E']}\n"
             )
 
-            final_prompt = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
+            question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
 
-            question = tg.Variable(
-                final_prompt,
-                role_description="question to the LLM",
-                requires_grad=False
-            )
 
             ground_truth = question_string['answer_idx']
 
-            prediction = model(question)
+            prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
             writer.writerow([question_string['question'], ground_truth, prediction, status])
@@ -136,15 +129,26 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
 
 
 def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
-    csv_filename = f"{output_dir}/llama3-70BChat_{benchmark_name}_chain_of_thought_results.csv"
+    model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
+    model_output_dir = os.path.join(output_dir, model_name_part)
+    os.makedirs(model_output_dir, exist_ok=True)  
+    csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_chain_of_thought_results.csv")
+    system_prompt = """
+    You are a highly knowledgeable medical professional. Use a structured, step-by-step reasoning process to answer the following medical multiple-choice question. Follow these steps:
 
-    system_prompt = (
-        "You are a skilled physician answering medical questions. For each question, carefully analyze the symptoms, "
-        "clinical presentation, and provided options. Explain your reasoning step-by-step as you would when diagnosing "
-        "a patient, and then provide the most appropriate answer."
-    )
-    engine = ChatTogether(model_name)
-    model = tg.BlackboxLLM(engine, system_prompt=system_prompt)
+    1. **Provide the Answer First**: Output the correct answer as a single letter (e.g., A, B, C, D, or E).
+    2. **Explain Your Thought Process Briefly**:
+    - Think through the scenario step by step, as a physician would.
+    - Focus on analyzing the key details of the question.
+    - Summarize why the correct choice makes sense without evaluating all options.
+
+    Format your response like this:
+    Answer: [Correct letter]
+    Explanation: [Brief reasoning based on key details and logical steps.]
+
+    Now answer the following question:
+    """
+    model = ChatTogether(model_name,system_prompt=system_prompt)
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -155,7 +159,7 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
             writer.writerow(["Question", "Ground Truth", "Prediction", "Reasoning", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            question_text = (
+            question = (
                 f"Patient Case:\n{question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
@@ -165,23 +169,9 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
                 f"E. {question_string['options']['E']}\n"
             )
 
-            final_prompt = (
-                f"{question_text}\n"
-                f"Simulate the diagnostic reasoning of a physician. Consider the patient's symptoms and history step-by-step, "
-                f"eliminate incorrect options, and select the most plausible diagnosis or answer."
-            )
-
-
-
-            question = tg.Variable(
-                final_prompt,
-                role_description="medical diagnostic question with step-by-step reasoning",
-                requires_grad=False
-            )
-
             ground_truth = question_string['answer_idx']
 
-            prediction = model(question)
+            prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
             writer.writerow([question_string['question'], ground_truth, prediction,status])

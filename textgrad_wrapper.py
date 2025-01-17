@@ -57,16 +57,12 @@ class Prompt_Optimizer:
        self._modify_or_set_forward_pass()
 
    def _modify_or_set_forward_pass(self):
-       engine = ChatTogether(self.model_name)
-       self.model = tg.BlackboxLLM(engine, system_prompt=self.system_prompt_var)
+       self.model = ChatTogether(self.model_name, system_prompt=self.system_prompt_var.value)
+
        
    def _forward(self, query):
-       question = tg.Variable(
-            query,
-            role_description="question to the LLM",
-            requires_grad=False
-        )
-       answer = self.model(question)
+
+       answer = self.model.generate(query, temperature=0.4)
        answer.set_role_description("LLM response to the multiple choice question.")
 
        return answer
@@ -105,7 +101,7 @@ class Prompt_Optimizer:
            response = self._forward(x.value)
 
 
-           eval_output_variable = self.eval_item(response,ground_truth, explanation)
+           eval_output_variable = self.eval_item(x, response,ground_truth, explanation)
            losses.append(eval_output_variable)
             
        total_loss = tg.sum(losses)
@@ -181,14 +177,15 @@ class Prompt_Optimizer:
        print("FINISHED TESTING ON TEST SET!")
 
 
-   def eval_item(self, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
+   def eval_item(self, question: tg.Variable, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
+        
         evaluation_instruction = tg.Variable(
-           "Assess the provided answer by comparing it with the correct solution and its explanation. "
-            "Evaluate the response for medical accuracy, logical reasoning, and depth of understanding. "
-            "Ensure the evaluation considers whether the explanation justifies the answer effectively and aligns with established medical knowledge.",
-            role_description="evaluation instruction"
+           "Assess the LLM's response to the multiple choice question.",
+            role_description="evaluation instruction",
+            requires_grad=False
         )
-        role_descriptions = ["Lanugage Model Response", "Ground Truth Answer Choice", "Correct Explanation"]
+
+        role_descriptions = ["input question", "lanugage model response", "ground truth answer choice", "correct explanation"]
 
         loss_fn = tg.loss.MultiFieldEvaluation(
             evaluation_instruction=evaluation_instruction,
@@ -202,6 +199,7 @@ class Prompt_Optimizer:
         response.set_role_description("Language model response.")
 
         inputs = [
+            question,
             response,
             ground_truth_variable,
             reference_variable
@@ -212,9 +210,10 @@ class Prompt_Optimizer:
                 raise ValueError(f"Input {var} is not a valid Variable object.")
 
         loss = loss_fn(inputs)
+        print("*" * 50)
 
         print(loss)
-        print()
+        print("*" * 50)
 
         return loss
 

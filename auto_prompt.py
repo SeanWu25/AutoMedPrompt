@@ -13,10 +13,12 @@ load_dotenv()
 os.getenv("TOGETHER_API_KEY")
 
 def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results", system_prompt = "Respond to the multiple choice question."):
-    csv_filename = f"{output_dir}/llama3-70BChat_{benchmark_name}_autoprompt_textgrad_results.csv"
+    model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
+    model_output_dir = os.path.join(output_dir, model_name_part)
+    os.makedirs(model_output_dir, exist_ok=True)  
+    csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_auto_prompt_text_grad.csv")
 
-    engine = ChatTogether(model_name)
-    model = tg.BlackboxLLM(engine, system_prompt=system_prompt)
+    model = ChatTogether(model_name, system_prompt)
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -27,7 +29,7 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            question_text = (
+            question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
@@ -37,15 +39,11 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 f"E. {question_string['options']['E']}\n"
             )
 
-            question = tg.Variable(
-                question_text,
-                role_description="question to the LLM",
-                requires_grad=False
-            )
+        
 
             ground_truth = question_string['answer_idx']
 
-            prediction = model(question)
+            prediction = model.generate(question,temperature=0.4)
             status = "Success"
 
             writer.writerow([question_string['question'], ground_truth, prediction, status])
@@ -70,7 +68,7 @@ def auto_prompt(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Docume
         print("SET TO EVALUATION MODE")
         print("*" * 50)
 
-        file_path = "C:\\Users\\Admin\\Documents\\autoprompt\\prompt_logs\\training_log_20250113_171127.json"
+        file_path = "C:\\Users\\Admin\\Documents\\autoprompt\\prompt_logs\\training_log_20250114_215122.json"
         with open(file_path, "r") as file:
             data = json.load(file)
         last_event = data["events"][-1]  
