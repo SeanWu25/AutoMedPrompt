@@ -57,12 +57,16 @@ class Prompt_Optimizer:
        self._modify_or_set_forward_pass()
 
    def _modify_or_set_forward_pass(self):
-       self.model = ChatTogether(self.model_name, system_prompt=self.system_prompt_var.value)
-
+       engine = ChatTogether(self.model_name)
+       self.model = tg.BlackboxLLM(engine, system_prompt=self.system_prompt_var)
        
    def _forward(self, query):
-
-       answer = self.model.generate(query, temperature=0.4)
+       question = tg.Variable(
+            query,
+            role_description="question to the LLM",
+            requires_grad=False
+        )
+       answer = self.model(question)
        answer.set_role_description("LLM response to the multiple choice question.")
 
        return answer
@@ -178,7 +182,17 @@ class Prompt_Optimizer:
 
 
    def eval_item(self, question: tg.Variable, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
-        
+        '''
+        prompt = (
+    "Evaluate the LLM's response to the multiple-choice question based on the following criteria: "
+    "1. Clarity: Does the response clearly and directly answer the question? "
+    "2. Clinical accuracy: Is the response consistent with established medical knowledge and the ground truth? "
+    "3. Relevance: Does the response stay focused on the question without including unnecessary details? "
+    "Provide detailed feedback comparing the response to the ground truth, highlighting strengths, weaknesses, "
+    "and overall quality. Include any additional observations that may enhance the evaluation."
+        )
+        '''
+
         evaluation_instruction = tg.Variable(
            "Assess the LLM's response to the multiple choice question.",
             role_description="evaluation instruction",

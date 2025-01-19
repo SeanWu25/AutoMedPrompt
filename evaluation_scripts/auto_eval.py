@@ -6,6 +6,7 @@ def extract_answer(prediction):
     Extract the answer (A-E) from the prediction text.
     """
     match = re.search(r"\b[A-E]\b", prediction)
+
     return match.group(0) if match else None
 
 def process_dataset(df):
