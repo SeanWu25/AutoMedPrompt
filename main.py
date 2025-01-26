@@ -11,7 +11,6 @@ def main():
     benchmark = args.benchmark  # medQA, pubmedQA, etc
     method = args.method        # can be zero-shot, few-shot, CoT, etc, or auto_prompt
     model = args.model          # open sourced LLM choice
-    post = args.post            # whether to evaluate post training
 
     # Map methods to corresponding functions
     methods = {

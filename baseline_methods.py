@@ -17,8 +17,7 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_zero_shot_results.csv")
 
-    system_prompt = "Respond to the following question"
-    model = ChatTogether(model_name, system_prompt=system_prompt)
+    model = ChatTogether(model_name)
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -78,9 +77,8 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
     model_output_dir = os.path.join(output_dir, model_name_part)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_few_shot_results.csv")
-    system_prompt = "Respond to the following question. A few examples are provided."
 
-    model = ChatTogether(model_name, system_prompt=system_prompt)
+    model = ChatTogether(model_name)
     train_set, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -133,22 +131,8 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
     model_output_dir = os.path.join(output_dir, model_name_part)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_chain_of_thought_results.csv")
-    system_prompt = """
-    You are a highly knowledgeable medical professional. Use a structured, step-by-step reasoning process to answer the following medical multiple-choice question. Follow these steps:
-
-    1. **Provide the Answer First**: Output the correct answer as a single letter (e.g., A, B, C, D, or E).
-    2. **Explain Your Thought Process Briefly**:
-    - Think through the scenario step by step, as a physician would.
-    - Focus on analyzing the key details of the question.
-    - Summarize why the correct choice makes sense without evaluating all options.
-
-    Format your response like this:
-    Answer: [Correct letter]
-    Explanation: [Brief reasoning based on key details and logical steps.]
-
-    Now answer the following question:
-    """
-    model = ChatTogether(model_name,system_prompt=system_prompt)
+    deep_seek_r1 = "A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think> <answer> answer here </answer>."
+    model = ChatTogether(model_name, system_prompt = deep_seek_r1)
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -159,6 +143,7 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
             writer.writerow(["Question", "Ground Truth", "Prediction", "Reasoning", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
+
             question = (
                 f"Patient Case:\n{question_string['question']}\n"
                 f"Options:\n"

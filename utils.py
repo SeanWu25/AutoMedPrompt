@@ -9,7 +9,7 @@ import random
 def subset(dataset, seed = 42):
    # random.seed(seed) 
     return random.sample(dataset, 50)
-def make_loader(train_set, dev_set,test_set, batch_size = 5):
+def make_loader(train_set, dev_set,test_set, batch_size = 3):
     def json_to_list(set):
         questions = [f"Question: {question['question']}\n" f"Options:\n" f"A. {question['options']['A']}\n" f"B. {question['options']['B']}\n" f"C. {question['options']['C']}\n" f"D. {question['options']['D']}\n" f"E. {question['options']['E']}\n"  for question in set]
         references = [reference['answer_idx'] for reference in set]

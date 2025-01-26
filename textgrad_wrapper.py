@@ -12,8 +12,8 @@ os.getenv("OPENAI_API_KEY")
 os.getenv("TOGETHER_API_KEY")
 
 
-
-backward_engine = tg.get_engine(engine_name="gpt-4o-mini")
+BACKWARD_ENGINE_NAME = "gpt-4o-mini"
+backward_engine = tg.get_engine(engine_name=BACKWARD_ENGINE_NAME)
 tg.set_backward_engine(backward_engine, override=True)
 
 
@@ -37,11 +37,11 @@ class Prompt_Optimizer:
        self.system_prompt_var = tg.Variable(
            starting_prompt,
            requires_grad=True,
-           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions both concisely and accurately."
+           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
        )
        self.log_file = self.log_training_start()
 
-       optimizer_engine = tg.get_engine(engine_name="gpt-4o-mini")
+       optimizer_engine = tg.get_engine(engine_name=BACKWARD_ENGINE_NAME)
 
        self.optimizer = tg.TextualGradientDescent(
            engine=optimizer_engine,
@@ -50,8 +50,8 @@ class Prompt_Optimizer:
 
        self.previous_prompt_var = tg.Variable(
            starting_prompt,
-           requires_grad=False,
-           role_description="Previous best system prompt."
+           requires_grad=True,
+           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
        )
     
        self._modify_or_set_forward_pass()
@@ -77,7 +77,7 @@ class Prompt_Optimizer:
        val_metrics = self.evaluate_dataset(val_loader)
        current_score = val_metrics
 
-       if current_score < self.previous_performance:
+       if current_score <= self.previous_performance:
            self.system_prompt_var.set_value(self.previous_prompt_var.value)
            print("THIS SYSTEM PROMT FAILED: ", self.system_prompt_var.value)
            print("REVERTED SYSTEM PROMPT AND DEMONSTRATIONS TO PREVIOUS BEST.")
@@ -181,55 +181,36 @@ class Prompt_Optimizer:
        print("FINISHED TESTING ON TEST SET!")
 
 
-   def eval_item(self, question: tg.Variable, response: tg.Variable, ground_truth: str, reference: str) -> tg.Variable:
-        '''
-        prompt = (
-    "Evaluate the LLM's response to the multiple-choice question based on the following criteria: "
-    "1. Clarity: Does the response clearly and directly answer the question? "
-    "2. Clinical accuracy: Is the response consistent with established medical knowledge and the ground truth? "
-    "3. Relevance: Does the response stay focused on the question without including unnecessary details? "
-    "Provide detailed feedback comparing the response to the ground truth, highlighting strengths, weaknesses, "
-    "and overall quality. Include any additional observations that may enhance the evaluation."
-        )
-        '''
-
-        evaluation_instruction = tg.Variable(
-           "Assess the LLM's response to the multiple choice question.",
-            role_description="evaluation instruction",
-            requires_grad=False
+   def eval_item(self, response: tg.Variable, ground_truth: str, reference: str, question: tg.Variable) -> tg.Variable:
+       evaluation_instruction = tg.Variable(
+            "Please evaluate the response provided by the LLM for the medical multiple choice question based on the ground truth answer. "
+            "Be smart, logical, and very critical. "
+            "Just provide concise feedback.",
+            role_description="evaluation instruction"
         )
 
-        role_descriptions = ["input question", "lanugage model response", "ground truth answer choice", "correct explanation"]
+       role_descriptions = [
+            "Language Model Response",
+            "Ground Truth Answer Choice",
+            "Correct Explanation"
+        ]
 
-        loss_fn = tg.loss.MultiFieldEvaluation(
+       loss_fn = tg.loss.MultiFieldEvaluation(
             evaluation_instruction=evaluation_instruction,
             role_descriptions=role_descriptions
         )
 
-        ground_truth_variable = tg.Variable(ground_truth, requires_grad=False, role_description="ground truth answer choice")
-        reference_variable = tg.Variable(reference, requires_grad=False, role_description="correct explanation")
-        
+       #ground_truth_variable = tg.Variable(ground_truth, requires_grad=False, role_description="Ground Truth Answer Choice")
+       reference_variable = tg.Variable(reference, requires_grad=False, role_description="Correct Explanation")
+       response.set_role_description("Language Model Response")
 
-        response.set_role_description("Language model response.")
+       inputs = [response, ground_truth, reference_variable]
 
-        inputs = [
-            question,
-            response,
-            ground_truth_variable,
-            reference_variable
-        ]
+       loss = loss_fn(inputs)
 
-        for var in inputs:
-            if not isinstance(var, tg.Variable):
-                raise ValueError(f"Input {var} is not a valid Variable object.")
-
-        loss = loss_fn(inputs)
-        print("*" * 50)
-
-        print(loss)
-        print("*" * 50)
-
-        return loss
+       print("*" * 50)
+       print(loss)
+       return loss
 
 
    
@@ -264,7 +245,8 @@ class Prompt_Optimizer:
             "event": "Training Start",
             "model_name": self.model_name,
             "starting_prompt": self.starting_prompt,
-            "prompt_role_desc: ":  self.system_prompt_var.role_description
+            "prompt_role_desc: ":  self.system_prompt_var.role_description,
+            "Backward_engine": BACKWARD_ENGINE_NAME
         }
         log_filename = os.path.join(
             self.log_dir, f"training_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"

@@ -19,7 +19,7 @@ def auto_prompt(model_name, benchmark_name):
     dev_set = subset(dev_set)
 
     train_loader, val_loader, test_loader = make_loader(train_set, dev_set, test_set)
-    starting_prompt = "Respond to the multiple choice question."
+    starting_prompt = "Respond to the following question"
     optimizer_object = Prompt_Optimizer(model_name = model_name, starting_prompt = starting_prompt)
     optimizer_object.train(train_loader,val_loader)
     
