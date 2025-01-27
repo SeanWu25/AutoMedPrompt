@@ -6,12 +6,10 @@ def extract_answer(prediction):
     """
     Extract the answer (A-E) from the prediction text, including from <answer> tags.
     """
-    # Match the first standalone A-E letter within <answer> tags
     tag_match = re.search(r"<answer>\s*([A-E])\b", prediction)
     if tag_match:
         return tag_match.group(1)
     
-    # Fallback to matching a single letter (A-E) outside of tags
     match = re.search(r"\b[A-E]\b", prediction)
     return match.group(0) if match else None
 
