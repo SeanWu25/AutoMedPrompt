@@ -140,18 +140,25 @@ class PredictionEvaluator:
 
     def extract_answer(text: str) -> Optional[str]:
         """
-        Extract the answer enclosed within <answer></answer> tags using regular expressions.
-        If no tags are found, it attempts to extract plain text answers like "yes" or "no".
+        Extract the answer from the text. Supports:
+        - Answers enclosed within <answer></answer> tags.
+        - Phrases like "answer is yes", "answer is no", "answer is maybe".
+        - Plain text answers like "yes", "no", "maybe".
         """
         if not isinstance(text, str):
             return None
 
         # Attempt to extract from <answer> tags
-        match = re.search(r"<answer>\s*(\w+)\s*</answer>", text, re.IGNORECASE)
-        if match:
-            return match.group(1).strip().lower()
+        tag_match = re.search(r"<answer>\s*([A-Za-z]+)\s*</answer>", text, re.IGNORECASE)
+        if tag_match:
+            return tag_match.group(1).strip().lower()
 
-        # If no tags are found, use the plain text directly
+        # Attempt to extract from phrases like "answer is yes"
+        phrase_match = re.search(r"answer is\s*([A-Za-z]+)", text, re.IGNORECASE)
+        if phrase_match:
+            return phrase_match.group(1).strip().lower()
+
+        # Fallback: Use plain text directly
         return text.strip().lower()
 
     @staticmethod
