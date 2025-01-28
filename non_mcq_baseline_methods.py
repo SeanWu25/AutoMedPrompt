@@ -17,7 +17,7 @@ def zero_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documen
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_pubmed_zero_shot_results.csv")
 
-    model = ChatTogether(model_name)
+    model = ChatTogether(model_name, system_prompt = "Answer the question with either: yes, no, or maybe")
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -67,7 +67,7 @@ def few_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_pubmed_few_shot_results.csv")
 
-    model = ChatTogether(model_name)
+    model = ChatTogether(model_name, system_prompt = "Answer the question with either: yes, no, or maybe")
     train_set, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -115,7 +115,7 @@ def CoT1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\au
     model_output_dir = os.path.join(output_dir, model_name_part)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_pubmed_chain_of_thought_results.csv")
-    deep_seek_r1 = "A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think> <answer> answer here </answer>."
+    deep_seek_r1 = "A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think> <answer> answer here with either: yes, no, or maybe </answer>."
     model = ChatTogether(model_name, system_prompt = deep_seek_r1)
     _, _, test_set = load_data(benchmark_name)
 
