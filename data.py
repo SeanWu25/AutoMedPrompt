@@ -44,7 +44,6 @@ def load_json(bench):
         train_examples,dev_examples = split_train_dev(train_dev_examples)
         test_examples = load_csv(base_path + "test.csv")
 
-        print(test_examples[0])
 
         return train_examples, dev_examples, test_examples
 

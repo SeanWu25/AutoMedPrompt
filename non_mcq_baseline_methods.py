@@ -37,7 +37,7 @@ def zero_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documen
             prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
-            writer.writerow([question_string['question'], ground_truth, prediction, status])
+            writer.writerow([question_string['QUESTION'], ground_truth, prediction, status])
 
     print("BENCHMARKING COMPLETE")
     return
@@ -91,24 +91,19 @@ def few_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 f"Example 3:\n{in_context3}\n\n"
             )
             question_text = (
-                f"Question: {question_string['question']}\n"
-                f"Options:\n"
-                f"A. {question_string['options']['A']}\n"
-                f"B. {question_string['options']['B']}\n"
-                f"C. {question_string['options']['C']}\n"
-                f"D. {question_string['options']['D']}\n"
-                f"E. {question_string['options']['E']}\n"
+                f"{question_string['QUESTION']}\n"
+
             )
 
             question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
 
 
-            ground_truth = question_string['answer_idx']
+            ground_truth = question_string['final_decision']
 
             prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
-            writer.writerow([question_string['question'], ground_truth, prediction, status])
+            writer.writerow([question_string['QUESTION'], ground_truth, prediction, status])
 
     print("BENCHMARKING COMPLETE")
     return
@@ -134,7 +129,7 @@ def CoT1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\au
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
 
             question = (
-                f"{question_string['QUESTION']}"
+                f"{question_string['QUESTION']}\n"
             )
 
             ground_truth = question_string['final_decision']
@@ -142,7 +137,7 @@ def CoT1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\au
             prediction = model.generate(question, temperature=0.4)
             status = "Success"
 
-            writer.writerow([question_string['question'], ground_truth, prediction,status])
+            writer.writerow([question_string['QUESTION'], ground_truth, prediction,status])
 
     print("BENCHMARKING COMPLETE")
     return
