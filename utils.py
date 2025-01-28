@@ -5,6 +5,9 @@ from langchain.evaluation.schema import StringEvaluator
 from textgrad.tasks.base import DataLoader
 from typing import Optional, Any
 import random
+import re
+from typing import Optional
+import pandas as pd
 
 def subset(dataset, seed = 42):
    # random.seed(seed) 
@@ -126,3 +129,44 @@ class RegExCustomQAEvaluator:
 
 
         return 1 if pred_answer == true_answer else 0  
+    
+class PredictionEvaluator:
+    def __init__(self) -> None:
+        """
+        Initialize the evaluator object. This evaluator checks if the prediction matches
+        the ground truth and can extract answers from tagged text.
+        """
+        pass
+
+    def extract_answer(text: str) -> Optional[str]:
+        """
+        Extract the answer enclosed within <answer></answer> tags using regular expressions.
+        If no tags are found, it attempts to extract plain text answers like "yes" or "no".
+        """
+        if not isinstance(text, str):
+            return None
+
+        # Attempt to extract from <answer> tags
+        match = re.search(r"<answer>\s*(\w+)\s*</answer>", text, re.IGNORECASE)
+        if match:
+            return match.group(1).strip().lower()
+
+        # If no tags are found, use the plain text directly
+        return text.strip().lower()
+
+    @staticmethod
+    def normalize_answer(answer: str) -> str:
+        """
+        Normalize answers by converting to lowercase and removing extra spaces.
+        """
+        return answer.strip().lower()
+
+    def evaluate(self, prediction: str, ground_truth: str) -> int:
+        """
+        Evaluate a single prediction against the ground truth.
+        Extracts the answer from the prediction and compares it to the ground truth.
+        Returns 1 if the prediction matches the ground truth, otherwise 0.
+        """
+        pred = self.extract_answer(prediction) or self.normalize_answer(prediction)
+        truth = self.normalize_answer(ground_truth)
+        return 1 if pred == truth else 0
