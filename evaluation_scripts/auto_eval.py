@@ -28,11 +28,14 @@ def yn_extract_answer(prediction):
     match = re.search(r"\b(yes|no|maybe)\b", prediction, re.IGNORECASE)
     return match.group(1).strip().lower() if match else None
 
-def process_dataset(df):
+def process_dataset(df, benchmark_name):
     """
     Process a dataset to clean predictions and calculate accuracy.
     """
-    df['Cleaned Prediction'] = df['Prediction'].apply(extract_answer)
+    if benchmark_name=="MedQA":
+        df['Cleaned Prediction'] = df['Prediction'].apply(extract_answer)
+    elif benchmark_name == "PubMedQA":
+        df['Cleaned Prediction'] = df['Prediction'].apply(yn_extract_answer)
     df['Correct'] = df['Cleaned Prediction'] == df['Ground Truth']
     accuracy = df['Correct'].mean()
     total_correct = df['Correct'].sum()

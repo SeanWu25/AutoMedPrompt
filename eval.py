@@ -6,6 +6,7 @@ from evaluation_scripts.auto_eval import process_dataset
 def main():
     parser = argparse.ArgumentParser(description="Process some parameters.")
     parser.add_argument("--csv_folder", type=str, help="Path to the folder containing CSV files.")
+    parser.add_argument("--benchmark_name", type=str, help="Name of the benchmark dataset.")
     args = parser.parse_args()
 
     csv_folder = args.csv_folder
@@ -15,13 +16,13 @@ def main():
         return
 
     for file_name in os.listdir(csv_folder):
-        if file_name.endswith(".csv"):
+        if file_name.endswith(".csv") and args.benchmark_name in file_name:
             file_path = os.path.join(csv_folder, file_name)
             print(f"Processing file: {file_name}")
 
             df = pd.read_csv(file_path)
 
-            accuracy, total_correct, total_questions = process_dataset(df)
+            accuracy, total_correct, total_questions = process_dataset(df, benchmark_name=args.benchmark_name)
 
             results_summary = f"""
             Results Summary for {file_name}:
