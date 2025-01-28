@@ -14,17 +14,19 @@ def extract_answer(prediction):
     return match.group(0) if match else None
 
 def yn_extract_answer(prediction):
-    """
-    Extract the answer from the prediction text. Supports answers enclosed in <answer> tags
-    and plain text answers like "yes" or "no".
-    """
     # Attempt to extract from <answer> tags
-    match = re.search(r"<answer>\s*(\w+)\s*</answer>", prediction, re.IGNORECASE)
-    if match:
-        return match.group(1).strip().lower()
+    tag_match = re.search(r"<answer>\s*([A-Za-z]+)\s*</answer>", prediction, re.IGNORECASE)
+    if tag_match:
+        return tag_match.group(1).strip().lower()
 
-    # If no tags are found, use the plain text directly
-    return prediction.strip().lower()
+    # Attempt to extract from phrases like "answer is yes"
+    phrase_match = re.search(r"answer is\s*([A-Za-z]+)", prediction, re.IGNORECASE)
+    if phrase_match:
+        return phrase_match.group(1).strip().lower()
+
+    # Fallback: Plain text answers like "yes", "no", "maybe"
+    match = re.search(r"\b(yes|no|maybe)\b", prediction, re.IGNORECASE)
+    return match.group(1).strip().lower() if match else None
 
 def process_dataset(df):
     """
