@@ -12,6 +12,30 @@ import pandas as pd
 def subset(dataset, seed = 42):
    # random.seed(seed) 
     return random.sample(dataset, 50)
+
+
+def yn_loader(train_set, dev_set,test_set, batch_size = 3):
+    def json_to_list(set):
+        questions = [f"Context: {question['CONTEXTS']}\n Question: {question['QUESTION']}\n" for question in set]
+        references = [reference['final_decision'] for reference in set]
+        explanation = [reference['LONG_ANSWER'] for reference in set]
+        return list(zip(questions,references,explanation))
+
+    print("*" * 50)
+    train_set = json_to_list(train_set)
+    dev_set = json_to_list(dev_set)
+    test_set = json_to_list(test_set)
+
+    print("Length of train set: ", len(train_set))
+    print("Length of dev set ", len(dev_set))
+    print("Length of test set ", len(test_set))
+
+    print("*"* 50)
+    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True)
+    val_loader = DataLoader(dev_set, batch_size=batch_size, shuffle=False)
+    test_loader = DataLoader(test_set, batch_size=1, shuffle=False)
+
+    return train_loader, val_loader, test_loader
 def make_loader(train_set, dev_set,test_set, batch_size = 3):
     def json_to_list(set):
         questions = [f"Question: {question['question']}\n" f"Options:\n" f"A. {question['options']['A']}\n" f"B. {question['options']['B']}\n" f"C. {question['options']['C']}\n" f"D. {question['options']['D']}\n" f"E. {question['options']['E']}\n"  for question in set]
@@ -138,7 +162,7 @@ class PredictionEvaluator:
         """
         pass
 
-    def extract_answer(text: str) -> Optional[str]:
+    def extract_answer(self,text: str) -> Optional[str]:
         """
         Extract the answer from the text. Supports:
         - Answers enclosed within <answer></answer> tags.
@@ -168,12 +192,14 @@ class PredictionEvaluator:
         """
         return answer.strip().lower()
 
-    def evaluate(self, prediction: str, ground_truth: str) -> int:
+    def evaluate(self, prediction: str, reference: str) -> int:
         """
         Evaluate a single prediction against the ground truth.
         Extracts the answer from the prediction and compares it to the ground truth.
         Returns 1 if the prediction matches the ground truth, otherwise 0.
         """
         pred = self.extract_answer(prediction) or self.normalize_answer(prediction)
-        truth = self.normalize_answer(ground_truth)
+        truth = self.normalize_answer(reference)
+
+        print("prediction: ", pred, "truth: ", truth)
         return 1 if pred == truth else 0

@@ -36,6 +36,9 @@ def process_dataset(df, benchmark_name):
         df['Cleaned Prediction'] = df['Prediction'].apply(extract_answer)
     elif benchmark_name == "PubMedQA":
         df['Cleaned Prediction'] = df['Prediction'].apply(yn_extract_answer)
+        #how to print the predicted and the ground truth together side by side?
+        print(df[['Prediction', 'Ground Truth']])
+
     df['Correct'] = df['Cleaned Prediction'] == df['Ground Truth']
     accuracy = df['Correct'].mean()
     total_correct = df['Correct'].sum()

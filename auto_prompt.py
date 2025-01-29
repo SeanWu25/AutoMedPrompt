@@ -1,5 +1,5 @@
 from data import load_data
-from utils import subset, make_loader
+from utils import subset, make_loader, yn_loader
 from textgrad_wrapper import Prompt_Optimizer
 from evaluation_scripts.auto_eval import process_dataset
 from textgrad.engine.together import ChatTogether
@@ -18,8 +18,12 @@ def auto_prompt(model_name, benchmark_name):
 
     dev_set = subset(dev_set)
 
-    train_loader, val_loader, test_loader = make_loader(train_set, dev_set, test_set)
+    if benchmark_name == "MedQA":
+        train_loader, val_loader, test_loader = make_loader(train_set, dev_set, test_set)
+    elif benchmark_name == "PubMedQA":
+        train_loader, val_loader, test_loader = yn_loader(train_set, dev_set, test_set) 
+
     starting_prompt = "You are a helpful, creative, and smart assistant."
-    optimizer_object = Prompt_Optimizer(model_name = model_name, starting_prompt = starting_prompt)
+    optimizer_object = Prompt_Optimizer(model_name = model_name, starting_prompt = starting_prompt, benchmark_name = benchmark_name)
     optimizer_object.train(train_loader,val_loader)
     

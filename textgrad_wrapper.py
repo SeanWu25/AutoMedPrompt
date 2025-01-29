@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from datetime import datetime
 import json
 from textgrad.engine.together import ChatTogether
-from utils import MetricsAggregator, CustomQAEvaluator, RegExCustomQAEvaluator
+from utils import MetricsAggregator, CustomQAEvaluator, RegExCustomQAEvaluator, PredictionEvaluator
 load_dotenv()
 os.getenv("OPENAI_API_KEY")
 os.getenv("TOGETHER_API_KEY")
@@ -18,10 +18,11 @@ tg.set_backward_engine(backward_engine, override=True)
 
 
 class Prompt_Optimizer:
-   def __init__(self, model_name,starting_prompt,patience=3, eval_type = "code"):
+   def __init__(self, model_name,starting_prompt,patience=3, eval_type = "code", benchmark_name = None):
        self.patience = patience
        self.no_improvement_steps = 0
        self.model_name = model_name
+       self.benchmark_name = benchmark_name
 
        self.eval_type = eval_type
 
@@ -34,11 +35,19 @@ class Prompt_Optimizer:
        os.makedirs(self.log_dir, exist_ok=True)
 
 
-       self.system_prompt_var = tg.Variable(
-           starting_prompt,
-           requires_grad=True,
-           role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
-       )
+       if self.benchmark_name == "MedQA":
+          self.system_prompt_var = tg.Variable(
+                starting_prompt,
+                requires_grad=True,
+                role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
+            )
+       elif self.benchmark_name == "PubMedQA":
+          self.system_prompt_var = tg.Variable(
+                    starting_prompt,
+                    requires_grad=True,
+                    role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. This system prompt should not be too verbose."
+                )
+
        self.log_file = self.log_training_start()
 
        optimizer_engine = tg.get_engine(engine_name=BACKWARD_ENGINE_NAME)
@@ -47,12 +56,19 @@ class Prompt_Optimizer:
            engine=optimizer_engine,
            parameters=[self.system_prompt_var],
        )
+       if self.benchmark_name == "MedQA":
 
-       self.previous_prompt_var = tg.Variable(
+          self.previous_prompt_var = tg.Variable(
            starting_prompt,
            requires_grad=True,
            role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
-       )
+          )
+       elif self.benchmark_name == "PubMedQA":
+          self.previous_prompt_var = tg.Variable(
+           starting_prompt,
+           requires_grad=True,
+           role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. This system prompt should not be too verbose."
+          )
     
        self._modify_or_set_forward_pass()
 
@@ -67,7 +83,11 @@ class Prompt_Optimizer:
             requires_grad=False
         )
        answer = self.model(question)
-       answer.set_role_description("LLM response to the multiple choice question.")
+       if self.benchmark_name == "MedQA":
+          answer.set_role_description("LLM response to the multiple choice question.")
+       elif self.benchmark_name == "PubMedQA":
+          answer.set_role_description("LLM response to the yes/no/maybe question.")
+            
 
        return answer
 
@@ -103,7 +123,6 @@ class Prompt_Optimizer:
        for (x,ground_truth, explanation) in zip(batch_x, batch_y, batch_z):
            x = tg.Variable(x, requires_grad=False, role_description="query to the language model")
            response = self._forward(x.value)
-
 
            eval_output_variable = self.eval_item(x, response,ground_truth, explanation)
            losses.append(eval_output_variable)
@@ -182,12 +201,20 @@ class Prompt_Optimizer:
 
 
    def eval_item(self, response: tg.Variable, ground_truth: str, reference: str, question: tg.Variable) -> tg.Variable:
-       evaluation_instruction = tg.Variable(
-            "Please evaluate the response provided by the LLM for the medical multiple choice question based on the ground truth answer. "
-            "Be smart, logical, and very critical. "
-            "Just provide concise feedback.",
-            role_description="evaluation instruction"
-        )
+       if self.benchmark_name == "MedQA":
+        evaluation_instruction = tg.Variable(
+                "Please evaluate the response provided by the LLM for the medical multiple choice question based on the ground truth answer. "
+                "Be smart, logical, and very critical. "
+                "Just provide concise feedback.",
+                role_description="evaluation instruction"
+            )
+       elif self.benchmark_name == "PubMedQA":
+          evaluation_instruction = tg.Variable(
+                "Please evaluate the response provided by the LLM for the medical yes/no/maybe question based on the ground truth answer. "
+                "Be smart, logical, and very critical. "
+                "Just provide concise feedback.",
+                role_description="evaluation instruction"
+            )
 
        role_descriptions = [
             "Language Model Response",
@@ -221,12 +248,21 @@ class Prompt_Optimizer:
            "correct_answer": reference
        }
        if self.eval_type == "code":
-            qa_evaluator = RegExCustomQAEvaluator()
-            evaluation_result = qa_evaluator.evaluate(
-                prediction=response.value,
-                ground_truth=reference,
-            )
-            metrics_dict["correctness"] = evaluation_result
+            if self.benchmark_name == "MedQA":
+                qa_evaluator = RegExCustomQAEvaluator()
+                evaluation_result = qa_evaluator.evaluate(
+                    prediction=response.value,
+                    ground_truth=reference,
+                )
+                metrics_dict["correctness"] = evaluation_result
+            elif self.benchmark_name == "PubMedQA":
+                qa_evaluator = PredictionEvaluator()
+                
+                evaluation_result = qa_evaluator.evaluate(
+                    prediction=response.value,
+                    reference=reference,
+                )
+                metrics_dict["correctness"] = evaluation_result
 
        else:
             qa_evaluator = CustomQAEvaluator()
@@ -246,7 +282,9 @@ class Prompt_Optimizer:
             "model_name": self.model_name,
             "starting_prompt": self.starting_prompt,
             "prompt_role_desc: ":  self.system_prompt_var.role_description,
-            "Backward_engine": BACKWARD_ENGINE_NAME
+            "Backward_engine": BACKWARD_ENGINE_NAME,
+            "benchmark_name": self.benchmark_name
+
         }
         log_filename = os.path.join(
             self.log_dir, f"training_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
