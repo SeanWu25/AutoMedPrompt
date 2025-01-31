@@ -29,10 +29,11 @@ def load_json(bench):
         return examples
 
 
-    if bench == "MedQA":
-        base_path = "C:\\Users\\Admin\\Documents\\autoprompt\\benchmarks\\MedQA\\"
-        train_examples = load_file(base_path + "train.jsonl")
-        dev_examples = load_file(base_path + "dev.jsonl")
+    if bench == "MedQA4":
+        base_path = "C:\\Users\\Admin\\Documents\\autoprompt\\benchmarks\\MedQA4\\"
+        train_dev_examples = load_file(base_path + "train.jsonl")
+        train_examples, dev_examples = split_train_dev(train_dev_examples)
+      #  dev_examples = load_file(base_path + "dev.jsonl")
         test_examples = load_file(base_path + "test.jsonl")
 
         return train_examples, dev_examples, test_examples

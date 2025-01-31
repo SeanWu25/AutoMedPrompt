@@ -14,7 +14,7 @@ def subset(dataset, seed = 42):
     return random.sample(dataset, 50)
 
 
-def yn_loader(train_set, dev_set,test_set, batch_size = 3):
+def yn_loader(train_set, dev_set,test_set, batch_size = 5):
     def json_to_list(set):
         questions = [f"Context: {question['CONTEXTS']}\n Question: {question['QUESTION']}\n" for question in set]
         references = [reference['final_decision'] for reference in set]
@@ -38,7 +38,7 @@ def yn_loader(train_set, dev_set,test_set, batch_size = 3):
     return train_loader, val_loader, test_loader
 def make_loader(train_set, dev_set,test_set, batch_size = 3):
     def json_to_list(set):
-        questions = [f"Question: {question['question']}\n" f"Options:\n" f"A. {question['options']['A']}\n" f"B. {question['options']['B']}\n" f"C. {question['options']['C']}\n" f"D. {question['options']['D']}\n" f"E. {question['options']['E']}\n"  for question in set]
+        questions = [f"Question: {question['question']}\n" f"Options:\n" f"A. {question['options']['A']}\n" f"B. {question['options']['B']}\n" f"C. {question['options']['C']}\n" f"D. {question['options']['D']}\n"  for question in set]
         references = [reference['answer_idx'] for reference in set]
         explanation = [reference['answer'] for reference in set]
         return list(zip(questions,references,explanation))
@@ -162,28 +162,20 @@ class PredictionEvaluator:
         """
         pass
 
-    def extract_answer(self,text: str) -> Optional[str]:
-        """
-        Extract the answer from the text. Supports:
-        - Answers enclosed within <answer></answer> tags.
-        - Phrases like "answer is yes", "answer is no", "answer is maybe".
-        - Plain text answers like "yes", "no", "maybe".
-        """
-        if not isinstance(text, str):
-            return None
-
+    def extract_answer(self,prediction: str) -> Optional[str]:
         # Attempt to extract from <answer> tags
-        tag_match = re.search(r"<answer>\s*([A-Za-z]+)\s*</answer>", text, re.IGNORECASE)
+        tag_match = re.search(r"<answer>\s*([A-Za-z]+)\s*</answer>", prediction, re.IGNORECASE)
         if tag_match:
             return tag_match.group(1).strip().lower()
 
         # Attempt to extract from phrases like "answer is yes"
-        phrase_match = re.search(r"answer is\s*([A-Za-z]+)", text, re.IGNORECASE)
+        phrase_match = re.search(r"answer is\s*([A-Za-z]+)", prediction, re.IGNORECASE)
         if phrase_match:
             return phrase_match.group(1).strip().lower()
 
-        # Fallback: Use plain text directly
-        return text.strip().lower()
+        # Fallback: Plain text answers like "yes", "no", "maybe"
+        match = re.search(r"\b(yes|no|maybe)\b", prediction, re.IGNORECASE)
+        return match.group(1).strip().lower() if match else None
 
     @staticmethod
     def normalize_answer(answer: str) -> str:

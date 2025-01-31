@@ -11,6 +11,37 @@ from tqdm import tqdm
 load_dotenv()
 os.getenv("TOGETHER_API_KEY")
 
+def yn_post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results", system_prompt = "Respond to the multiple choice question."):
+    model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
+    model_output_dir = os.path.join(output_dir, model_name_part, benchmark_name)
+    os.makedirs(model_output_dir, exist_ok=True)  
+    csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_auto_prompt_text_grad.csv")
+
+    model = ChatTogether(model_name, system_prompt)
+    _, _, test_set = load_data(benchmark_name)
+
+    file_exists = os.path.isfile(csv_filename)
+    with open(csv_filename, mode='a', newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file)
+
+        if not file_exists:
+            writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
+
+        for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
+            question = (
+                f"Context: {question_string['CONTEXTS']}\n"
+                f"Question: {question_string['QUESTION']}\n"
+            )
+
+            ground_truth = question_string['final_decision']
+
+            prediction = model.generate(question,temperature=0.4)
+            status = "Success"
+
+            writer.writerow([question_string['QUESTION'], ground_truth, prediction, status])
+
+    print("BENCHMARKING COMPLETE")
+    return
 def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results", system_prompt = "Respond to the multiple choice question."):
     model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
     model_output_dir = os.path.join(output_dir, model_name_part)
@@ -72,8 +103,12 @@ def main():
     print(f"Model Name: {model_name}")
     print(f"System Prompt: {system_prompt}")
     print("-" * 50)
-    post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)
 
+
+    if benchmark_name == "MedQA":
+        post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)
+    elif benchmark_name == "PubMedQA":
+        yn_post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)
 
 
 

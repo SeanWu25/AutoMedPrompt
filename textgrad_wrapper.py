@@ -38,14 +38,14 @@ class Prompt_Optimizer:
        if self.benchmark_name == "MedQA":
           self.system_prompt_var = tg.Variable(
                 starting_prompt,
-                requires_grad=True,
-                role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
+                requires_grad=True,#This system prompt should not be too verbose.
+                role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. "
             )
        elif self.benchmark_name == "PubMedQA":
           self.system_prompt_var = tg.Variable(
                     starting_prompt,
                     requires_grad=True,
-                    role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. This system prompt should not be too verbose."
+                    role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. "
                 )
 
        self.log_file = self.log_training_start()

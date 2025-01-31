@@ -13,7 +13,7 @@ os.getenv("TOGETHER_API_KEY")
 
 def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
     model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
-    model_output_dir = os.path.join(output_dir, model_name_part)
+    model_output_dir = os.path.join(output_dir, model_name_part, benchmark_name)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_zero_shot_results.csv")
 
@@ -35,7 +35,6 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-                f"E. {question_string['options']['E']}\n"
             )
 
             ground_truth = question_string['answer_idx']
@@ -58,7 +57,6 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 f"B. {example_string['options']['B']}\n"
                 f"C. {example_string['options']['C']}\n"
                 f"D. {example_string['options']['D']}\n"
-                f"E. {example_string['options']['E']}\n"
             )
 
         correct_answer = example_string['answer']
@@ -74,7 +72,7 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
 
 
     model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
-    model_output_dir = os.path.join(output_dir, model_name_part)
+    model_output_dir = os.path.join(output_dir, model_name_part, benchmark_name)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_few_shot_results.csv")
 
@@ -108,7 +106,6 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-                f"E. {question_string['options']['E']}\n"
             )
 
             question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
@@ -128,7 +125,7 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
 
 def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
     model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
-    model_output_dir = os.path.join(output_dir, model_name_part)
+    model_output_dir = os.path.join(output_dir, model_name_part, benchmark_name)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_chain_of_thought_results.csv")
     deep_seek_r1 = "A conversation between User and Assistant. The user asks a question, and the Assistant solves it. The assistant first thinks about the reasoning process in the mind and then provides the user with the answer. The reasoning process and answer are enclosed within <think> </think> and <answer> </answer> tags, respectively, i.e., <think> reasoning process here </think> <answer> answer here </answer>."
@@ -151,7 +148,6 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-                f"E. {question_string['options']['E']}\n"
             )
 
             ground_truth = question_string['answer_idx']
