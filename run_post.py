@@ -44,7 +44,7 @@ def yn_post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Docum
     return
 def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results", system_prompt = "Respond to the multiple choice question."):
     model_name_part = model_name.split("/")[1] if "/" in model_name else model_name
-    model_output_dir = os.path.join(output_dir, model_name_part)
+    model_output_dir = os.path.join(output_dir, model_name_part, benchmark_name)
     os.makedirs(model_output_dir, exist_ok=True)  
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_auto_prompt_text_grad.csv")
 
@@ -59,17 +59,28 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            question = (
+            if benchmark_name == "MedQA":
+                question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-                f"E. {question_string['options']['E']}\n"
-            )
-
-        
+                )
+            elif benchmark_name == "NephSAP":
+                question = (
+                    f"Context: {question_string['context']}\n" if 'context' in question_string else ''
+                ) + (
+                    f"Question: {question_string['question']}\n"
+                    f"Options:\n"
+                    f"{question_string['options']['A']}\n"
+                    f"{question_string['options']['B']}\n"
+                    f"{question_string['options']['C']}\n"
+                    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                )
+           
 
             ground_truth = question_string['answer_idx']
 
@@ -105,7 +116,7 @@ def main():
     print("-" * 50)
 
 
-    if benchmark_name == "MedQA":
+    if benchmark_name == "MedQA4":
         post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)
     elif benchmark_name == "PubMedQA":
         yn_post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)

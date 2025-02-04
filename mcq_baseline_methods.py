@@ -28,14 +28,30 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            question = (
+            if benchmark_name == "MedQA":
+                question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-            )
+                )
+            elif benchmark_name == "NephSAP":
+                
+                question = (
+                    f"Context: {question_string['context']}\n" if 'context' in question_string else ''
+                ) + (
+                    f"Question: {question_string['question']}\n"
+                    f"Options:\n"
+                    f"{question_string['options']['A']}\n"
+                    f"{question_string['options']['B']}\n"
+                    f"{question_string['options']['C']}\n"
+    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                )
+
+
 
             ground_truth = question_string['answer_idx']
 
@@ -50,13 +66,26 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
 
 def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
     def process_in_context(example_string):
-        question_text = (
+        if benchmark_name == "MedQA":
+            question_text = (
                 f"Question: {example_string['question']}\n"
                 f"Options:\n"
                 f"A. {example_string['options']['A']}\n"
                 f"B. {example_string['options']['B']}\n"
                 f"C. {example_string['options']['C']}\n"
                 f"D. {example_string['options']['D']}\n"
+            )
+        elif benchmark_name == "NephSAP":
+            question_text = (
+                f"Context: {example_string['context']}\n" if 'context' in example_string else ''
+            ) + (
+                f"Question: {example_string['question']}\n"
+                f"Options:\n"
+                f"{example_string['options']['A']}\n"
+                f"{example_string['options']['B']}\n"
+                f"{example_string['options']['C']}\n"
+    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                f"{f'{example_string['options']['E']}\n' if 'E' in example_string['options'] else ''}"
             )
 
         correct_answer = example_string['answer']
@@ -99,14 +128,27 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 f"Example 2:\n{in_context2}\n\n"
                 f"Example 3:\n{in_context3}\n\n"
             )
-            question_text = (
-                f"Question: {question_string['question']}\n"
-                f"Options:\n"
-                f"A. {question_string['options']['A']}\n"
-                f"B. {question_string['options']['B']}\n"
-                f"C. {question_string['options']['C']}\n"
-                f"D. {question_string['options']['D']}\n"
-            )
+            if benchmark_name == "MedQA":
+                question_text = (
+                    f"Question: {question_string['question']}\n"
+                    f"Options:\n"
+                    f"A. {question_string['options']['A']}\n"
+                    f"B. {question_string['options']['B']}\n"
+                    f"C. {question_string['options']['C']}\n"
+                    f"D. {question_string['options']['D']}\n"
+                )
+            elif benchmark_name == "NephSAP":
+                question_text = (
+                    f"Context: {question_string['context']}\n" if 'context' in question_string else ''
+                ) + (
+                    f"Question: {question_string['question']}\n"
+                    f"Options:\n"
+                    f"{question_string['options']['A']}\n"
+                    f"{question_string['options']['B']}\n"
+                    f"{question_string['options']['C']}\n"
+    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                )
 
             question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
 
@@ -140,16 +182,28 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
             writer.writerow(["Question", "Ground Truth", "Prediction", "Reasoning", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-
-            question = (
-                f"Patient Case:\n{question_string['question']}\n"
+            if benchmark_name == "MedQA":
+                question = (
+                f"Question: {question_string['question']}\n"
                 f"Options:\n"
                 f"A. {question_string['options']['A']}\n"
                 f"B. {question_string['options']['B']}\n"
                 f"C. {question_string['options']['C']}\n"
                 f"D. {question_string['options']['D']}\n"
-            )
-
+                )
+            elif benchmark_name == "NephSAP":
+                question = (
+                    f"Context: {question_string['context']}\n" if 'context' in question_string else ''
+                ) + (
+                    f"Question: {question_string['question']}\n"
+                    f"Options:\n"
+                    f"{question_string['options']['A']}\n"
+                    f"{question_string['options']['B']}\n"
+                    f"{question_string['options']['C']}\n"
+    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                )
+         
             ground_truth = question_string['answer_idx']
 
             prediction = model.generate(question, temperature=0.4)

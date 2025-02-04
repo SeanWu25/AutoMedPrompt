@@ -15,7 +15,7 @@ def main():
 
     # Map methods to corresponding functions
 
-    if benchmark == "MedQA4":
+    if benchmark == "MedQA4" or benchmark == "NephSAP":
         methods = {
             "zero-shot": zero_shot,
             "few-shot": few_shot,

@@ -7,6 +7,20 @@ def split_train_dev(train_dev_examples):
     train_examples = [example for example in train_dev_examples if example not in dev_examples]
     return train_examples, dev_examples
 
+def split_train_dev_test(train_dev_examples, seed=42):
+
+    random.seed(seed)
+
+    dev_examples = random.sample(train_dev_examples, 50)
+
+    remaining_examples = [example for example in train_dev_examples if example not in dev_examples]
+
+    test_examples = random.sample(remaining_examples, 500)
+
+    train_examples = [example for example in remaining_examples if example not in test_examples]
+
+    return train_examples, dev_examples, test_examples
+
 
 def load_json(bench):
     def load_file(file_path):
@@ -47,6 +61,17 @@ def load_json(bench):
 
 
         return train_examples, dev_examples, test_examples
+    if bench == "NephSAP":
+
+        base_path = "C:\\Users\\Admin\\Documents\\autoprompt\\benchmarks\\NephSAP\\"
+        train_dev_test_examples = load_file(base_path + "nephsap_acl.jsonl")
+        train_examples,dev_examples, test_examples = split_train_dev_test(train_dev_test_examples)
+   
+
+
+        return train_examples, dev_examples, test_examples
+
+
 
     
 def load_data(benchmark):

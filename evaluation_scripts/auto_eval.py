@@ -32,7 +32,7 @@ def process_dataset(df, benchmark_name):
     """
     Process a dataset to clean predictions and calculate accuracy.
     """
-    if benchmark_name=="MedQA":
+    if benchmark_name=="MedQA4":
         df['Cleaned Prediction'] = df['Prediction'].apply(extract_answer)
     elif benchmark_name == "PubMedQA":
         df['Cleaned Prediction'] = df['Prediction'].apply(yn_extract_answer)

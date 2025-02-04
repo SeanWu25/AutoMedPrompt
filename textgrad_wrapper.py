@@ -12,7 +12,7 @@ os.getenv("OPENAI_API_KEY")
 os.getenv("TOGETHER_API_KEY")
 
 
-BACKWARD_ENGINE_NAME = "gpt-4o-mini"
+BACKWARD_ENGINE_NAME = "gpt-4o"
 backward_engine = tg.get_engine(engine_name=BACKWARD_ENGINE_NAME)
 tg.set_backward_engine(backward_engine, override=True)
 
@@ -35,17 +35,17 @@ class Prompt_Optimizer:
        os.makedirs(self.log_dir, exist_ok=True)
 
 
-       if self.benchmark_name == "MedQA":
+       if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
           self.system_prompt_var = tg.Variable(
                 starting_prompt,
                 requires_grad=True,#This system prompt should not be too verbose.
-                role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. "
+                role_description="A general system prompt for a language model designed to answer medical-related multiple-choice questions. This system prompt should not be too verbose."
             )
        elif self.benchmark_name == "PubMedQA":
           self.system_prompt_var = tg.Variable(
                     starting_prompt,
                     requires_grad=True,
-                    role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. "
+                    role_description="A general system prompt for a language model designed to answer medical-related yes/no/maybe questions. This system prompt should not be too verbose."
                 )
 
        self.log_file = self.log_training_start()
@@ -56,7 +56,7 @@ class Prompt_Optimizer:
            engine=optimizer_engine,
            parameters=[self.system_prompt_var],
        )
-       if self.benchmark_name == "MedQA":
+       if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
 
           self.previous_prompt_var = tg.Variable(
            starting_prompt,
@@ -83,7 +83,7 @@ class Prompt_Optimizer:
             requires_grad=False
         )
        answer = self.model(question)
-       if self.benchmark_name == "MedQA":
+       if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
           answer.set_role_description("LLM response to the multiple choice question.")
        elif self.benchmark_name == "PubMedQA":
           answer.set_role_description("LLM response to the yes/no/maybe question.")
@@ -201,7 +201,7 @@ class Prompt_Optimizer:
 
 
    def eval_item(self, response: tg.Variable, ground_truth: str, reference: str, question: tg.Variable) -> tg.Variable:
-       if self.benchmark_name == "MedQA":
+       if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
         evaluation_instruction = tg.Variable(
                 "Please evaluate the response provided by the LLM for the medical multiple choice question based on the ground truth answer. "
                 "Be smart, logical, and very critical. "
@@ -248,7 +248,7 @@ class Prompt_Optimizer:
            "correct_answer": reference
        }
        if self.eval_type == "code":
-            if self.benchmark_name == "MedQA":
+            if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
                 qa_evaluator = RegExCustomQAEvaluator()
                 evaluation_result = qa_evaluator.evaluate(
                     prediction=response.value,
