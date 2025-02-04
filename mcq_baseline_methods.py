@@ -28,7 +28,7 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            if benchmark_name == "MedQA":
+            if benchmark_name == "MedQA4":
                 question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
@@ -66,7 +66,7 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
 
 def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\autoprompt\\results"):
     def process_in_context(example_string):
-        if benchmark_name == "MedQA":
+        if benchmark_name == "MedQA4":
             question_text = (
                 f"Question: {example_string['question']}\n"
                 f"Options:\n"
@@ -128,7 +128,7 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 f"Example 2:\n{in_context2}\n\n"
                 f"Example 3:\n{in_context3}\n\n"
             )
-            if benchmark_name == "MedQA":
+            if benchmark_name == "MedQA4":
                 question_text = (
                     f"Question: {question_string['question']}\n"
                     f"Options:\n"
@@ -182,7 +182,7 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
             writer.writerow(["Question", "Ground Truth", "Prediction", "Reasoning", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            if benchmark_name == "MedQA":
+            if benchmark_name == "MedQA4":
                 question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
