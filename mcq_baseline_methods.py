@@ -44,12 +44,15 @@ def zero_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 ) + (
                     f"Question: {question_string['question']}\n"
                     f"Options:\n"
-                    f"{question_string['options']['A']}\n"
-                    f"{question_string['options']['B']}\n"
-                    f"{question_string['options']['C']}\n"
-    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                    f"A. {question_string['options']['A']}\n"
+                    f"B. {question_string['options']['B']}\n"
+                    f"C. {question_string['options']['C']}\n"
+    f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'E. {question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
+
+                print(question)
+                print()
 
 
 
@@ -81,11 +84,11 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
             ) + (
                 f"Question: {example_string['question']}\n"
                 f"Options:\n"
-                f"{example_string['options']['A']}\n"
-                f"{example_string['options']['B']}\n"
-                f"{example_string['options']['C']}\n"
-    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                f"{f'{example_string['options']['E']}\n' if 'E' in example_string['options'] else ''}"
+                f"A. {example_string['options']['A']}\n"
+                f"B. {example_string['options']['B']}\n"
+                f"C. {example_string['options']['C']}\n"
+    f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                f"{f'E. {example_string['options']['E']}\n' if 'E' in example_string['options'] else ''}"
             )
 
         correct_answer = example_string['answer']
@@ -143,11 +146,11 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
                 ) + (
                     f"Question: {question_string['question']}\n"
                     f"Options:\n"
-                    f"{question_string['options']['A']}\n"
-                    f"{question_string['options']['B']}\n"
-                    f"{question_string['options']['C']}\n"
-    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                    f"A. {question_string['options']['A']}\n"
+                    f"B. {question_string['options']['B']}\n"
+                    f"C. {question_string['options']['C']}\n"
+    f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'E. {question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
 
             question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
@@ -197,11 +200,11 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
                 ) + (
                     f"Question: {question_string['question']}\n"
                     f"Options:\n"
-                    f"{question_string['options']['A']}\n"
-                    f"{question_string['options']['B']}\n"
-                    f"{question_string['options']['C']}\n"
-    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                    f"A. {question_string['options']['A']}\n"
+                    f"B. {question_string['options']['B']}\n"
+                    f"C. {question_string['options']['C']}\n"
+    f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'E. {question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
          
             ground_truth = question_string['answer_idx']

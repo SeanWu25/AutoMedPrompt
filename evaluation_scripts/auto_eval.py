@@ -10,7 +10,11 @@ def extract_answer(prediction):
     if tag_match:
         return tag_match.group(1)
     
+
+    
     match = re.search(r"\b[A-E]\b", prediction)
+
+    print(match.group(0) if match else None)
     return match.group(0) if match else None
 
 def yn_extract_answer(prediction):
@@ -32,7 +36,7 @@ def process_dataset(df, benchmark_name):
     """
     Process a dataset to clean predictions and calculate accuracy.
     """
-    if benchmark_name=="MedQA4":
+    if benchmark_name=="MedQA4" or benchmark_name=="NephSAP":
         df['Cleaned Prediction'] = df['Prediction'].apply(extract_answer)
     elif benchmark_name == "PubMedQA":
         df['Cleaned Prediction'] = df['Prediction'].apply(yn_extract_answer)

@@ -59,7 +59,7 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
             writer.writerow(["Question", "Ground Truth", "Prediction", "Status"])
 
         for question_string in tqdm(test_set, desc="Processing Questions", unit="question"):
-            if benchmark_name == "MedQA":
+            if benchmark_name == "MedQA4":
                 question = (
                 f"Question: {question_string['question']}\n"
                 f"Options:\n"
@@ -74,11 +74,11 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                 ) + (
                     f"Question: {question_string['question']}\n"
                     f"Options:\n"
-                    f"{question_string['options']['A']}\n"
-                    f"{question_string['options']['B']}\n"
-                    f"{question_string['options']['C']}\n"
-                    f"{f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                    f"{f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+                    f"A. {question_string['options']['A']}\n"
+                    f"B. {question_string['options']['B']}\n"
+                    f"C. {question_string['options']['C']}\n"
+                    f"D. {f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"E. {f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
            
 

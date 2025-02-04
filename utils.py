@@ -45,11 +45,11 @@ def neph_loader(train_set, dev_set,test_set, batch_size = 5):
                 (f"Context: {question['context']}\n" if 'context' in question else '') +
                 f"Question: {question['question']}\n"
                 "Options:\n"
-                f"{question['options']['A']}\n"
-                f"{question['options']['B']}\n"
-                f"{question['options']['C']}\n"
-                + (f"{question['options']['D']}\n" if 'D' in question['options'] else '')
-                + (f"{question['options']['E']}\n" if 'E' in question['options'] else '')
+                f"A. {question['options']['A']}\n"
+                f"B.  {question['options']['B']}\n"
+                f"C. {question['options']['C']}\n"
+                + (f"D. {question['options']['D']}\n" if 'D' in question['options'] else '')
+                + (f"E. {question['options']['E']}\n" if 'E' in question['options'] else '')
             )
             for question in set
         ]
