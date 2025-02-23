@@ -1,0 +1,12 @@
+## Answer
+This patient has stage 5 chronic kidney disease (CKD) and is not a good candidate for peritoneal dialysis due to poor manual dexterity. She and her family are interested in trying hemodialysis (HD). The best approach to preparing her for dialysis would be to create an arteriovenous fistula (AVF) or graft (AVG) in advance, as these are the preferred access for HD due to lower rates of infection and thrombosis and better patient survival compared with central venous catheters. However, AVFs and AVGs require time (weeks to months) to mature before they can be used. Therefore, if the patient's kidney function is declining rapidly or she has symptoms of uremia, there may not be enough time for AVF or AVG maturation, and a central venous catheter may be needed initially. 
+
+However, the patient's description does not suggest that she has symptoms of uremia or that her kidney function is declining rapidly. Therefore, it would be reasonable to create an AVF or AVG now, in anticipation of future need. 
+
+Option B, convincing her to do active medical management/conservative care rather than dialysis, is not the best choice because the patient and her family have already expressed a desire to try HD. 
+
+Option C, referring her for a tunneled dialysis catheter, is not the best choice because catheters have a higher risk of complications compared with AVFs and AVGs. 
+
+Option D, waiting until she has uremic symptoms and then admitting her for a nonurgent placement of a tunneled dialysis catheter and initiation of HD in the hospital, is also not the best choice because it would be better to prepare for HD in advance, rather than waiting until she is symptomatic.
+
+Therefore, the answer is [A. Have her referred immediately for an arteriovenous ﬁstula so it may mature in time for dialysis].

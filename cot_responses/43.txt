@@ -1,0 +1,12 @@
+## Answer
+Cocoa flavanols have been studied for their potential cardiovascular benefits. They are known to have several effects on the cardiovascular system. 
+
+Option A suggests that cocoa flavanols lower systolic blood pressure. While some studies have suggested this, the evidence is not strong enough to make a definitive statement, especially in patients with ESRD.
+
+Option B suggests that cocoa flavanols reduce C-reactive protein levels. C-reactive protein is a marker of inflammation in the body, and while cocoa flavanols have been shown to have anti-inflammatory properties, there is not enough evidence to suggest that they significantly reduce C-reactive protein levels.
+
+Option D suggests that cocoa flavanols have no effect on platelet aggregation. This is not accurate as cocoa flavanols have been shown to have an effect on platelet function, potentially reducing the risk of clot formation.
+
+Option C suggests that cocoa flavanols enhance flow-mediated brachial artery dilation. This is indeed one of the most consistent findings in the literature. Flow-mediated dilation is a measure of endothelial function, a key factor in cardiovascular health. Cocoa flavanols have been shown to improve endothelial function, and this effect has been observed in various populations, including those with ESRD.
+
+Therefore, the answer is C. They enhance flow-mediated brachial artery dilation.

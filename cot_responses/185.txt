@@ -1,0 +1,12 @@
+## Answer
+The question is asking for nonhypertensive-related cardiovascular risk factors that would be important in selecting therapy for her elevated blood pressure. 
+
+Option A, a low white blood cell count, is not directly related to cardiovascular risk. It is more associated with immune system disorders or conditions such as leukemia.
+
+Option B, a urine dipstick registering ++ protein, could indicate kidney disease, which can be a result of hypertension, but it is not a cardiovascular risk factor itself.
+
+Option C, an electrocardiogram showing right bundle branch block, is a heart block but it's not necessarily associated with increased cardiovascular risk. It can be a normal variant in a healthy individual.
+
+Option D, an elevated C-reactive protein, is a marker of inflammation in the body. High levels of C-reactive protein are associated with an increased risk of cardiovascular disease, including heart disease and stroke. It is not directly related to hypertension but it is a significant cardiovascular risk factor.
+
+Therefore, the answer is [D. Elevated C-reactive protein].

@@ -1,0 +1,14 @@
+## Answer
+The question asks for the least appropriate strategy to initiate dialysis in this patient. The patient is a kidney transplant recipient with progressive allograft dysfunction and is expected to require dialysis soon. She has no contraindications to peritoneal dialysis (PD) and her veins are suitable for placement of an arteriovenous fistula. 
+
+Option A, placement of a secondary fistula using the outflow vein of the previous arteriovenous graft, is a viable option as the vein mapping shows a patent left upper arm outflow cephalic vein from a previous arteriovenous graft.
+
+Option B, placement of a tunneled central vein catheter closer to the initiation of dialysis, is also a viable option. This is often done when dialysis is expected to start soon.
+
+Option C, placement of a right forearm arteriovenous fistula, is a viable option as the veins in her right upper extremity are also suitable for placement of an arteriovenous fistula.
+
+Option D, placement of a PD catheter to start PD, is a viable option as the patient has no contraindications to PD.
+
+Option E, placement of an arteriovenous graft closer to the initiation of dialysis, is the least appropriate strategy. Arteriovenous grafts have a higher risk of complications such as infection and thrombosis compared to arteriovenous fistulas and should be avoided if possible. Furthermore, the patient's previous graft has not functioned for over 19 years, suggesting that she may not be a good candidate for another graft.
+
+Therefore, the answer is [E. Placement of an arteriovenous graft closer to the initiation of dialysis].

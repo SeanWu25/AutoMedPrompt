@@ -1,0 +1,14 @@
+## Answer
+First, let's evaluate each option individually. 
+
+Option A suggests that a lower dietary potassium intake decreases the odds of CKD. However, while it's true that patients with advanced CKD often need to limit their potassium intake to prevent hyperkalemia, there's no evidence to suggest that a low-potassium diet can prevent CKD in the general population.
+
+Option B suggests that a healthy diet reduces the risk of hypertension and improves survival, but doesn't improve renal outcomes. This is partially true. A healthy diet can indeed reduce the risk of hypertension and improve survival, but it can also improve renal outcomes by slowing the progression of CKD.
+
+Option C suggests that current smokers have significantly increased odds of CKD compared to former and never smokers. This is true. Smoking is a well-known risk factor for CKD, as it can cause damage to the kidneys and worsen existing kidney disease.
+
+Option D suggests that higher levels of activity, defined as exercise of at least 30 minutes a day, is associated with lower odds of CKD. This is also true. Regular physical activity can help control blood pressure and glucose levels, both of which are important for kidney health.
+
+Given the above analysis, the only statement that is completely true is option C.
+
+Therefore, the answer is [C].

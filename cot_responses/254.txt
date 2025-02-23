@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the findings of the Chronic Kidney Disease Prognosis Consortium (CKD-PC) in relation to the prediction of End-Stage Kidney Disease (ESKD) and mortality. 
+
+Option A suggests that lower eGFR predicts ESKD and mortality among individuals with CKD, but not in the general population. This is partially correct as lower eGFR is indeed associated with higher risk of ESKD and mortality in individuals with CKD. However, it is also known that lower eGFR can predict these outcomes in the general population as well, making this option incorrect.
+
+Option B suggests that greater urinary albumin excretion predicts ESKD and mortality among individuals with CKD, but not in the general population. This is also partially correct as greater urinary albumin excretion is indeed associated with higher risk of ESKD and mortality in individuals with CKD. However, similar to eGFR, greater urinary albumin excretion can also predict these outcomes in the general population, making this option incorrect.
+
+Option C suggests that lower eGFR and greater urinary albumin excretion predict ESKD and mortality among individuals with diabetes, but not among individuals without diabetes. This is incorrect as these factors can predict ESKD and mortality in both individuals with and without diabetes.
+
+Option D suggests that lower eGFR and greater urinary albumin excretion predict ESKD and mortality among individuals with and without diabetes. This is correct as both lower eGFR and greater urinary albumin excretion are known to predict ESKD and mortality in both individuals with and without diabetes, regardless of the presence of CKD.
+
+Therefore, the answer is [D. Lower eGFR and greater urinary albumin excretion predict ESKD and mortality among individuals with and without diabetes].

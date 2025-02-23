@@ -1,0 +1,11 @@
+The patient's presentation and lab findings are consistent with ANCA-associated vasculitis (AAV), a small-vessel vasculitis that often involves the kidneys and lungs. The question is asking about induction therapy for AAV.
+
+Option A refers to the MYCYC trial, which indeed showed that induction therapy with mycophenolate mofetil and steroids was inferior to cyclophosphamide and steroids for remission induction at 6-month follow-up. This is a correct statement.
+
+Option B refers to the PEXIVAS trial, which evaluated the use of plasma exchange in AAV. However, this trial did not show that plasma exchange was associated with reduced rates of end-stage kidney disease (ESKD) in cases of moderate to severe renal impairment. This statement is incorrect.
+
+Option C also refers to the PEXIVAS trial, but this time regarding corticosteroid dosing. The trial did show that reduced corticosteroid dosing was associated with no difference in risk of ESKD and reduced rates of infectious complications. This is a correct statement.
+
+Option D refers to the use of avacopan, a C5a inhibitor, in induction therapy for AAV. The ADVOCATE trial showed that avacopan was non-inferior to prednisone for induction of remission and was associated with fewer glucocorticoid-related adverse events, not higher rates of infectious complications. This statement is incorrect.
+
+Therefore, the answer is [A, C].

@@ -1,0 +1,12 @@
+## Answer
+Sodium-glucose cotransporter-2 (SGLT-2) inhibitors, such as empagliflozin, are a class of medications used to manage type 2 diabetes. They work by preventing the reabsorption of glucose in the kidneys, leading to excretion of glucose in the urine. This mechanism of action can lead to certain side effects.
+
+Option A suggests that amputation is a risk with all SGLT-2 inhibitors. While it's true that there was a concern about an increased risk of amputations with the SGLT-2 inhibitor canagliflozin, this has not been observed with other drugs in this class, including empagliflozin.
+
+Option C states that there is no risk of acute kidney injury with SGLT-2 inhibitors. This is not accurate. While these drugs can have renal protective effects in the long term, they can also lead to volume depletion and acute kidney injury, especially in patients with pre-existing kidney disease or those taking diuretics.
+
+Option D suggests that the risk of hypoglycemia is increased with SGLT-2 inhibitors. However, these drugs have a low risk of causing hypoglycemia when used alone. Hypoglycemia is more likely when they are used in combination with insulin or sulfonylureas.
+
+Option B states that the risk of genital infections is higher with SGLT-2 inhibitors. This is accurate. The increased glucose in the urine can promote the growth of bacteria and yeast, leading to a higher risk of genital and urinary tract infections.
+
+Therefore, the answer is [B. The risk of genital infections is higher].

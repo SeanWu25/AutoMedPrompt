@@ -1,0 +1,12 @@
+## Answer
+To answer this question, we need to understand the properties of the novel potassium binders mentioned in the options. 
+
+Option A: Sodium Zirconium Cyclosilicate (ZS-9/SZC) is a non-absorbed highly selective inorganic cation, which binds K+ throughout the gastrointestinal tract in exchange for Ca2+. This statement is incorrect. Sodium Zirconium Cyclosilicate (ZS-9/SZC) is indeed a non-absorbed, highly selective inorganic cation, but it exchanges K+ for Na+ (sodium), not Ca2+ (calcium).
+
+Option B: Patiromer is associated with increased sodium load. This statement is incorrect. Patiromer is a potassium binder that exchanges calcium, not sodium, for potassium in the gastrointestinal tract. Therefore, it does not contribute to an increased sodium load.
+
+Option C: Sodium Zirconium Cyclosilicate (ZS-9/SZC) has a slow onset of action (within 12 hours). This statement is incorrect. Sodium Zirconium Cyclosilicate (ZS-9/SZC) actually has a rapid onset of action, with effects seen within 1 hour of administration.
+
+Option D: Sodium Zirconium Cyclosilicate (ZS-9/SZC) also can help improve acidosis. This statement is correct. Sodium Zirconium Cyclosilicate (ZS-9/SZC) can help improve acidosis by reducing serum potassium levels. High serum potassium levels can contribute to metabolic acidosis, so by reducing these levels, ZS-9/SZC can help improve this condition.
+
+Therefore, the answer is [D. Sodium Zirconium Cyclosilicate (ZS-9/SZC) also can help improve acidosis].

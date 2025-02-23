@@ -1,0 +1,12 @@
+## Answer
+The patient has a "collapsing" variant of FSGS (Focal Segmental Glomerulosclerosis) lesion, which is a severe form of kidney disease. He also carries two high-risk alleles at the APOL1 locus, which is associated with a higher risk of kidney disease in African-Americans. 
+
+Option A suggests that the genetic studies indicate unresponsiveness to treatment. However, while the APOL1 risk alleles are associated with a higher risk of kidney disease, they do not directly predict the response to treatment.
+
+Option B suggests that the patient's birth weight would be valuable in determining his prognosis. However, there is no established correlation between birth weight and prognosis in FSGS.
+
+Option D suggests that the patient is at low risk for the development of a thrombotic microangiopathy. However, patients with nephrotic syndrome, such as this patient, are actually at an increased risk of thrombotic events due to the hypercoagulable state associated with significant proteinuria.
+
+Option C states that the prognosis for renal survival is significantly worse in comparison with an FSGS lesion not otherwise specified. This is true. The collapsing variant of FSGS is associated with a more rapid progression to end-stage renal disease compared to other variants of FSGS.
+
+Therefore, the answer is [C. The prognosis for renal survival is significantly worse in comparison with an FSGS lesion not otherwise speciﬁed].

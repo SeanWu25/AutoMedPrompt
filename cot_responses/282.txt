@@ -1,0 +1,12 @@
+## Answer
+Membranous nephropathy (MN) is a common cause of nephrotic syndrome in adults. It is characterized by thickening of the glomerular basement membrane due to immune complex deposition. The most common cause of primary MN is the formation of autoantibodies against the phospholipase A2 receptor (PLA2R), which is present on podocytes. However, in this patient, PLA2R staining was negative, indicating a non-PLA2R-associated MN. Instead, the biopsy stained positive for exostosin 1/exostosin 2 (EXT1/EXT2), which is associated with a secondary form of MN. 
+
+Option A suggests that patients with EXT1/EXT2 MN typically have a poor prognosis and are more likely to progress to end-stage kidney disease (ESKD). However, the prognosis of EXT1/EXT2 MN is not necessarily worse than other forms of MN. 
+
+Option B suggests that EXT1/EXT2 MN is seen more commonly in patients with underlying autoimmune diseases. While MN can be associated with autoimmune diseases, EXT1/EXT2 MN is not specifically linked to these conditions.
+
+Option D suggests that EXT1/EXT2 MN is more common in the pediatric population. However, MN is generally more common in adults, and there is no specific association between EXT1/EXT2 MN and pediatric patients.
+
+Option C suggests that EXT1/EXT2 MN is commonly associated with an underlying malignancy. This is indeed the case. EXT1/EXT2 MN is a rare form of MN that is often associated with malignancies, particularly solid tumors. Therefore, patients with EXT1/EXT2 MN should be evaluated for potential malignancies.
+
+Therefore, the answer is [C. EXT1/EXT2 is commonly associated with an underlying malignancy].

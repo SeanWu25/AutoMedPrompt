@@ -1,0 +1,10 @@
+## Answer
+Hand hygiene is a critical aspect of infection control in any healthcare setting, including dialysis units. Both hand washing with soap and water and the use of alcohol-based hand rubs are effective methods of hand hygiene. However, there are certain situations where one method is preferred over the other. 
+
+Alcohol-based hand rubs are generally effective at killing most types of bacteria, viruses, and fungi. However, they are not effective against all types of germs. For example, they are not effective against spore-forming bacteria such as Clostridium difficile. 
+
+Clostridium difficile is a bacterium that can cause symptoms ranging from diarrhea to life-threatening inflammation of the colon. Illness from C. difficile most commonly affects older adults in hospitals or in long term care facilities and typically occurs after use of antibiotic medications.
+
+In the case of contact with a patient with a recent diagnosis of Clostridium difficile–induced diarrhea, hand washing with soap and water is preferred. This is because soap and water are effective at removing C. difficile spores, which are not killed by alcohol-based hand rubs.
+
+Therefore, the answer is [C. After contact with a patient with a recent diagnosis of Clostridium difﬁcile–induced diarrhea].

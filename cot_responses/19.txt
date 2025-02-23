@@ -1,0 +1,14 @@
+## Answer
+The patient's presentation is consistent with severe magnesium toxicity, which is characterized by loss of deep tendon reflexes, lethargy, and weakness. This is confirmed by the laboratory results showing a magnesium level of 10.1 mg/dL, which is significantly above the normal range of 1.7-2.2 mg/dL. The patient's EKG also shows changes consistent with hypermagnesemia, including sinus bradycardia and prolonged PR, QRS, and QT intervals. 
+
+The initial management of severe magnesium toxicity includes discontinuation of magnesium, administration of intravenous calcium to antagonize the neuromuscular and cardiovascular effects of magnesium, and supportive care. However, these measures alone may not be sufficient to rapidly lower the magnesium level in severe cases, especially if renal function is impaired, as in this patient. 
+
+Intravenous normal saline plus furosemide (option A) can enhance renal magnesium excretion, but this approach is unlikely to be effective in this patient because of her acute kidney injury. 
+
+Intravenous insulin (option D) is used to treat hyperkalemia, not hypermagnesemia. 
+
+No additional interventions (option C) would not be appropriate given the severity of the patient's magnesium toxicity and her impaired renal function. 
+
+Therefore, the most appropriate next step in management is urgent hemodialysis (option B), which can rapidly and effectively lower the magnesium level in patients with severe magnesium toxicity and renal insufficiency. 
+
+Therefore, the answer is [B. Urgent hemodialysis].

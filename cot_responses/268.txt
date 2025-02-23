@@ -1,0 +1,12 @@
+## Answer
+The patient in the scenario presented had an acute cellular rejection, which was successfully treated with corticosteroids. The biopsy showed resolution of inflammation, indicating that the treatment was effective. However, this does not mean that the patient will not experience any long-term effects on his allograft function. Acute rejection episodes, even if successfully treated, can still have an impact on the long-term function of the graft. 
+
+Option A suggests that the patient is at an increased risk for death with a functioning graft. While it is true that transplant patients generally have a higher risk of death compared to the general population due to the need for lifelong immunosuppression and the risk of infection, this statement is not specifically related to the patient's recent acute rejection episode and its successful treatment.
+
+Option B states that allograft failure is most commonly due to alloimmune injury. While alloimmune injury can indeed lead to allograft failure, this statement is too broad and does not take into account other factors that can contribute to allograft failure, such as infection, drug toxicity, and recurrence of the original disease.
+
+Option C suggests that the rejection will likely have no effect on his allograft function in the long term. This is not necessarily true. Even though the inflammation has resolved, the acute rejection episode can still have a long-term impact on the graft function.
+
+Option D suggests that the patient is likely to eventually experience chronic antibody-mediated rejection. While it is possible for a patient to develop chronic antibody-mediated rejection after an episode of acute cellular rejection, it is not a certainty and depends on various factors, including the patient's immune response, the adequacy of immunosuppression, and the presence of donor-specific antibodies.
+
+Therefore, the answer is [A. The patient is at increased risk for death with a functioning graft].

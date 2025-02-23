@@ -1,0 +1,10 @@
+## Answer
+The furosemide stress test (FST) is a diagnostic tool used to evaluate the functional capacity of the nephrons in the kidney. It works by administering a dose of furosemide, a loop diuretic, and then measuring the urine output. The response to furosemide can provide information about the kidney's ability to concentrate urine and excrete sodium, which are important functions of the nephrons. 
+
+In the context of kidney transplantation, the FST can be used to predict the likelihood of delayed graft function (DGF), which is a form of acute kidney injury that can occur following transplantation. DGF is characterized by the need for dialysis in the first week after transplantation and is associated with poorer graft survival and function. 
+
+In this patient, the urine output of 82 ml in response to furosemide is relatively low, suggesting that the transplanted kidney may not be functioning optimally. This could indicate a higher risk of DGF.
+
+The other options (acute renal allograft rejection, 1-year mortality, and 1-year graft survival) are not directly predicted by the FST. Acute renal allograft rejection is an immunological response that is not directly related to nephron function. Similarly, 1-year mortality and 1-year graft survival are influenced by a wide range of factors, including the patient's overall health, the quality of the donor kidney, and the success of the transplantation surgery, none of which are directly assessed by the FST.
+
+Therefore, the answer is C. Delayed graft function after renal transplantation.

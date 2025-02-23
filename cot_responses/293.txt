@@ -1,0 +1,12 @@
+## Answer
+The patient has type 2 diabetes mellitus, hypertension, and chronic kidney disease (CKD) with albuminuria. The goal of treatment in such patients is to control blood glucose, blood pressure, and reduce albuminuria, which can slow the progression of CKD and reduce cardiovascular risk. 
+
+Option A, starting her on an SGLT2 inhibitor, is a good choice as these drugs have been shown to reduce cardiovascular events and slow the progression of CKD in patients with type 2 diabetes. However, they are usually contraindicated in patients with an eGFR <30 ml/min/1.73 m2, and this patient's eGFR is 33 ml/min/1.73 m2, which is borderline.
+
+Option B, restarting her angiotensin receptor blocker (ARB), is also a good choice. ARBs reduce albuminuria and slow the progression of CKD in patients with diabetes. They also have cardiovascular benefits. However, they should be used with caution in patients with AKI, and this patient recently had an episode of AKI.
+
+Option C, restarting her on metformin, is not the best choice. While metformin is a first-line drug for the treatment of type 2 diabetes, it does not have the same cardiovascular and renal benefits as SGLT2 inhibitors or ARBs. Furthermore, it is contraindicated in patients with an eGFR <30 ml/min/1.73 m2 due to the risk of lactic acidosis.
+
+Option D, starting her on a GLP1 agonist, is another good choice. GLP1 agonists have been shown to reduce cardiovascular events in patients with type 2 diabetes. However, they do not have the same renal benefits as SGLT2 inhibitors or ARBs.
+
+Given the patient's recent episode of AKI, borderline eGFR, and high albuminuria, the best choice would be to restart her ARB, with close monitoring of her renal function. Therefore, the answer is B. Restart her angiotensin receptor blocker.

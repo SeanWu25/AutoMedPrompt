@@ -1,0 +1,12 @@
+## Answer
+The patient's recurrent calcium phosphate kidney stones, hypocitraturia, and low urine pH are suggestive of distal renal tubular acidosis (dRTA). dRTA is characterized by the kidney's inability to acidify the urine in the distal tubule, leading to a persistently alkaline urine pH (>5.5). This can lead to the formation of calcium phosphate stones. Hypocitraturia is also common in dRTA because citrate reabsorption is increased in the proximal tubule due to the metabolic acidosis. 
+
+The ammonium chloride challenge test (Option A) is used to confirm a diagnosis of dRTA. In this test, the patient is given ammonium chloride orally, which should normally acidify the urine. If the urine pH remains >5.5 despite the acid load, this confirms a diagnosis of dRTA. 
+
+The fractional excretion of bicarbonate (Option B) is not typically used in the evaluation of recurrent kidney stones. 
+
+A repeat evaluation of urinary parameters in 2 weeks (Option C) would not be helpful in this case as the patient's current results already suggest a diagnosis of dRTA. 
+
+The urine osmolal gap (Option D) is used to evaluate disorders of solute excretion, such as renal tubular acidosis type II or Fanconi syndrome, and would not be helpful in this case. 
+
+Therefore, the answer is [A. Ammonium chloride challenge test].

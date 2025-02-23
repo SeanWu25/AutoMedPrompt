@@ -12,7 +12,7 @@ os.getenv("OPENAI_API_KEY")
 os.getenv("TOGETHER_API_KEY")
 
 
-BACKWARD_ENGINE_NAME = "gpt-4o"
+BACKWARD_ENGINE_NAME = "gpt-4o-mini"
 backward_engine = tg.get_engine(engine_name=BACKWARD_ENGINE_NAME)
 tg.set_backward_engine(backward_engine, override=True)
 
@@ -77,12 +77,15 @@ class Prompt_Optimizer:
        self.model = tg.BlackboxLLM(engine, system_prompt=self.system_prompt_var)
        
    def _forward(self, query):
+      # print("QUESTION: ", query)
+      # print()
        question = tg.Variable(
             query,
             role_description="question to the LLM",
             requires_grad=False
         )
        answer = self.model(question)
+      # print("LLM answer: ", answer.value)
        if self.benchmark_name == "MedQA4" or self.benchmark_name == "NephSAP":
           answer.set_role_description("LLM response to the multiple choice question.")
        elif self.benchmark_name == "PubMedQA":
@@ -93,6 +96,7 @@ class Prompt_Optimizer:
 
     
    def _run_validation_revert(self, val_loader): #guiding optimization trajectory
+       #print("OPTIMIZED PROMPT: ", self.system_prompt_var.value)
        import copy
        val_metrics = self.evaluate_dataset(val_loader)
        current_score = val_metrics
@@ -235,8 +239,8 @@ class Prompt_Optimizer:
 
        loss = loss_fn(inputs)
 
-       print("*" * 50)
-       print(loss)
+      # print("*" * 50)
+      # print(loss)
        return loss
 
 

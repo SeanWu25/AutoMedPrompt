@@ -14,7 +14,7 @@ def subset(dataset, seed = 42):
     return random.sample(dataset, 50)
 
 
-def yn_loader(train_set, dev_set,test_set, batch_size = 5):
+def yn_loader(train_set, dev_set,test_set, batch_size = 1):
     def json_to_list(set):
         questions = [f"Context: {question['CONTEXTS']}\n Question: {question['QUESTION']}\n" for question in set]
         references = [reference['final_decision'] for reference in set]

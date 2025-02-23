@@ -1,0 +1,12 @@
+## Answer
+Acute kidney injury (AKI) is a sudden episode of kidney failure or kidney damage that happens within a few hours or a few days. Chronic kidney disease (CKD) is a long-term condition where the kidneys do not work as well as normal in filtering blood. The relationship between AKI and CKD is complex and multifactorial. 
+
+Option A suggests that the risk of CKD after AKI is similar across individuals with varying levels of baseline kidney function. This is not entirely accurate as the risk of CKD after AKI can be influenced by the baseline kidney function. 
+
+Option B suggests that advanced CKD prior to AKI attenuates the effect of AKI on the long-term risk of progressive CKD. This is not entirely accurate as having advanced CKD prior to AKI can actually increase the risk of progressive CKD.
+
+Option C suggests that the level of CKD prior to AKI has no prognostic effect on post-AKI risk of CKD. This is not accurate as the level of CKD prior to AKI can influence the post-AKI risk of CKD.
+
+Option D suggests that the severity of AKI and not the level of baseline CKD is the major determinant of long-term risk of CKD. This is the most accurate statement. The severity of AKI can indeed be a major determinant of the long-term risk of CKD. The more severe the AKI, the higher the risk of developing CKD in the long term.
+
+Therefore, the answer is [D. The severity of AKI and not the level of baseline CKD is the major determinant of long-term risk of CKD]

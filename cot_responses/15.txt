@@ -1,0 +1,10 @@
+## Answer
+The patient's presentation of nausea, vomiting, abdominal pain, hypertension, and acute kidney injury (AKI) in the setting of pregnancy is suggestive of a hypertensive disorder of pregnancy. However, the presence of liver injury (elevated transaminases), coagulopathy (elevated INR), and hypoglycemia in the absence of significant hemolysis or severe thrombocytopenia makes acute fatty liver of pregnancy (AFLP) the most likely diagnosis. AFLP typically presents in the third trimester with nonspecific symptoms such as nausea, vomiting, and abdominal pain. Laboratory abnormalities include elevated liver enzymes, coagulopathy, hypoglycemia, and renal dysfunction. The diagnosis is confirmed by liver biopsy, but this is rarely needed as the clinical presentation is usually sufficient. 
+
+Budd-Chiari syndrome presents with hepatomegaly, ascites, and abdominal pain, but it is less likely in this case as the ultrasound shows patent hepatic vasculature and normal portal flow. 
+
+HELLP syndrome (hemolysis, elevated liver enzymes, and low platelets) is a severe form of preeclampsia and typically presents with hypertension, proteinuria, and evidence of microangiopathic hemolysis (schistocytes, elevated bilirubin, low haptoglobin), none of which are present in this case. 
+
+Thrombotic thrombocytopenic purpura (TTP) is characterized by the pentad of thrombocytopenia, microangiopathic hemolytic anemia, neurologic symptoms, renal disease, and fever. This patient does not have evidence of significant hemolysis or neurologic symptoms, making TTP less likely.
+
+Therefore, the answer is D. Acute fatty liver of pregnancy (AFLP).

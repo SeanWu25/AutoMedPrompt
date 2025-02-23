@@ -1,0 +1,12 @@
+## Answer
+The question is asking for the best additional treatment option for a patient with class IV lupus nephritis who is currently on prednisone and MMF (Mycophenolate mofetil) and wants to prevent progression to End-Stage Renal Disease (ESRD). 
+
+Option A suggests adding a calcineurin inhibitor to the regimen. Calcineurin inhibitors, such as cyclosporine and tacrolimus, are immunosuppressive drugs that are sometimes used in the treatment of lupus nephritis. However, they are not typically first-line treatments and are associated with significant side effects, including nephrotoxicity, which could potentially worsen renal function.
+
+Option B suggests adding an antimalarial agent to the regimen. Antimalarial drugs, such as hydroxychloroquine, are commonly used in the treatment of lupus due to their immunomodulatory effects. They have been shown to reduce lupus flares, improve survival, and specifically, reduce the risk of lupus nephritis progression to ESRD.
+
+Option C suggests adding rituximab to the regimen. Rituximab is a monoclonal antibody that targets CD20 on B cells, and it has been used in the treatment of severe lupus nephritis. However, its use is generally reserved for cases that are refractory to other treatments, and it is not typically used as a first-line agent.
+
+Option D suggests using azathioprine for maintenance instead of MMF. Both azathioprine and MMF are immunosuppressive drugs used in the treatment of lupus nephritis. However, studies have shown that MMF is more effective than azathioprine for the maintenance treatment of lupus nephritis, so switching to azathioprine would not be the best option.
+
+Therefore, the answer is B. Add an antimalarial agent to the regimen.

@@ -1,0 +1,16 @@
+## Answer
+The question asks for the factor that does NOT explain the higher incidence rate of end-stage renal disease (ESRD) among blacks compared with whites in the United States. 
+
+Option A suggests a faster rate of glomerular filtration rate (GFR) decline. This is a plausible explanation for the higher incidence of ESRD among blacks, as a faster decline in GFR would lead to kidney failure more quickly.
+
+Option B suggests a lower mean GFR at baseline. This is also a plausible explanation, as a lower baseline GFR would mean that the kidneys are already functioning at a lower capacity, making it more likely for the individual to progress to ESRD.
+
+Option C suggests a lower competing risk of mortality. This means that blacks may live longer than whites, giving them more time to develop ESRD. This is also a plausible explanation.
+
+Option D suggests a higher prevalence of albuminuria. Albuminuria is a common sign of kidney damage, and a higher prevalence of albuminuria among blacks would suggest a higher incidence of kidney damage and, therefore, a higher incidence of ESRD.
+
+Therefore, all options A, B, C, and D could potentially explain the higher incidence of ESRD among blacks. However, the question asks for the factor that does NOT explain this higher incidence. 
+
+Given the above reasoning, all options seem to contribute to the higher incidence of ESRD among blacks. However, option C, a lower competing risk of mortality, is the least direct contributor. While it is true that a lower competing risk of mortality could potentially lead to a higher incidence of ESRD (simply because individuals are living longer and therefore have more time to develop ESRD), it is not a direct cause of kidney disease. The other options (A, B, and D) are all direct causes or indicators of kidney disease.
+
+Therefore, the answer is C. A lower competing risk of mortality.

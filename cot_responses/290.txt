@@ -1,0 +1,12 @@
+## Answer
+The patient's presentation of recent weight gain, lower extremity edema, elevated creatinine, and significant proteinuria and albuminuria following a recent COVID-19 infection is suggestive of a glomerular disease. COVID-19 has been associated with a variety of kidney diseases, including collapsing glomerulopathy. This condition is characterized by podocyte injury and is more common in individuals with high-risk APOL1 genotypes, which are more prevalent in individuals of African descent. This aligns with the patient's demographic profile. 
+
+Option A is incorrect because minimal change disease, membranous nephropathy (MN), and pauci-immune glomerulonephritis (GN) are not specifically associated with COVID-19. 
+
+Option C is incorrect because the pathogenesis of COVID-19–associated collapsing glomerulopathy is not fully understood, but it is believed to be related to the host's immune response rather than direct viral infection of the podocytes.
+
+Option D is incorrect because there is currently no evidence to suggest that early antiviral therapy improves outcomes in COVID-19–associated collapsing glomerulopathy.
+
+Option E is incorrect because COVID-19–associated collapsing glomerulopathy can occur in patients with any severity of COVID-19, not just those with severe or critical disease.
+
+Therefore, the answer is B. COVID-19–associated collapsing glomerulopathy has been described in patients with high-risk APOL1 genotypes.

@@ -1,0 +1,12 @@
+## Answer
+To answer this question, we need to consider which of the options would most directly impact the length of stay for patients with Acute Kidney Injury (AKI). 
+
+Option A suggests fewer measurements of serum creatinine, particularly after procedures. However, monitoring serum creatinine is crucial in managing AKI as it helps in assessing the kidney function. Reducing the frequency of these measurements could potentially delay the detection of worsening kidney function and prolong the hospital stay.
+
+Option B suggests using cystatin C rather than serum creatinine. While cystatin C is a more sensitive marker for kidney function, its use alone has not been shown to reduce the length of hospital stay in patients with AKI.
+
+Option D suggests using artificial intelligence-driven algorithms to determine the dosage of antibiotics. While this could potentially improve the accuracy of dosing and reduce side effects, it does not directly address the management of AKI and therefore is unlikely to significantly reduce the length of hospital stay for these patients.
+
+Option C suggests the implementation of a hospital-wide clinical support system that alerts clinicians that the patient has AKI. This could potentially lead to earlier detection and intervention, which could in turn reduce the length of hospital stay. 
+
+Therefore, the answer is [C. Implementation of hospital-wide clinical support system that alerts clinicians that the patient has AKI].

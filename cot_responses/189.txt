@@ -1,0 +1,10 @@
+## Answer
+The patient's blood pressure is 136/86 mmHg, which is classified as stage 1 hypertension according to the American Heart Association. Stage 1 hypertension is defined as a systolic blood pressure of 130-139 mmHg or a diastolic blood pressure of 80-89 mmHg. The patient also has a high total cholesterol level and a high LDL level, which are risk factors for cardiovascular disease. However, the patient does not have any other risk factors such as diabetes or kidney disease. 
+
+The American Heart Association recommends lifestyle modifications for all patients with hypertension, regardless of the stage. These modifications include a healthy diet, regular exercise, weight loss if overweight, limiting alcohol intake, and quitting smoking. 
+
+The decision to start antihypertensive medication in patients with stage 1 hypertension depends on the patient's risk of atherosclerotic cardiovascular disease (ASCVD) in the next 10 years. If the patient's 10-year ASCVD risk is less than 10%, lifestyle modifications alone are recommended. If the patient's 10-year ASCVD risk is 10% or higher, both lifestyle modifications and antihypertensive medication are recommended.
+
+In this case, the patient's 10-year ASCVD risk is not provided. Therefore, the patient should be instructed on lifestyle modifications, and the decision on medication should be based on the assessment of his 10-year ASCVD risk.
+
+Therefore, the answer is C. He should be instructed on lifestyle modiﬁcation with the decision on medication dependent on assessment of 10-year cardiovascular disease event risk.

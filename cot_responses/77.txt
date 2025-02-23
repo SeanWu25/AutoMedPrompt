@@ -1,0 +1,12 @@
+## Answer
+The patient has chronic hepatitis C virus (HCV) infection and chronic kidney disease (CKD) stage 4. The treatment of HCV has evolved with the development of direct-acting antiviral agents (DAAs). These agents have high cure rates and a low side effect profile. However, not all DAAs are safe in patients with advanced CKD. 
+
+Option A, Simeprevir and sofosbuvir, is not the best choice because sofosbuvir is not recommended in patients with eGFR <30 ml/min due to the risk of sofosbuvir accumulation and adverse effects.
+
+Option B, Ledipasvir and sofosbuvir, is also not the best choice for the same reason as option A. Sofosbuvir is not recommended in patients with eGFR <30 ml/min.
+
+Option C, Paritaprevir and ritonavir, is not the best choice because paritaprevir/ritonavir is not recommended in patients with severe renal impairment or end-stage renal disease.
+
+Option D, Grazoprevir and elbasvir, is the most appropriate choice. This combination is approved for use in patients with any degree of renal impairment, including those on hemodialysis. It is effective against HCV genotype 1a, which this patient has.
+
+Therefore, the answer is D. Grazoprevir and elbasvir.

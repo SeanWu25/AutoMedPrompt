@@ -1,0 +1,8 @@
+## Answer
+The question is asking why the serum bicarbonate (tCO2) is lower after hemodialysis (HD) than before HD. The patient's dialysate composition includes lactate as a buffer. During HD, lactate in the dialysate is converted to bicarbonate in the body, which can be used to buffer acid. However, if the patient's liver function is impaired, the conversion of lactate to bicarbonate may be slowed, leading to a buildup of lactate and a decrease in bicarbonate. However, the patient's liver function test results are normal, so this is not the cause of the lower bicarbonate levels.
+
+Option A, a possible laboratory error, cannot be ruled out without more information, but it is not the most likely explanation. Option B, a drug overdose, is not suggested by any information in the case. Option C, ketoacidosis, is a condition that can lower bicarbonate levels, but it is typically associated with diabetes, which the patient does not have. Option D, lactic acidosis related to organ ischemia or liver disease, is not supported by the patient's normal liver function test results.
+
+Option E, the patient has lactic acidosis as a result of the presence of lactate as a buffer in the dialysate, is the most likely explanation. The lactate in the dialysate is converted to bicarbonate in the body, but if the rate of dialysis exceeds the rate of this conversion, it could lead to a buildup of lactate and a decrease in bicarbonate. This is known as dialysis-related lactic acidosis.
+
+Therefore, the answer is E. The patient has lactic acidosis as a result of the presence of lactate as a buffer in the dialysate.

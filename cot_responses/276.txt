@@ -1,0 +1,10 @@
+## Answer
+The SPRINT (Systolic Blood Pressure Intervention Trial) included patients aged 80 years and older. The trial showed that intensive blood pressure control (systolic blood pressure <120 mm Hg) compared to standard control (<140 mm Hg) resulted in significantly lower rates of fatal and nonfatal major cardiovascular events and death from any cause. Subgroup analysis did not show a significant difference in the primary outcome based on age, indicating that the benefits of intensive blood pressure control apply to older adults as well. Therefore, the statement that this cohort was not included in SPRINT is incorrect.
+
+Further post-hoc analysis did not indicate potential harm from intensive treatment of this subgroup. In fact, the benefits of intensive treatment were consistent across subgroups, including those based on age, race, and pre-existing cardiovascular disease. Therefore, the statement that further post-hoc analysis indicates potential harm from intensive treatment of this subgroup is also incorrect.
+
+Gait speed was not a predictor of benefits from intensive treatment in SPRINT. The trial did not specifically assess gait speed as a predictor of benefit from intensive blood pressure control. Therefore, the statement that gait speed was a predictor of benefits from intensive treatment is incorrect.
+
+The SPRINT trial did not specifically assess cognitive function as a predictor of benefit from intensive blood pressure control. Therefore, the statement that patients with high cognitive function showed benefit, whereas those with low function did not, is also incorrect.
+
+Therefore, the answer is A. This cohort was not included in SPRINT, so we have no trial data to apply.

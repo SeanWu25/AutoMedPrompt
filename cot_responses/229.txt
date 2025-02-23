@@ -1,0 +1,12 @@
+## Answer
+To answer this question, we need to consider the factors that influence readmission rates in patients on renal replacement therapy. 
+
+Option A suggests that readmission rates are higher for patients on hemodialysis (HD) than those on peritoneal dialysis (PD). This is generally true as HD patients often have more comorbidities and complications that can lead to hospital readmissions.
+
+Option B suggests that the frequency of dialysis after an admission for pulmonary edema affects the rates of readmission in patients on HD. This is also generally true as the frequency of dialysis can influence fluid balance and thus the risk of pulmonary edema and subsequent readmissions.
+
+Option C states that the 30-day readmission rate for patients on HD is 45%. This is a specific statistic that may vary depending on the population and setting, but it is generally recognized that readmission rates are high in this patient population.
+
+Option D suggests that hospital admissions early after dialysis initiation do not significantly influence the likelihood of receiving a renal transplant in the second year on dialysis. This statement is not necessarily true as early hospital admissions could potentially indicate a higher burden of illness and thus a lower likelihood of being a suitable candidate for transplantation.
+
+Therefore, the answer is [A, B, C].

@@ -1,0 +1,16 @@
+## Answer
+This patient has end-stage kidney disease (ESKD) and secondary hyperparathyroidism, which is a common complication of ESKD. Secondary hyperparathyroidism is due to the inability of the kidneys to excrete phosphate and convert vitamin D to its active form, leading to hypocalcemia and hyperphosphatemia. This stimulates the parathyroid glands to secrete parathyroid hormone (PTH), which can lead to bone disease, including osteoporosis. 
+
+The patient's PTH is significantly elevated despite maximum-dose etelcalcetide and calcitriol, indicating refractory secondary hyperparathyroidism. Etelcalcetide is a calcimimetic that decreases PTH secretion, and calcitriol is an active form of vitamin D that increases calcium absorption in the gut and decreases PTH secretion. 
+
+The options provided are all treatments for osteoporosis, but they have different mechanisms of action and are not all appropriate for this patient. 
+
+Alendronate (option A) is a bisphosphonate that inhibits bone resorption by osteoclasts. However, it is not recommended in patients with ESKD due to the risk of mineralization defects and low bone turnover.
+
+Denosumab (option B) is a monoclonal antibody that inhibits RANKL, a protein that leads to formation and activation of osteoclasts. It is also not recommended in patients with ESKD due to the risk of hypocalcemia.
+
+Teriparatide (option C) is a recombinant form of PTH that increases bone formation by osteoblasts. However, it is not appropriate in this patient because his PTH level is already very high.
+
+Parathyroidectomy (option D) is a surgical procedure to remove the parathyroid glands. It is indicated in patients with ESKD and refractory secondary hyperparathyroidism, like this patient, who have high PTH levels despite medical therapy. Parathyroidectomy will decrease PTH levels, which will decrease bone resorption and improve osteoporosis.
+
+Therefore, the answer is D. Parathyroidectomy.

@@ -1,0 +1,14 @@
+## Answer
+The patient in the question is on maintenance hemodialysis and has had recurrent methicillin-resistant Staphylococcus aureus (MRSA) bacteremia. The source of the bacteremia is likely the arteriovenous fistula, which is being accessed using the "buttonhole" technique. This technique involves cannulating the fistula at the same site and angle at each dialysis session, which can lead to colonization of the tract with skin flora, including Staphylococcus aureus. This can result in bacteremia, especially in the setting of MRSA colonization. 
+
+Option A, treating with intranasal mupirocin if the culture grows Staphylococcus aureus, is not the best strategy because it only addresses potential nasal colonization and does not address the likely source of infection, the buttonhole tract.
+
+Option B, evaluating the processes of care in the dialysis facility, is always a good idea, but it may not be sufficient to prevent recurrent bacteremia in this patient.
+
+Option D, focusing on patient hygiene, is also important but may not be sufficient to prevent recurrent bacteremia.
+
+Option E, obtaining surveillance blood cultures from the fistula at monthly intervals, is not recommended because it can lead to unnecessary antibiotic use and potential antibiotic resistance.
+
+Option C, switching to the "rope ladder" technique for needle placement in the fistula, is the best strategy. This technique involves using a new cannulation site at each dialysis session, which can reduce the risk of tract colonization and recurrent bacteremia.
+
+Therefore, the answer is C. Switch to the “rope ladder” for needle placement in the ﬁstula.

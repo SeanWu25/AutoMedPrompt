@@ -1,0 +1,12 @@
+## Answer
+The patient's delayed graft function (DGF) is characterized by the need for dialysis in the first week after transplantation or a failure of the serum creatinine to decrease by at least 10% daily on three consecutive days in the first week after transplantation. In this case, the patient's serum creatinine did increase in the first week but then started to decrease, and she did not require dialysis, indicating DGF.
+
+Option A suggests that the presence of the donor-specific antibody increases her risk of DGF. This is true as the presence of donor-specific antibodies can lead to antibody-mediated rejection, which can cause DGF.
+
+Option B suggests that her BMI does not influence her risk of DGF. This is incorrect as obesity (BMI >30 kg/m2) is a risk factor for DGF.
+
+Option C suggests that her DGF only affects allograft prognosis when fibrin thrombi are seen on preimplantation biopsy. This is incorrect as DGF can affect the allograft prognosis regardless of the presence of fibrin thrombi on preimplantation biopsy.
+
+Option D suggests that her DGF only affects long-term allograft function if she develops rejection. This is incorrect as DGF can affect long-term allograft function even in the absence of rejection.
+
+Therefore, the answer is [A. The presence of the donor-speciﬁc antibody increases her risk of DGF].

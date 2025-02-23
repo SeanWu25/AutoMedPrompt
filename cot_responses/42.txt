@@ -1,0 +1,10 @@
+## Answer
+The patient has end-stage renal disease (ESRD) and is on maintenance hemodialysis. He also has hyperlipidemia, as evidenced by his total cholesterol, LDL cholesterol, and triglyceride levels, which are all above the normal range. The patient also has type 2 diabetes mellitus and hypertension, which are both risk factors for cardiovascular disease. 
+
+Statins are the first-line therapy for patients with hyperlipidemia and are particularly beneficial for patients with diabetes and other cardiovascular risk factors. Pravastatin is a statin that is safe to use in patients with ESRD because it is not metabolized by the kidneys. 
+
+Ezetimibe is a cholesterol absorption inhibitor that can be used in combination with a statin to further lower LDL cholesterol levels. However, the combination of a statin and ezetimibe is usually reserved for patients who have not achieved their LDL cholesterol goal on a statin alone or who have very high cardiovascular risk. This patient has not yet been treated with a statin, so it would be appropriate to start with pravastatin alone and reassess his cholesterol levels and cardiovascular risk before considering the addition of ezetimibe.
+
+Fenofibrate is a fibrate that is primarily used to lower triglyceride levels. However, statins are generally preferred over fibrates for patients with hyperlipidemia because they have a more favorable effect on cardiovascular outcomes. Furthermore, fibrates can potentially cause harm in patients with renal disease, so they should be used with caution in this patient.
+
+Therefore, the answer is B. Pravastatin.

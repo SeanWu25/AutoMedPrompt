@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the best practice to minimize the risk of blood-borne pathogen transmission in outpatient hemodialysis facilities. 
+
+Option A suggests using a mobile cart to transport injectable medications to multiple patients. This could potentially increase the risk of cross-contamination between patients, as the cart could carry pathogens from one patient to another.
+
+Option B suggests preparing medications at the patient’s dialysis station whenever possible. This could also increase the risk of cross-contamination, as the dialysis station is a high-touch area that could be contaminated with pathogens.
+
+Option C suggests avoiding the administration of medications from the same syringe to more than one patient. This is a standard infection control practice, as reusing syringes can directly transmit pathogens from one patient to another.
+
+Option D suggests refrigerating vials containing residual medication before pooling for administration to subsequent patients. This practice could potentially increase the risk of pathogen transmission, as it involves reusing medication that was potentially exposed to pathogens.
+
+Therefore, the answer is C. Avoid administration of medications from the same syringe to more than one patient.

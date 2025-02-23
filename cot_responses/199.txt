@@ -1,0 +1,12 @@
+## Answer
+The patient's clinical presentation and laboratory findings suggest a diagnosis of C3 glomerulopathy, a rare kidney disease characterized by abnormal activation of the alternative complement pathway leading to predominant C3 deposition within the glomeruli. This is supported by the patient's urinalysis results, which show hematuria and proteinuria, as well as the renal biopsy findings, which show a membranoproliferative pattern of injury with dominant C3 staining and electron-dense deposits in the subepithelial and subendothelial space.
+
+Option A is incorrect because dense deposit disease, a subtype of C3 glomerulopathy, is characterized by dominant C3 staining without significant IgG deposition. Therefore, co-staining with IgG and C3 is not typically seen in this condition.
+
+Option B is incorrect because C3 glomerulonephritis does not commonly present with crescentic glomerulonephritis. Crescentic glomerulonephritis is a severe form of glomerular disease characterized by the presence of crescents in most glomeruli, which is not typically seen in C3 glomerulonephritis.
+
+Option D is incorrect because C3 nephritic factors, which are autoantibodies that stabilize the alternative pathway C3 convertase and lead to overactivation of the complement system, are not typically seen in patients with monoclonal gammopathy-associated C3 glomerulopathy. Instead, these patients often have monoclonal immunoglobulin deposits that activate the complement system.
+
+Option C is correct. Abnormalities of genes encoding the complement system are indeed the most common cause of C3 glomerulopathy. These genetic abnormalities can lead to uncontrolled activation of the alternative complement pathway, resulting in the characteristic glomerular C3 deposition seen in this disease.
+
+Therefore, the answer is [C. Abnormalities of genes encoding the complement system are the most common cause of C3 glomerulopathy].

@@ -1,0 +1,14 @@
+## Answer
+The question is asking for the best advice regarding HLA antibody desensitization in a patient with ESRD due to lupus nephritis who has a high cPRA and a positive crossmatch with her only potential living donor. 
+
+Option A is incorrect because HLA desensitization and ABO-incompatible transplantation are not associated with the same outcomes. HLA desensitization is generally associated with worse outcomes compared to ABO-incompatible transplantation.
+
+Option B is incorrect because treatment of subclinical rejection does not completely eliminate the risk of allograft failure after HLA antibody desensitization. 
+
+Option C is incorrect because while rituximab can increase the risk of infection and malignancies, it is not specific to the 2-year mark. 
+
+Option E is incorrect because thrombotic microangiopathy after desensitization is a serious complication that can affect allograft outcome, and it is not completely mitigated by plasmapheresis.
+
+Option D is correct because HLA antibody desensitization is indeed associated with inferior patient and graft survival compared with HLA-compatible transplantation. This is due to the increased risk of antibody-mediated rejection and other complications.
+
+Therefore, the answer is [D. HLA antibody desensitization is associated with inferior patient and graft survival compared with HLA-compatible transplantation].

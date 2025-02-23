@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the correct statement regarding access to live donor renal transplantation. 
+
+Option A suggests that educational and support programs targeted at minority transplantation candidates and their families can increase the chance of receiving a live donor kidney. This is plausible as education and support can help overcome barriers to transplantation, such as lack of knowledge or fear about the process.
+
+Option B states that recipients of a prior kidney transplant have increasing rates of pre-emptive listing of retransplantation in recent years. This statement is not directly related to live donor renal transplantation, but rather to retransplantation, which can come from either a live or deceased donor.
+
+Option C discusses the impact of removing the Black race coefficient from GFR estimating equations. This is a technical aspect of how kidney function is estimated and does not directly relate to access to live donor renal transplantation.
+
+Option D suggests that the majority of disparities in transplantation listing seen between White and Black candidates is explained by differences in levels of comorbidity and medical barriers to transplantation. While comorbidities and medical barriers can certainly impact transplantation listing, this statement does not specifically address live donor renal transplantation.
+
+Therefore, the answer is [A]. Educational and support programs targeted at minority transplantation candidates and their families can increase the chance of receiving a live donor kidney. This is the only option that directly addresses the question and is a plausible strategy for increasing access to live donor renal transplantation.

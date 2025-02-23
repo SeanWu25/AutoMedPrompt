@@ -93,6 +93,7 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
 
         correct_answer = example_string['answer']
 
+        
         formatted_output = (
             f"{question_text}\n"
             f"Correct Answer is: {example_string['answer_idx']}, {correct_answer}"
@@ -155,6 +156,10 @@ def few_shot(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents
 
             question = f"{formatted_context}Now, answer the following question:\n\n{question_text}"
 
+            print(question)
+            print()
+            print()
+            print()
 
             ground_truth = question_string['answer_idx']
 
@@ -206,6 +211,10 @@ def CoT(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documents\\aut
     f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
                     f"{f'E. {question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
+
+            print(question)
+            print()
+            print()
          
             ground_truth = question_string['answer_idx']
 

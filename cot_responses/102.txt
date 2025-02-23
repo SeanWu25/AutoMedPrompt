@@ -1,0 +1,10 @@
+## Answer
+The patient's history of recurrent urinary tract infections, struvite stones, and the presence of a staghorn calculus are all indicative of infection stones. Struvite stones are composed of magnesium, ammonium, and phosphate and form in alkaline urine, often due to urease-producing bacteria such as Proteus, Klebsiella, or Pseudomonas. These bacteria can split urea into ammonia and carbon dioxide, making the urine alkaline (pH >7), which is consistent with the patient's urinalysis results. 
+
+A 24-hour urine metabolic evaluation (Option A) is typically used to identify metabolic abnormalities that can lead to stone formation, such as hypercalciuria, hyperoxaluria, hyperuricosuria, and hypocitraturia. However, in this case, the patient's stone formation is likely due to recurrent infections rather than metabolic abnormalities.
+
+Urine osmolal gap (Option B) is used to evaluate disorders of water balance and is not typically used in the evaluation of nephrolithiasis.
+
+Serum PTH level (Option C) and Serum 1,25-dihydroxyvitamin D level (Option D) are used to evaluate disorders of calcium metabolism. However, the patient's serum calcium level is normal, and her stones are composed of struvite, not calcium, making these tests less relevant.
+
+Therefore, the answer is A. 24-hour urine metabolic evaluation.

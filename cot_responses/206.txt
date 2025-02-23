@@ -1,0 +1,6 @@
+## Answer
+The absorption of phosphate in the intestines is a complex process that involves both passive and active mechanisms. The passive paracellular route is driven by the concentration gradient and is not regulated. On the other hand, the active transcellular pathway is regulated by several factors including dietary phosphate intake. When dietary phosphate is high, the body reduces the expression of sodium-phosphate co-transporters like NaPi-IIb in the intestines to decrease phosphate absorption. This makes the passive paracellular route less important in determining the serum phosphate concentration. 
+
+The bioavailability of phosphate also varies depending on the source. Phosphate from animal-based foods like dairy products and processed foods is more readily absorbed compared to plant-based foods like whole grains and vegetables. This is because plant-based foods contain phytate, a form of phosphate that humans cannot readily digest. 
+
+Therefore, the answer is C. When dietary phosphate is high, the passive paracellular route of phosphate absorption is less important in determining the serum phosphate concentration than the closely regulated transport-mediated transcellangular pathway.

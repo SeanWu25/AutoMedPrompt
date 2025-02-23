@@ -1,0 +1,12 @@
+## Answer
+The patient's symptoms of weakness and fatigue, along with her lab results showing hypokalemia (low potassium levels) and metabolic alkalosis (high bicarbonate levels), suggest a disturbance in her electrolyte and acid-base balance. The elevated plasma renin activity and aldosterone concentration indicate that this disturbance is likely due to an overactivity of the renin-angiotensin-aldosterone system (RAAS). 
+
+Option A, glucocorticoid-remediable hyperaldosteronism, is a genetic disorder that results in overproduction of aldosterone, which can cause hypokalemia and metabolic alkalosis. However, this condition is usually associated with hypertension, which this patient does not have.
+
+Option B, surreptitious vomiting, can also cause hypokalemia and metabolic alkalosis due to loss of gastric acid. However, this is usually associated with other signs of bulimia nervosa, such as dental erosion, which this patient does not have.
+
+Option C, Gitelman syndrome, is a genetic disorder that affects the kidneys' ability to reabsorb sodium and chloride, leading to hypokalemia and metabolic alkalosis. However, this condition is usually associated with hypocalciuria and hypomagnesemia, which are not mentioned in this patient's lab results.
+
+Option D, diuretic abuse, can cause hypokalemia and metabolic alkalosis due to increased excretion of potassium and hydrogen ions. This is consistent with the patient's elevated plasma renin activity and aldosterone concentration, as the body would respond to the loss of fluid and electrolytes caused by the diuretics by activating the RAAS to retain sodium and water. The patient's urine electrolyte results, showing high potassium and sodium levels, also suggest increased excretion of these electrolytes, which is consistent with diuretic use.
+
+Therefore, the answer is [D. Diuretic abuse].

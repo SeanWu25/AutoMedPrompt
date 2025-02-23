@@ -1,0 +1,12 @@
+## Answer
+The patient in question is a kidney transplant recipient, which means her immune system is suppressed to prevent rejection of the transplanted organ. However, this does not mean that she is completely immune to allosensitization, which is the immune response to foreign antigens from the transfused blood. Therefore, option A is incorrect.
+
+Option B is correct. Blood transfusion in transplant recipients can lead to the development of donor-specific antibodies (DSA), which can increase the risk of organ rejection. This is because the immune system can recognize the antigens in the transfused blood as foreign and mount an immune response, which can also target the transplanted organ.
+
+Option C suggests that leukocyte filtration can eliminate the risk of allosensitization. While leukocyte filtration can reduce the risk of certain transfusion reactions, it does not completely eliminate the risk of allosensitization. Therefore, this statement is not entirely accurate.
+
+Option D suggests that the blood should be CMV negative. While it's true that transplant recipients are at risk for CMV infection, this is typically managed with antiviral prophylaxis, such as the valganciclovir that the patient is already taking. Therefore, while CMV-negative blood can be beneficial, it's not a strict requirement.
+
+Option E suggests that the blood should be irradiated. Irradiation of blood products is done to prevent transfusion-associated graft-versus-host disease (TA-GVHD), a rare but serious complication. However, this is typically done for patients with severely compromised immune systems, such as those undergoing bone marrow transplantation, and is not typically necessary for solid organ transplant recipients.
+
+Therefore, the answer is [B. Blood transfusion may induce donor-speciﬁc antibody and an increased risk of rejection].

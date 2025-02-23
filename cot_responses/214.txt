@@ -1,0 +1,14 @@
+## Answer
+The patient has calcific uremic arteriolopathy, also known as calciphylaxis, which is a severe complication of end-stage renal disease (ESRD). It is characterized by calcification of small and medium-sized blood vessels, leading to skin necrosis and severe pain. The condition is associated with abnormalities in calcium, phosphate, and parathyroid hormone (PTH) metabolism. 
+
+In this patient, the serum calcium is low (normal range is 8.5-10.2 mg/dL), serum phosphate is high (normal range is 2.5-4.5 mg/dL), and PTH is low (normal range is 10-60 pg/mL). This suggests that the patient has a disorder of mineral metabolism, likely secondary to her ESRD and previous parathyroidectomy. 
+
+The first step in managing this condition is to discontinue any medications that could be contributing to the hyperphosphatemia and hypocalcemia, such as calcium carbonate and calcitriol. 
+
+Next, the patient should be started on a medication to lower her serum phosphate levels. Both sevelamer (option D) and aluminum hydroxide (option C) can be used for this purpose. However, aluminum hydroxide has been associated with aluminum toxicity, especially in patients with renal failure, and is generally avoided. 
+
+Cinacalcet (option A) is a calcimimetic agent that lowers PTH, calcium, and phosphate levels. However, this patient's PTH level is already low, so cinacalcet would not be appropriate. 
+
+Urgent surgical parathyroidectomy (option B) would not be appropriate because the patient's PTH level is already low, and further lowering it could worsen her hypocalcemia.
+
+Therefore, the answer is D. Add sevelamer. Sevelamer is a phosphate binder that does not contain calcium or aluminum, making it a safer choice for this patient. It will help to lower her serum phosphate levels, which could improve her calciphylaxis.

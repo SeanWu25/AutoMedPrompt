@@ -6,15 +6,16 @@ def extract_answer(prediction):
     """
     Extract the answer (A-E) from the prediction text, including from <answer> tags.
     """
+    prediction = str(prediction)
     tag_match = re.search(r"<answer>\s*([A-E])\b", prediction)
     if tag_match:
         return tag_match.group(1)
     
 
-    
+    #match = re.search(r'(?:Answer\s+)?([A-E])(?:[\s:.]|[\)\s]|\b)', prediction)
+
     match = re.search(r"\b[A-E]\b", prediction)
 
-    print(match.group(0) if match else None)
     return match.group(0) if match else None
 
 def yn_extract_answer(prediction):

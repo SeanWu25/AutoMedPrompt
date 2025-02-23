@@ -1,0 +1,14 @@
+## Answer
+The patient's chronic kidney disease (CKD) is likely due to her long-standing type 2 diabetes mellitus. She is currently on lisinopril, which is an ACE inhibitor and is beneficial in slowing the progression of diabetic nephropathy. However, her blood pressure is still elevated, and she has trace edema, indicating that her current treatment regimen is not fully controlling her hypertension or her CKD. 
+
+Option A, Atrasentan, is an endothelin receptor antagonist that has been shown to reduce albuminuria in patients with diabetes and CKD. However, it can cause fluid retention and is not the best choice for a patient with hypertension and edema.
+
+Option B, Finerenone, is a nonsteroidal mineralocorticoid receptor antagonist that has been shown to reduce the risk of CKD progression and cardiovascular events in patients with CKD and type 2 diabetes. It can also help control blood pressure and reduce albuminuria. 
+
+Option C, Linagliptin, is a DPP-4 inhibitor used to control blood glucose levels in patients with type 2 diabetes. However, it does not have significant benefits in terms of blood pressure control or CKD progression.
+
+Option D, Furosemide, is a loop diuretic that can help control blood pressure and reduce edema. However, it does not have significant benefits in terms of slowing CKD progression.
+
+Given the patient's uncontrolled hypertension, albuminuria, and progressive CKD, the most appropriate treatment would be one that can control her blood pressure, reduce albuminuria, and slow the progression of her CKD. Finerenone fits this profile.
+
+Therefore, the answer is B. Finerenone.

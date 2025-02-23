@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the potential impact of APOL1 risk variants on the woman's pregnancy and her child's risk of kidney disease. 
+
+Option A suggests that the woman's risk of preeclampsia is further increased if she carries two APOL1 risk variants. While it is true that APOL1 risk variants are associated with an increased risk of kidney disease, there is no direct evidence to suggest that they increase the risk of preeclampsia in pregnancy.
+
+Option B suggests that the child has a 50% chance for the development of FSGS. This is not necessarily true. While the child may inherit the APOL1 risk variants from the father, this does not automatically mean that they will develop FSGS. The development of FSGS is influenced by many factors, including other genetic and environmental factors.
+
+Option C states that about 13% of African Americans carry two high-risk APOL1 variants, and the penetrance of associated CKD is less than 40%. This is a general statement about the prevalence and penetrance of APOL1 risk variants in the African American population, but it does not directly address the woman's concern about the potential impact of these variants on her pregnancy and her child's risk of kidney disease.
+
+Option D suggests that the inheritance of other genetic variants in addition to the APOL1 risk variants is required for kidney disease to develop in the child. This is the most accurate statement. The development of kidney disease is a complex process that is influenced by many factors, including the presence of other genetic variants. 
+
+Therefore, the answer is [D. Inheritance of other genetic variants in addition to the APOL1 risk variants is required for kidney disease to develop in the child].

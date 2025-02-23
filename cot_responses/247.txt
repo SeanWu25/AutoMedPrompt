@@ -1,0 +1,14 @@
+## Answer
+Hepatorenal syndrome (HRS) is a type of progressive kidney failure seen in people with severe liver damage, most often caused by cirrhosis. As the liver fails, the kidneys also start to fail, leading to a decrease in renal blood flow and glomerular filtration rate (GFR). 
+
+Option A is correct because in HRS, there is activation of the renin-angiotensin-aldosterone system (RAAS), leading to increased plasma angiotensin concentrations. 
+
+Option B is also correct. The sympathetic nervous system is activated in response to the decreased effective circulating volume, leading to increased visceral sympathetic nervous system activity.
+
+Option D is correct as well. Systemic blood pressure is often reduced in HRS due to the decreased effective circulating volume.
+
+Option E is correct. In response to the decreased effective circulating volume, the body increases the secretion of antidiuretic hormone (vasopressin), leading to increased plasma vasopressin concentrations.
+
+Option C, however, is incorrect. Portal blood flow is not reduced in hepatorenal syndrome. In fact, splanchnic vasodilation, which is a hallmark of cirrhosis, leads to an increase in portal blood flow. This vasodilation is a compensatory mechanism to increase the effective circulating volume, but it also contributes to the decrease in systemic vascular resistance and arterial pressure seen in HRS.
+
+Therefore, the answer is [C. Portal blood ﬂow is reduced].

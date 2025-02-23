@@ -1,0 +1,12 @@
+## Answer
+The patient in question is a 79-year-old woman with end-stage kidney disease (ESKD) secondary to diabetes and hypertension. She has recently fractured her hip. The question asks which statement is most correct in relation to her condition.
+
+Option A suggests that the risk of fracture is the same for ESKD patients compared to non-ESKD patients in her age group. However, ESKD patients are known to have a higher risk of fractures due to factors such as mineral and bone disorder associated with chronic kidney disease (CKD-MBD), which can lead to bone fragility.
+
+Option B suggests that the mortality risk for ESKD patients is the same after a fracture compared to non-ESKD patients. This is also incorrect as ESKD patients generally have a higher mortality risk due to their underlying disease and its complications.
+
+Option D suggests that the length of hospital stay following the fracture is unlikely to be changed by her ESKD status. This is also incorrect as ESKD patients often require more complex management and longer hospital stays due to their underlying disease and its complications.
+
+Option C states that factors that increase fracture risk for ESKD patients include age, CKD-MBD, and postmenopausal osteoporosis. This is correct. Age is a known risk factor for fractures in general. CKD-MBD, a common complication of ESKD, can lead to bone fragility and increased fracture risk. Postmenopausal osteoporosis, which is common in women of her age, also increases fracture risk.
+
+Therefore, the answer is [C. Factors that increase fracture risk for ESKD patients include age and CKD-MBD and postmenopausal osteoporosis].

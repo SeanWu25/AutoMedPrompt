@@ -1,0 +1,12 @@
+## Answer
+The patient's presentation of new-onset hypertension, hypokalemia (low potassium levels), and lab results showing low plasma renin and high plasma aldosterone are indicative of primary hyperaldosteronism. 
+
+Primary hyperaldosteronism is a condition characterized by the overproduction of aldosterone by the adrenal glands, leading to sodium retention, potassium excretion, and hypertension. The low renin levels are due to the negative feedback of high aldosterone levels on renin secretion.
+
+Gitelman syndrome (option A) is a renal tubular disorder characterized by hypokalemic metabolic alkalosis with hypocalciuria and hypomagnesemia, which does not fit this patient's presentation. 
+
+Renovascular hypertension (option B) is usually associated with high renin levels due to decreased renal perfusion, which is not the case in this patient.
+
+Liddle disease (option D) is a genetic disorder causing hypertension and hypokalemia, but it is characterized by low aldosterone levels, which is not consistent with this patient's lab results.
+
+Therefore, the answer is C. Primary hyperaldosteronism.

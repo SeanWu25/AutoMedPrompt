@@ -1,0 +1,12 @@
+## Answer
+Focal segmental glomerulosclerosis (FSGS) is a kidney disease that can lead to glomerulosclerosis, or scarring of the kidneys' tiny blood vessels, the glomeruli. The collapsing variant of FSGS is a more aggressive form of the disease. 
+
+Option A refers to the presence of two APOL1 high-risk alleles. APOL1 is a gene that has been associated with a higher risk of kidney disease in certain populations, particularly African Americans. However, while APOL1 risk alleles are associated with FSGS, they are not specifically more common in the collapsing variant compared to other variants.
+
+Option B refers to the hyperexpression of CD80 in glomeruli. CD80 is a protein that is involved in immune response, and its overexpression has been associated with FSGS. However, again, this is not specifically more common in the collapsing variant compared to other variants.
+
+Option C refers to IgM mesangial deposits. These are deposits of immunoglobulin M (IgM) in the mesangium, a part of the kidney's glomeruli. While these deposits can be seen in FSGS, they are not more common in the collapsing variant.
+
+Option D refers to the absence of thrombotic microangiopathy. Thrombotic microangiopathy is a condition characterized by small blood clots that can clog the vessels and lead to organ damage. While this condition can be associated with FSGS, its absence is not more common in the collapsing variant.
+
+Therefore, the answer is A. Presence of two APOL1 high-risk alleles. This is because the presence of two APOL1 high-risk alleles is more commonly found in the collapsing variant of FSGS compared with the other variants of this lesion.

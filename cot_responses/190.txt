@@ -1,0 +1,8 @@
+## Answer
+The 2017 ACC/AHA Blood Pressure Guideline revised the definition of hypertension, lowering the threshold for diagnosis. This means that more people will now meet the criteria for hypertension, leading to an increase in its prevalence. However, not every newly diagnosed patient will receive a recommendation for antihypertensive medication. The guidelines recommend lifestyle modifications for those with newly diagnosed hypertension who do not have a history of cardiovascular disease and whose estimated 10-year atherosclerotic cardiovascular disease risk is less than 10%. Therefore, while the prevalence of hypertension will increase, the recommendation for antihypertensive medication will not increase for every newly diagnosed patient. This eliminates option C. 
+
+Option A and D suggest that the increase will be less than 2% of the adult US population. This is unlikely given the significant lowering of the threshold for hypertension diagnosis in the new guidelines. 
+
+Option B suggests a fivefold increase in hypertension prevalence in older people (> 65 years). While it's true that the prevalence of hypertension will increase in this age group due to the lowered threshold, a fivefold increase seems excessive and is not supported by the data.
+
+Therefore, the answer is [C]. The prevalence of hypertension will increase by about 30%, but not every newly diagnosed patient will receive a recommendation for antihypertensive medication.

@@ -1,0 +1,12 @@
+## Answer
+To answer this question, we need to consider the common practices and statistics related to antibiotic use in outpatient hemodialysis units in the United States.
+
+Option A suggests that patients with Central Venous Catheters (CVCs) have equivalent rates of intravenous antibiotic use compared with patients with arteriovenous fistulas and grafts. However, it is known that patients with CVCs are more prone to infections and therefore, they are more likely to receive antibiotics than those with arteriovenous fistulas and grafts.
+
+Option B states that first-dose antimicrobial therapy in hemodialysis units accounts for the highest proportion of inappropriate intravenous antibiotic use. While it is true that inappropriate antibiotic use is a concern in healthcare, there is no specific evidence to suggest that the first dose in hemodialysis units is the most common source of this problem.
+
+Option D suggests that Vancomycin is the most commonly prescribed intravenous antibiotic. While Vancomycin is commonly used in these settings, it is not necessarily the most commonly prescribed antibiotic.
+
+Option C states that over 60% of patients using long-term hemodialysis receive at least one dose of intravenous antibiotics each year. This statement is consistent with the high rates of infection and the need for prophylactic antibiotics in these patients.
+
+Therefore, the answer is [C. Over 60% of patients using long-term hemodialysis receive at least one dose of intravenous antibiotics each year].

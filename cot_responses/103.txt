@@ -1,0 +1,12 @@
+## Answer
+The patient's symptoms of diffuse joint and bone pain, muscle weakness, and radiographic findings of osteopenia with Looser pseudofractures and codfish vertebrae are suggestive of a metabolic bone disease. The laboratory findings of normal calcium, phosphorus, PTH, and 1,25-dihydroxyvitamin D levels rule out hyperparathyroidism and vitamin D deficiency or toxicity. 
+
+Ankylosing spondylitis (option A) typically presents with inflammatory back pain and stiffness that improves with exercise but not with rest, and is associated with HLA-B27 positivity and sacroiliitis on imaging, none of which are present in this patient.
+
+Adynamic bone disease (option B) is a type of renal osteodystrophy seen in patients with chronic kidney disease, characterized by low bone turnover. This patient's renal function is normal, making this diagnosis unlikely.
+
+Osteitis fibrosa cystica (option D) is a form of high-turnover bone disease seen in hyperparathyroidism, characterized by bone resorption and peritrabecular fibrosis. This patient's normal PTH level makes this diagnosis unlikely.
+
+Tumor-induced osteomalacia (option C), also known as oncogenic osteomalacia, is a rare paraneoplastic syndrome characterized by hypophosphatemia due to renal phosphate wasting, leading to osteomalacia. This patient's low serum phosphorus level and increased fractional excretion of filtered phosphate suggest renal phosphate wasting, which is consistent with this diagnosis.
+
+Therefore, the answer is C. Tumor-induced osteomalacia.

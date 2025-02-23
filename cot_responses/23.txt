@@ -1,0 +1,8 @@
+## Answer
+Mycophenolate mofetil is a medication used to prevent organ rejection in patients who have received a kidney transplant. However, it is known to be teratogenic, meaning it can cause birth defects. Therefore, it is not recommended for use during pregnancy. Tacrolimus, on the other hand, is generally considered safe for use during pregnancy. 
+
+Azathioprine is an alternative immunosuppressant that can be used in place of mycophenolate mofetil. It is considered safer for use during pregnancy than mycophenolate mofetil. Sirolimus is another immunosuppressant, but it is not typically recommended during pregnancy due to limited data on its safety. 
+
+Continuing tacrolimus monotherapy could potentially increase the risk of organ rejection, as it may not provide sufficient immunosuppression on its own. Immediate termination is not necessary unless there are other medical indications, as the pregnancy can be managed with appropriate adjustments to the patient's medications.
+
+Therefore, the answer is B. Stop mycophenolate mofetil and start azathioprine.

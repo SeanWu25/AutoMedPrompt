@@ -1,0 +1,14 @@
+## Answer
+The patient's laboratory values indicate secondary hyperparathyroidism, which is a common complication of end-stage renal disease (ESRD). This is evidenced by the elevated levels of intact parathyroid hormone (PTH) and alkaline phosphatase. Secondary hyperparathyroidism occurs due to the inability of the kidneys to excrete phosphate, leading to hyperphosphatemia. This in turn leads to hypocalcemia, which stimulates the parathyroid glands to secrete PTH. 
+
+The patient is already on calcium acetate, a phosphate binder, which helps to reduce the levels of phosphate in the blood. However, despite this treatment, the patient's phosphate levels remain high and the PTH levels are significantly elevated, indicating that the current treatment is not sufficient.
+
+Cinacalcet (option B) is a calcimimetic agent that increases the sensitivity of the calcium-sensing receptor on the parathyroid gland to extracellular calcium. This results in a decrease in PTH secretion. Cinacalcet is indicated for the treatment of secondary hyperparathyroidism in patients with ESRD on dialysis. 
+
+Increasing the dose of calcium acetate (option C) could potentially lead to hypercalcemia, given that the patient's calcium levels are already at the upper limit of the normal range. 
+
+Parathyroidectomy (option D) is usually reserved for patients with severe, refractory secondary hyperparathyroidism, and it's not the first line of treatment.
+
+Adding calcitriol (option E) could also potentially lead to hypercalcemia and hyperphosphatemia, as it increases the absorption of both calcium and phosphate from the gut.
+
+Therefore, the answer is [B. Begin cinacalcet therapy].

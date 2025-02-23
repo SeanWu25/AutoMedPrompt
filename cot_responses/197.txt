@@ -1,0 +1,14 @@
+## Answer
+The patient's presentation and kidney biopsy findings are consistent with minimal change disease (MCD), a common cause of nephrotic syndrome in children and adults. MCD is characterized by heavy proteinuria, hypoalbuminemia, and edema, with normal-appearing glomeruli on light microscopy and foot process effacement on electron microscopy.
+
+Let's evaluate each option:
+
+A. Tacrolimus is a calcineurin inhibitor that is sometimes used in the treatment of MCD, particularly in patients who are steroid-resistant or steroid-dependent. However, corticosteroids are the first-line treatment for MCD, and while tacrolimus may induce remission in some patients, it has not been shown to have similar rates of remission and relapse when compared with corticosteroids.
+
+B. Alternate-day corticosteroid therapy is not typically used in the treatment of MCD. Daily corticosteroid dosing is the standard approach, and there is no evidence to suggest that alternate-day dosing is associated with reduced rates of remission.
+
+C. Rituximab, a monoclonal antibody against CD20, has been shown to be beneficial in patients with MCD who fail to respond to steroid or calcineurin inhibitor therapy. This is because it depletes B cells, which are thought to play a role in the pathogenesis of MCD.
+
+D. Rituximab is typically used in patients who are steroid-resistant or steroid-dependent, and it may allow for a reduction in the cumulative steroid dose. There is no evidence to suggest that treatment with rituximab is associated with a greater cumulative steroid dose when compared with a tacrolimus-based treatment protocol.
+
+Therefore, the answer is C. Rituximab has been shown to be beneficial in children who fail to respond to steroid or calcineurin inhibitor therapy.

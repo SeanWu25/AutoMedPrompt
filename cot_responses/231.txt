@@ -1,0 +1,12 @@
+## Answer
+The patient's presentation is consistent with acute hypernatremia due to salt intoxication. This condition is characterized by a rapid rise in serum sodium concentration, leading to an osmotic shift of water out of cells, including brain cells, causing them to shrink. This can lead to symptoms such as restlessness, irritability, spasms, and in severe cases, seizures and coma. 
+
+Option A suggests a slow correction of serum sodium levels to avoid cerebral edema. However, this is a strategy used in chronic hypernatremia, not acute. In chronic hypernatremia, the brain has time to adapt to the high sodium levels by producing idiogenic osmoles, which help to retain water in the brain cells. Rapid correction in this case can indeed lead to cerebral edema, but this is not the case in acute hypernatremia.
+
+Option B suggests that cerebral edema is unlikely in acute hypernatremia and that rapid correction should be undertaken. This is incorrect. Rapid correction of sodium levels in acute hypernatremia can lead to cerebral edema due to the rapid influx of water into brain cells.
+
+Option C suggests that acute hypernatremia allows for the formation of idiogenic osmoles. This is incorrect. The formation of idiogenic osmoles is a slow process that occurs over several days in response to chronic hypernatremia, not acute.
+
+Option D suggests that administration of free water at high rates is sufficient to treat salt intoxication and that extracorporeal removal can cause too rapid a decrease in the serum sodium concentration. This is incorrect. While free water administration is part of the treatment for hypernatremia, it must be done carefully to avoid too rapid a decrease in serum sodium levels. Extracorporeal removal methods such as hemodialysis can be used in severe cases, but again, the rate of sodium correction must be carefully controlled.
+
+Therefore, the answer is [A. Goal serum sodium correction should not exceed more than 10 mmol/L in 24 hours or 0.5 mmol/L per hour to avoid the development of cerebral edema].

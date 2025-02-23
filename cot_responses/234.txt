@@ -1,0 +1,12 @@
+## Answer
+The patient's presentation of recurrent hypokalemia, hypomagnesemia, and increased salt craving suggests a renal tubular disorder. The high fractional excretion of magnesium (normal <4%) indicates renal wasting of magnesium. The urine potassium-to-creatinine ratio is also high, indicating renal potassium wasting. 
+
+Option A, mutation in CLDN16 gene encoding claudin-16, leads to familial hypomagnesemia with hypercalciuria and nephrocalcinosis. However, the patient's urine calcium-to-creatinine ratio is low, making this option less likely.
+
+Option B, mutation in SLC12A3 gene encoding NCC in the distal tubule, leads to Gitelman syndrome. This syndrome is characterized by hypokalemia, hypomagnesemia, hypocalciuria, and metabolic alkalosis. The patient's presentation is consistent with this syndrome.
+
+Option C, mutation in KCNJ1 gene encoding ROMK in collecting duct, leads to Antenatal Bartter syndrome, which is characterized by hypokalemia, metabolic alkalosis, and hypercalciuria. However, the patient's urine calcium-to-creatinine ratio is low, making this option less likely.
+
+Option D, mutation in SLC12A1 gene encoding for NKCC2 in thick ascending limb of Henle, leads to classic Bartter syndrome. This syndrome is characterized by hypokalemia, metabolic alkalosis, and hypercalciuria. Again, the patient's urine calcium-to-creatinine ratio is low, making this option less likely.
+
+Therefore, the answer is [B. Mutation in SLC12A3 gene encoding NCC in the distal tubule].

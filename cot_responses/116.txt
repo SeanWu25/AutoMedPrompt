@@ -1,0 +1,12 @@
+## Answer
+Fibrillary glomerulonephritis (GN) is a rare cause of kidney disease, often associated with proteinuria and renal dysfunction. 
+
+Option A suggests that most people with fibrillary GN have hidden solid tumors. While fibrillary GN can be associated with malignancies, it is not the majority of cases, making this option incorrect.
+
+Option B suggests that more than 50% of patients treated with rituximab can expect improvement or stabilization of kidney function. While rituximab has been used in some cases of fibrillary GN, the evidence is not strong enough to suggest that over half of patients will see improvement or stabilization. Therefore, this option is also incorrect.
+
+Option D suggests that future kidney transplantation is contraindicated because recurrent fibrillary GN always occurs. While recurrence can happen, it is not a certainty and does not always contraindicate transplantation. Therefore, this option is incorrect.
+
+Option C suggests that further evaluation should include testing for hepatitis C virus infection. This is correct because fibrillary GN has been associated with hepatitis C infection in some cases. Therefore, testing for this infection is a reasonable part of the evaluation for a patient with fibrillary GN.
+
+Therefore, the answer is [C. Further evaluation should include testing for hepatitis C virus infection].

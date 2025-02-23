@@ -77,10 +77,9 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
                     f"A. {question_string['options']['A']}\n"
                     f"B. {question_string['options']['B']}\n"
                     f"C. {question_string['options']['C']}\n"
-                    f"D. {f'{question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
-                    f"E. {f'{question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
+        f"{f'D. {question_string['options']['D']}\n' if 'D' in question_string['options'] else ''}"
+                    f"{f'E. {question_string['options']['E']}\n' if 'E' in question_string['options'] else ''}"
                 )
-           
 
             ground_truth = question_string['answer_idx']
 
@@ -95,17 +94,18 @@ def post_eval(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Document
 def main():
     parser = argparse.ArgumentParser(description="Process some parameters.")
     parser.add_argument("--json_path", type=str, help="Json file path")
-    parser.add_argument("--benchmark_name", type=str, help="Benchmark name")
     args = parser.parse_args()
 
     file_path = args.json_path
-    benchmark_name = args.benchmark_name
     print("*" * 50)
     print("SET TO EVALUATION MODE")
     print("*" * 50)
 
+
     with open(file_path, "r") as file:
         data = json.load(file)
+
+    benchmark_name = data["events"][0]["benchmark_name"]
     last_event = data["events"][-1]  
     model_name = data["events"][0].get("model_name")
     system_prompt = last_event.get("updated_prompt", "N/A") 
@@ -116,7 +116,7 @@ def main():
     print("-" * 50)
 
 
-    if benchmark_name == "MedQA4":
+    if benchmark_name == "MedQA4" or benchmark_name=="NephSAP":
         post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)
     elif benchmark_name == "PubMedQA":
         yn_post_eval(model_name= model_name, benchmark_name = benchmark_name, system_prompt = system_prompt)

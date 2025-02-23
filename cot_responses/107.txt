@@ -1,0 +1,12 @@
+## Answer
+The patient's kidney function has worsened, as indicated by the increase in serum creatinine and proteinuria. The patient has a history of diabetes and proteinuria, but his diabetes has been well controlled and there has been no significant change in his condition that would suggest a sudden worsening of diabetic nephropathy. Therefore, option A is less likely. 
+
+Sunitinib, a growth factor inhibitor, has been associated with the development of thrombotic microangiopathy (TMA), a condition that can cause kidney damage. This makes options B, C, and D plausible. 
+
+However, the diagnosis of TMA is not straightforward and cannot be easily confirmed by a peripheral blood smear, haptoglobin, and complement levels alone, as suggested in option C. These tests can provide supportive evidence but are not definitive. 
+
+Option D suggests stopping the drug immediately, but this decision should be made with caution. Sunitinib is being used to treat renal cell carcinoma in this patient, and stopping it could have significant implications for his cancer treatment. 
+
+Option B suggests performing a kidney biopsy, which is the gold standard for diagnosing TMA. This would allow for a definitive diagnosis before making any changes to the patient's cancer therapy. 
+
+Therefore, the answer is [B. The worsening kidney function may be due thrombotic microangiopathy from the sunitinib, and you would like to do a kidney biopsy for diagnosis before recommending any changes to the patient’s cancer therapy].

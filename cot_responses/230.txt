@@ -1,0 +1,14 @@
+## Answer
+The patient's initial symptoms of severe nausea, vomiting, and diarrhea, along with her vital signs and lab results, suggest that she was suffering from volume depletion. This was confirmed by the diagnosis and the administration of normal saline to restore her extracellular fluid volume. The increase in serum sodium concentration ([Na+]) after the administration of normal saline suggests that the saline infusion played a role in this change. 
+
+Option A suggests that the normal saline infusion led to increased free water excretion (aquaresis), which could potentially increase serum [Na+]. However, this is unlikely to be the primary cause of the increase in serum [Na+] because normal saline has a similar osmolality to plasma and would not typically cause a significant increase in free water excretion.
+
+Option B suggests that fluid restriction due to the patient's inability to consume fluids orally caused the increase in serum [Na+]. However, the patient was given normal saline to restore her extracellular fluid volume, which would have compensated for her inability to consume fluids orally.
+
+Option C suggests that increased water losses from sweating caused the increase in serum [Na+]. However, there is no information in the question to suggest that the patient was sweating excessively.
+
+Option D suggests that the normal saline infusion replenished the patient's sodium levels. This is a plausible explanation because normal saline contains sodium and chloride ions, and its administration would increase the patient's extracellular sodium concentration.
+
+Option E suggests that the remission of nausea and vomiting eliminated non-osmotic arginine vasopressin secretion, leading to the increase in serum [Na+]. However, the cessation of vomiting would more likely lead to a decrease in serum [Na+] because vomiting can cause a loss of gastric fluids, which are rich in sodium and chloride ions.
+
+Therefore, the answer is [D. Na+ repletion by normal saline infusion].

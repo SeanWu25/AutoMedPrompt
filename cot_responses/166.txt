@@ -1,0 +1,12 @@
+## Answer
+Empagliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor. This class of drugs has been shown to have beneficial effects on kidney function in patients with type 2 diabetes. They work by blocking the reabsorption of glucose in the kidneys, leading to increased glucose excretion and lower blood glucose levels. In addition to their glucose-lowering effects, SGLT2 inhibitors have been shown to reduce albuminuria and slow the progression of kidney disease in patients with type 2 diabetes. 
+
+Option A suggests that the annual decline in eGFR will be more rapid with empagliflozin. This is incorrect as SGLT2 inhibitors have been shown to slow the decline in eGFR in patients with type 2 diabetes.
+
+Option B suggests that the risk of kidney stones is increased with the use of empagliflozin. There is no evidence to suggest that SGLT2 inhibitors increase the risk of kidney stones.
+
+Option C suggests that the risk of end-stage renal disease (ESRD) is increased with the use of empagliflozin. This is also incorrect as SGLT2 inhibitors have been shown to reduce the risk of ESRD in patients with type 2 diabetes.
+
+Option D suggests that the initial decline in eGFR will be accompanied by a slower rate of eGFR decline over time. This is consistent with the known effects of SGLT2 inhibitors. They can cause an initial dip in eGFR due to their diuretic effect, but over time, they slow the rate of eGFR decline by reducing intraglomerular pressure and inflammation.
+
+Therefore, the answer is [D. The initial decline in eGFR will be accom-panied by a slower rate of eGFR decline over time].

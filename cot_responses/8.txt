@@ -1,0 +1,14 @@
+## Answer
+The patient's hypertension and the finding of multifocal left main renal artery stenosis consistent with medial fibroplasia suggest that she has renovascular hypertension due to fibromuscular dysplasia. Fibromuscular dysplasia is a non-atherosclerotic, non-inflammatory disease of the blood vessels that primarily affects the renal and carotid arteries. It is the second most common cause of renovascular hypertension after atherosclerosis. 
+
+Option A, starting losartan, aspirin, and atorvastatin, is not the most appropriate next step. While these medications can help manage hypertension, they do not address the underlying cause in this case, which is the renal artery stenosis.
+
+Option B, obtaining a renal scintigraphy scan with captopril, is not necessary as the diagnosis has already been established with the computed tomography angiogram.
+
+Option C, referring for percutaneous renal angioplasty, is the most appropriate next step. Percutaneous transluminal renal angioplasty is the treatment of choice for fibromuscular dysplasia. It has a high success rate and low complication rate.
+
+Option D, referring for percutaneous renal angioplasty and stenting, is not the first-line treatment for fibromuscular dysplasia. Stenting is usually reserved for cases where angioplasty is unsuccessful or for atherosclerotic lesions.
+
+Option E, referring for renal artery bypass, is a surgical option that is usually reserved for cases where less invasive treatments have failed or are not possible.
+
+Therefore, the answer is C. Refer for percutaneous renal angioplasty.

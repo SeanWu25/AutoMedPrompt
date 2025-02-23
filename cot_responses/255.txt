@@ -1,0 +1,12 @@
+## Answer
+The question is asking for the findings of a meta-analysis of randomized controlled trials that accompanied the observational studies. The observational studies found that an increase in urinary albumin excretion over 2 years was associated with a greater likelihood of subsequent ESKD, and suggested that change in urinary albumin excretion could potentially be used as a surrogate end point for clinical trials of interventions to prevent ESKD. 
+
+Option A suggests that the results differed significantly in studies using total protein excretion rather than albumin excretion. However, this does not directly relate to the findings of the observational studies, which focused on urinary albumin excretion.
+
+Option B states that urinary albumin excretion is a valid surrogate end point. This is in line with the conclusion of the observational studies, but it does not provide any new information or findings from the randomized controlled trials.
+
+Option C suggests that associations of change in albumin-creatinine ratio/protein-creatinine ratio (ACR/PCR) with all-cause and cardiovascular mortality were stronger than associations with ESKD in studies of individuals with existing CKD. This is a new finding, but it does not directly relate to the conclusion of the observational studies about urinary albumin excretion and ESKD.
+
+Option D states that a change in urinary albumin excretion was found to be much less strongly associated with ESKD in patients treated with renin-angiotensin-aldosterone system (RAAS) inhibitors than in those treated with other methods of intensive blood pressure control. This is a new finding that directly relates to the conclusion of the observational studies, and it provides additional information about the association between urinary albumin excretion and ESKD in different patient groups.
+
+Therefore, the answer is [D].

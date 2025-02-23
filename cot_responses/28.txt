@@ -1,0 +1,16 @@
+## Answer
+The patient has membranous nephropathy, which is a kidney disease that can lead to nephrotic syndrome. The disease is often treated with angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) to reduce proteinuria, along with statins to manage hyperlipidemia, and a low-sodium diet to manage edema. However, the question asks for the next step in treatment.
+
+Option A, rituximab, is a monoclonal antibody that targets CD20 on B cells and is used in some cases of membranous nephropathy. However, it is usually reserved for patients who do not respond to initial therapy or have contraindications to other treatments.
+
+Option B, cyclical oral cyclophosphamide and steroids, is a common treatment for membranous nephropathy. This regimen is often used in patients with severe disease or those who do not respond to initial therapy.
+
+Option C, mycophenolate mofetil, is an immunosuppressant that is sometimes used in membranous nephropathy, but it is not typically the first choice.
+
+Option D, tacrolimus, is another immunosuppressant that can be used in membranous nephropathy, but it is also not typically the first choice.
+
+Option E, continued supportive care and observation, would not be appropriate in this case because the patient's disease is not well controlled with the current regimen.
+
+Given the patient's disease stage and the presence of nephrotic syndrome, the most appropriate next step would be to add an immunosuppressive regimen. Among the options given, cyclical oral cyclophosphamide and steroids is the most commonly used and effective treatment.
+
+Therefore, the answer is B. Cyclical oral cyclophosphamide and steroids for 6 months.

@@ -18,7 +18,7 @@ def zero_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documen
     #the save should be stored in a new sub_dir titled pubmedqa
     #fix this line below
     csv_filename = os.path.join(model_output_dir, f"{benchmark_name}_zero_shot_results.csv")
-    model = ChatTogether(model_name, system_prompt = "Answer the question with either: yes, no, or maybe")
+    model = ChatTogether(model_name, system_prompt = "Respond with yes/no/maybe")
     _, _, test_set = load_data(benchmark_name)
 
     file_exists = os.path.isfile(csv_filename)
@@ -33,7 +33,6 @@ def zero_shot1(model_name, benchmark_name, output_dir="C:\\Users\\Admin\\Documen
                 f"Context: {question_string['CONTEXTS']}\n"
                 f"Question: {question_string['QUESTION']}\n"
             )
-
             ground_truth = question_string['final_decision']
 
             prediction = model.generate(question, temperature=0.4)

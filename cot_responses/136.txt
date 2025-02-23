@@ -1,0 +1,12 @@
+## Answer
+The patient has frequently relapsing, steroid-dependent nephrotic syndrome due to minimal change disease. This means that his disease frequently comes back even after treatment and is dependent on steroids for management. However, he has developed severe Cushing syndrome from repeated courses of oral corticosteroids, which is a serious side effect. Therefore, the goal of treatment should be to find an alternative to steroids that can control his disease.
+
+Option A, tacrolimus, is an immunosuppressive drug used in organ transplantation. It has similar side effects to cyclosporine, which the patient has already tried without success.
+
+Option B, MMF (mycophenolate mofetil), is also an immunosuppressive drug used in organ transplantation. It has not been shown to be effective in minimal change disease.
+
+Option D, azathioprine, is an immunosuppressive drug used in a variety of conditions, including kidney diseases. However, it is generally less effective than other options for minimal change disease.
+
+Option C, rituximab, is a monoclonal antibody that targets CD20, a protein on the surface of B cells. It is used in a variety of conditions, including minimal change disease. Rituximab has been shown to be effective in reducing the frequency of relapses in patients with frequently relapsing, steroid-dependent minimal change disease. It is generally well tolerated and does not have the side effects associated with long-term steroid use.
+
+Therefore, the answer is C. Rituximab 375 mg/m2 weekly for 4 doses.

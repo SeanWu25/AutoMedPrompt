@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the correct statement regarding combination therapy for the treatment of hypertension. 
+
+Option A suggests that combination therapy is associated with reduced mortality at 3-year follow-up compared to monotherapy. However, while combination therapy can be more effective in controlling blood pressure, there is no definitive evidence to suggest that it directly reduces mortality at 3-year follow-up.
+
+Option B is specific to African patients and compares the effectiveness of two different combination therapies. However, the effectiveness of combination therapy can vary greatly depending on the individual patient's condition and response to medication, and it's not universally true that perindopril/hydrochlorothiazide is more effective than perindopril/amlodipine.
+
+Option C suggests that two-drug combinations are preferred to triple therapy due to higher rates of adverse events with triple therapy. This is generally true, as adding more drugs to a regimen increases the risk of side effects and drug interactions. However, triple therapy may be necessary in some cases where blood pressure is not adequately controlled with two drugs.
+
+Option D states that most patients started on a single agent for hypertension end up on a combination agent by 3 years follow-up. This is a reasonable statement, as hypertension is a chronic condition that often requires escalation of therapy over time to maintain control of blood pressure.
+
+Therefore, the answer is [D. Observational data suggest that the majority of patients started on a single agent for treatment of hypertension end up on a combination agent by 3 years follow-up]

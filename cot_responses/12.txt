@@ -1,0 +1,14 @@
+## Answer
+The patient in the scenario is pregnant and has chronic hypertension. It's important to manage her hypertension to prevent complications for both her and the baby. However, not all antihypertensive medications are safe to use during pregnancy. 
+
+Option A, Labetalol, is a beta-blocker that is commonly used to manage hypertension in pregnancy. It is considered safe and effective.
+
+Option B, Continued observation, is not appropriate in this case because the patient's blood pressure is significantly elevated, which could lead to complications such as preeclampsia.
+
+Option C, Lisinopril, is an ACE inhibitor. ACE inhibitors are contraindicated in pregnancy because they can cause fetal renal dysplasia, oligohydramnios, and death.
+
+Option D, Spironolactone, is a potassium-sparing diuretic that is also contraindicated in pregnancy due to the risk of feminization of a male fetus.
+
+Option E, Atenolol, is a beta-blocker that has been associated with fetal growth restriction and is therefore not the first choice for managing hypertension in pregnancy.
+
+Therefore, the answer is A. Labetalol.

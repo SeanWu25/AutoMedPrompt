@@ -1,0 +1,12 @@
+## Answer
+The question is asking about the most appropriate modality of dialysis for a patient with gram-negative sepsis, acute respiratory distress syndrome, hypotension, and oliguric stage 3 AKI. 
+
+Option A suggests that continuous venovenous hemodiafiltration is superior to other modalities of solute removal in gram-negative sepsis. However, there is no strong evidence to suggest that one modality of continuous renal replacement therapy (CRRT) is superior to another in terms of patient outcomes.
+
+Option B suggests that a polymyxin B adsorptive modality is indicated and has been shown to improve 28-day mortality in patients with endotoxic shock in randomized controlled trials. However, the use of polymyxin B hemoperfusion for sepsis and septic shock is controversial and not widely accepted as standard of care.
+
+Option C suggests that diffusive solute removal is superior to convective solute removal in this clinical setting with both continuous and intermittent therapies. However, there is no strong evidence to suggest that diffusive solute removal is superior to convective solute removal in terms of patient outcomes.
+
+Option D suggests that there is no significant difference in outcomes between diffusive or convective modalities of CRRT. This statement is in line with current evidence, which suggests that there is no significant difference in patient outcomes between different modalities of CRRT.
+
+Therefore, the answer is D. There is no significant difference in outcomes between diffusive or convective modalities of CRRT.

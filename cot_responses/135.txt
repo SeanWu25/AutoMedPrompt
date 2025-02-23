@@ -1,0 +1,6 @@
+## Answer
+The patient's presentation of isolated microscopic hematuria with normal renal function and no proteinuria is suggestive of a glomerular bleeding source. The most common cause of isolated microscopic hematuria is thin basement membrane nephropathy (TBMN), which is a benign condition often discovered incidentally or during family screening. TBMN is characterized by diffuse thinning of the glomerular basement membrane, often with no other abnormalities seen on light microscopy or immunofluorescence. 
+
+C3 glomerulopathy (Option A) typically presents with hematuria, proteinuria, and often with decreased complement levels, which is not the case here. IgA nephropathy (Option B) is the most common cause of glomerulonephritis worldwide and often presents with episodic gross hematuria coinciding with mucosal infections, but it can also present with microscopic hematuria and/or proteinuria. However, the absence of proteinuria and the lack of history of gross hematuria episodes make this diagnosis less likely. Lastly, a completely normal biopsy (Option D) would not explain the patient's hematuria.
+
+Therefore, the answer is C. Thin basement membrane nephropathy.

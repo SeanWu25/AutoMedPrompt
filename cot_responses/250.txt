@@ -1,0 +1,12 @@
+## Answer
+The patient's presentation includes a positive SARS-CoV-2 test, scattered hazy opacities on chest x-ray, and urine abnormalities including proteinuria and hematuria. However, she has no respiratory or urinary symptoms, and her serum creatinine is normal, indicating that her kidney function is not significantly impaired. 
+
+Option A suggests that urine abnormalities are uncommon in COVID-19 patients without acute kidney injury (AKI) and are highly predictive of glomerulonephritis. However, this is not entirely accurate. While urine abnormalities can occur in COVID-19 patients, they are not necessarily predictive of glomerulonephritis, especially in the absence of other symptoms or signs of this condition.
+
+Option B suggests that nephrotic-range proteinuria can be secondary to COVID-19 in patients who have high-risk APOL-1 alleles. While APOL-1 risk alleles are associated with a higher risk of kidney disease in certain populations, there is no specific evidence linking them to nephrotic-range proteinuria in COVID-19 patients.
+
+Option C suggests that COVID-19 patients have a higher risk of glomerulonephritis, including IgA nephritis and anti-GBM nephritis. While COVID-19 can affect the kidneys, there is no specific evidence suggesting a higher risk of these particular forms of glomerulonephritis in COVID-19 patients.
+
+Option D suggests that diffuse microangiopathy is a frequent finding in autopsy and biopsy reports from COVID-19 patients. This is accurate. COVID-19 can cause endothelial injury and inflammation, leading to microangiopathy. This can manifest as proteinuria and hematuria, as seen in this patient.
+
+Therefore, the answer is [D. Diffuse microangiopathy is a frequent ﬁnding in autopsy and biopsy reports from COVID-19 patients].

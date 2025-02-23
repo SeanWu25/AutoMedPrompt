@@ -1,0 +1,12 @@
+## Answer
+The patient in the scenario has hypertension that is not adequately controlled with amlodipine and hydrochlorothiazide. He also has type 2 diabetes mellitus and is a kidney transplant recipient. Therefore, it is important to choose an antihypertensive agent that not only lowers blood pressure but also provides renal protection. 
+
+Angiotensin-converting enzyme (ACE) inhibitors, such as lisinopril, have been shown to provide renal protection in patients with diabetes by reducing proteinuria and slowing the progression of diabetic nephropathy. They are also effective in lowering blood pressure. 
+
+Furosemide (option A) is a loop diuretic that can lower blood pressure by reducing fluid volume, but it does not provide the same level of renal protection as ACE inhibitors. 
+
+Hydralazine (option B) is a direct vasodilator that can lower blood pressure, but it also does not provide renal protection. 
+
+Labetalol (option C) is a non-selective beta blocker and alpha-1 receptor blocker that can lower blood pressure, but it does not provide renal protection and is not the first-line treatment for hypertension in patients with diabetes and kidney disease.
+
+Therefore, the answer is [D. Lisinopril].

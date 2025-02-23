@@ -1,0 +1,10 @@
+## Answer
+The patient's presentation of hypokalemic metabolic alkalosis, polyuria, thirst, salt craving, weakness, and fatigue is suggestive of a renal tubular disorder. The high plasma renin activity and high plasma aldosterone concentration indicate secondary hyperaldosteronism, which is a response to renal salt wasting rather than primary hyperaldosteronism (Choice A), where renin levels would be low. 
+
+Surreptitious vomiting (Choice D) can cause hypokalemic metabolic alkalosis, but it is usually associated with low urinary chloride levels due to extrarenal bicarbonate loss. This patient's urinary chloride level is high, suggesting a renal cause of her alkalosis.
+
+Liddle syndrome (Choice E) is a genetic disorder characterized by hypertension, hypokalemia, and metabolic alkalosis due to increased sodium reabsorption in the distal tubule. However, it is associated with suppressed renin and aldosterone levels, which is not the case in this patient.
+
+Gitelman syndrome (Choice B) and Bartter syndrome (Choice C) are both characterized by hypokalemic metabolic alkalosis, polyuria, and secondary hyperaldosteronism. However, Gitelman syndrome is distinguished by hypocalciuria, whereas Bartter syndrome is associated with hypercalciuria. This patient's urine calcium-to-creatinine ratio is high, indicating hypercalciuria.
+
+Therefore, the answer is C. Bartter syndrome.

@@ -1,0 +1,12 @@
+## Answer
+The Kauppila score is a method used to quantify abdominal aortic calcification, which is a marker of atherosclerosis. A higher score indicates more severe calcification. Abdominal aortic calcification is associated with an increased risk of cardiovascular events and mortality in patients with chronic kidney disease. This is because the calcification is a sign of advanced atherosclerosis, which can lead to heart disease and stroke. 
+
+Option A suggests that the association between abdominal aortic calcification and increased cardiovascular risk and mortality is lost after transplantation. However, this is not accurate. The risk persists even after transplantation because the calcification is a sign of systemic atherosclerosis, which is not reversed by transplantation.
+
+Option B suggests that abdominal aortic calcification is associated with increased cardiovascular risk but not with increased mortality. This is not accurate because the calcification is a sign of advanced atherosclerosis, which is associated with both increased cardiovascular risk and mortality.
+
+Option C suggests that a low Kauppila score is associated with a high cardiovascular risk. This is not accurate because a higher Kauppila score, indicating more severe calcification, is associated with a higher cardiovascular risk.
+
+Option D states that abdominal aortic calcification is associated with an increased risk of cardiovascular events and increased mortality, which persists after transplantation. This is the most accurate statement. The calcification is a sign of systemic atherosclerosis, which is associated with an increased risk of cardiovascular events and mortality, and this risk persists even after transplantation.
+
+Therefore, the answer is [D. Abdominal aortic calciﬁcation has been associated with increased risk of cardiovascular events and increased mortality, which persists after transplantation].

@@ -1,0 +1,12 @@
+## Answer
+The Public Health Service Increased Risk (PHS-IR) designation is given to donors who have engaged in behaviors that increase their risk of certain infections, such as HIV, hepatitis B virus (HBV), and hepatitis C virus (HCV). However, all donors are tested for these infections, and organs from PHS-IR donors are only used if the tests are negative. The risk of transmission of these infections is not zero, but it is very low. 
+
+Option A is incorrect because studies have shown that patients who accept kidneys from PHS-IR donors have a survival advantage compared to those who remain on the waitlist. 
+
+Option B is also incorrect. The quality of the kidney is not necessarily related to the PHS-IR status of the donor. 
+
+Option C is misleading. While the risk of HCV and HIV transmission is higher with PHS-IR donors compared to non-IR donors, the absolute risk is much lower than 5% and 1% respectively. 
+
+Option D is the most accurate. While graft function from PHS-IR donors has historically been inferior to that from non-IR donors, this difference has been mitigated by newer antiviral treatments. 
+
+Therefore, the answer is D. Although graft function is historically inferior from PHS-IR donors than from non-IR donors, this difference is now mitigated by newer antiviral treatments.
