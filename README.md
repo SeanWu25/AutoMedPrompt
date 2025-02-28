@@ -1,4 +1,4 @@
-# AutoMedPrompt: **A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients**
+# AutoMedPrompt: A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients
 
 ---
 
