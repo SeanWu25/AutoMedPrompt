@@ -1,6 +1,5 @@
 # AutoMedPrompt: A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients
 
----
 
 ### 📘 Abstract
 AutoMedPrompt is a novel framework that enhances the performance of large language models (LLMs) in medical question-answering tasks by utilizing **Textual Gradients**. Unlike traditional fine-tuning and manual prompt engineering, AutoMedPrompt dynamically optimizes prompts to elicit medically relevant reasoning using the **TextGrad** package's automatic differentiation capabilities.
