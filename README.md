@@ -88,3 +88,32 @@ pip install -r requirements.txt
 # Evaluate an experiment
 python eval.py --csv_folder="path to folder" --benchmark_name="NephSAP"
 ```
+
+
+## 📜 Citations
+
+If you use this work in your research, please cite the paper as follows:
+
+```bibtex
+@article{wu2025automedprompt,
+  title={AutoMedPrompt: A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients},
+  author={Wu, Sean and Koo, Michael and Scalzo, Fabien and Kurtz, Ira},
+  journal={arXiv preprint arXiv:2502.15944},
+  year={2025}
+}
+```
+
+## 🙏 Acknowledgments
+This work was built off of and only made possible because of **TextGrad**, a framework for optimizing complex multi-step LLM agents using textual gradients.
+
+If you are interested in learning more about TextGrad, please refer to their paper:
+
+```bibtex
+@article{yuksekgonul2024textgrad,
+  title={TextGrad: Automatic "Differentiation" via Text},
+  author={Yuksekgonul, Mert and Bianchi, Federico and Boen, Joseph and Liu, Sheng and Huang, Zhi and Guestrin, Carlos and Zou, James},
+  journal={arXiv preprint arXiv:2406.07496},
+  year={2024}
+}
+```
+
