@@ -9,7 +9,7 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
 - **MedQA**: Accuracy of 77.7%
 - **NephSAP**: Accuracy of 63.8%
 
----
+
 
 ### 🚀 Key Features
 - **TextGrad Integration**: Leverages TextGrad's backpropagation mechanism for textual gradients.
@@ -17,7 +17,6 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
 - **Outperforms Proprietary Models**: Surpasses GPT-4, Claude 3 Opus, and Med-PaLM 2 on multiple benchmarks.
 - **Open-Source Excellence**: Achieves SOTA without any fine-tuning, using open-weight LLMs like **Llama 3**.
 
----
 
 ### 📊 Benchmark Performance
 
@@ -39,14 +38,12 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
 | Llama 3 (DeepSeek R1 CoT)         | 70B            | ✅               | ✅                   | 71.4             | 76.4          | 48.0            |
 | **Llama 3 (AutoMedPrompt)**       | **70B**        | **✅**           | **✅**               | **82.6**         | **77.7**      | **63.8**        |
 
----
 
 ### Notes:
 - ✅ = Yes
 - ❌ = No
 - N/A = Not Applicable
 
----
 
 ### 🔬 Experiments
 
@@ -61,13 +58,12 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
   - **PubMedQA**: Yes/No/Maybe QA based on PubMed abstracts
   - **NephSAP**: Nephrology-specific multiple-choice questions
 
----
+
 
 ### 🔥 Why AutoMedPrompt Outperforms
 - **Task-Specific Prompting**: Tailors system prompts to unique medical tasks using textual gradients.
 - **Dynamic Reasoning**: Outperforms static CoT and Few-Shot approaches by adapting to reasoning requirements in real-time.
 - **No Fine-Tuning Needed**: Surpasses specialized models using generalist foundation models through advanced prompt optimization.
----
 
 ### 💻 Installation & Usage
 
