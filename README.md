@@ -1,7 +1,7 @@
 # AutoMedPrompt 🚀  
 **A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients**
 
-![AutoMedPrompt Logo](https://example.com/logo.png) <!-- Replace with an actual logo if available -->
+<img width="966" alt="Screenshot 2025-02-22 at 10 26 46 PM" src="https://github.com/user-attachments/assets/2d61106e-87f7-442f-b8c5-bb5cef7c3d8c" />
 
 ---
 
@@ -52,23 +52,6 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
 
 ---
 
-### ⚙️ Methodology
-
-1. **Baseline Prompting Methods**:
-   - **Zero-Shot**: Simple inference without context.
-   - **Few-Shot**: In-context learning using a few examples.
-   - **Chain-of-Thought (CoT)**: Intermediate reasoning for enhanced accuracy.
-
-2. **TextGrad Based Optimization**:
-   - Constructs computational graphs for medical QA.
-   - Backpropagates textual gradients to optimize system prompts.
-   - Utilizes **Textual Gradient Descent (TGD)** for iterative refinement.
-
-3. **Optimization Trajectory**:
-   - Ensures improved performance by validating prompt updates against accuracy benchmarks.
-
----
-
 ### 🔬 Experiments
 
 - Evaluated on open-source LLM **Llama 3 (70B)** and proprietary models:
@@ -88,7 +71,6 @@ AutoMedPrompt achieves state-of-the-art (SOTA) performance on multiple medical Q
 - **Task-Specific Prompting**: Tailors system prompts to unique medical tasks using textual gradients.
 - **Dynamic Reasoning**: Outperforms static CoT and Few-Shot approaches by adapting to reasoning requirements in real-time.
 - **No Fine-Tuning Needed**: Surpasses specialized models using generalist foundation models through advanced prompt optimization.
-
 ---
 
 ### 💻 Installation & Usage
