@@ -1,6 +1,0 @@
-## Answer
-The patient's presentation of acute and severe elevation in blood pressure during surgery, especially without a prior history of hypertension, is suggestive of a pheochromocytoma. Pheochromocytomas are neuroendocrine tumors that originate from the adrenal medulla and produce excess catecholamines, leading to episodic hypertension. The most appropriate diagnostic test for suspected pheochromocytoma is the measurement of plasma or urinary fractionated metanephrines, which are metabolites of catecholamines. 
-
-Aldosterone/renin ratio (Option A) is used to evaluate primary aldosteronism, which typically presents with hypertension and hypokalemia. Polysomnography (Option B) is used to diagnose sleep disorders such as sleep apnea. CT angiography (Option C) is used to visualize the blood vessels and could be used to identify vascular causes of hypertension, but it is not the first-line test for a suspected pheochromocytoma. Plasma catecholamines (Option E) can also be used to diagnose pheochromocytoma, but they are less sensitive and specific than metanephrines.
-
-Therefore, the answer is D. Plasma metanephrines.

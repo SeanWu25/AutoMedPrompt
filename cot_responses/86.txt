@@ -1,8 +1,0 @@
-## Answer
-The patient in question has type 2 diabetes mellitus and stage 5 chronic kidney disease (CKD), and she is considering a simultaneous pancreas-kidney (SPK) transplantation. 
-
-Option A suggests that she is an eligible candidate for SPK transplantation. However, the eligibility for SPK transplantation typically requires the patient to have type 1 diabetes mellitus, not type 2. This is because type 1 diabetes is characterized by absolute insulin deficiency due to autoimmune destruction of pancreatic beta cells, whereas type 2 diabetes is characterized by insulin resistance and relative insulin deficiency. Therefore, patients with type 1 diabetes are more likely to benefit from pancreas transplantation.
-
-Options B, C, and D all suggest that SPK transplantation in type 2 diabetes mellitus recipients is associated with worse outcomes compared to type 1 diabetes mellitus recipients. While it is true that SPK transplantation in type 2 diabetes mellitus recipients can be associated with worse outcomes, the most significant factor is the pancreas graft survival rate. 
-
-Therefore, the answer is D. SPK transplant in type 2 diabetes mellitus recipients is associated with worse pancreas graft survival compared with in type 1 diabetes mellitus recipients.

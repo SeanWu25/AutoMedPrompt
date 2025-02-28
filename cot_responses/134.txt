@@ -1,6 +1,0 @@
-## Answer
-Membranous nephropathy is a kidney disorder that leads to changes and inflammation of the structures inside the kidney that help filter wastes and fluids. The inflammation leads to problems with kidney function. The phospholipase A2 receptor (PLA2R) is a major target antigen in idiopathic membranous nephropathy. Anti-PLA2R antibodies are found in the blood of patients with this disease, and the PLA2R1 antigen is found in the glomeruli of the kidneys.
-
-In a patient with recently diagnosed primary membranous nephropathy who is in the process of experiencing a spontaneous remission, we would expect the serum anti-PLA2R antibody to be negative because the immune response is subsiding. However, the PLA2R1 antigen would still be present in the glomeruli because the antigen is part of the disease process and would not disappear immediately upon remission.
-
-Therefore, the answer is A. Serum anti–PLA2R antibody negative and PLA2R1 antigen positive in glomeruli.

@@ -1,3 +1,0 @@
-## Answer
-The patient's serologic studies show a positive hepatitis C antibody and a high hepatitis C RNA level, indicating an active hepatitis C infection. The presence of hepatitis B surface antibody and total core antibody, along with a negative hepatitis B surface antigen, suggests a past infection with hepatitis B that has resolved. The hepatitis B surface antibody can be produced as a result of vaccination or past infection, but the presence of the total core antibody indicates past infection because it is not produced in response to vaccination. Therefore, the patient has an active hepatitis C infection and has previously been infected with hepatitis B.
-Therefore, the answer is C. He has hepatitis C infection and has previously been infected with hepatitis B.

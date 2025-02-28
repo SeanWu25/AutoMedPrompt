@@ -1,6 +1,0 @@
-## Answer
-The patient's history of longstanding hypercalcemia, recurrent kidney stones, and elevated 1,25-dihydroxy vitamin D levels despite low or normal PTH levels suggests a diagnosis of familial hypocalciuric hypercalcemia (FHH). FHH is a genetic disorder characterized by lifelong, asymptomatic hypercalcemia and relative hypocalciuria. It is caused by mutations in the calcium-sensing receptor gene, which results in an increased set point for calcium-regulated PTH release. This leads to increased renal tubular reabsorption of calcium and reduced urinary calcium excretion. The elevated 1,25-dihydroxy vitamin D levels in this patient are likely due to increased renal conversion of 25-dihydroxy vitamin D to 1,25-dihydroxy vitamin D, driven by the relative hyperparathyroidism. 
-
-The laboratory test that would be most helpful in confirming this diagnosis is the measurement of the 24,25-dihydroxy vitamin D level (Option D). This is because in FHH, the increased renal conversion of 25-dihydroxy vitamin D to 1,25-dihydroxy vitamin D results in a relative deficiency of 24,25-dihydroxy vitamin D, which is the inactive form of vitamin D. Therefore, a low 24,25-dihydroxy vitamin D level would support the diagnosis of FHH.
-
-Therefore, the answer is [D. 24,25-dihydroxy vitamin D level].

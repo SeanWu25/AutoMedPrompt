@@ -1,6 +1,0 @@
-## Answer
-This patient's hypertension is likely due to volume overload, as suggested by his high interdialytic weight gains and the occasional asymptomatic fall in blood pressure during dialysis treatment. This fall in blood pressure suggests that he is being overhydrated during the interdialytic period, which is then being rapidly corrected during dialysis, leading to intradialytic hypotension. Therefore, the most appropriate next step in managing this patient's hypertension would be to gradually lower his target weight (Option C). This would reduce his volume overload and thus help control his blood pressure.
-
-Decreasing the dialysate sodium (Option A) could potentially exacerbate his intradialytic hypotension without adequately addressing the underlying volume overload. Decreasing epoetin (Option B) would not directly affect his blood pressure, as it is used to manage anemia in patients with chronic kidney disease and is not a primary treatment for hypertension. Increasing carvedilol (Option D) could potentially worsen his fatigue and daytime sleepiness, as beta-blockers can have these side effects.
-
-Therefore, the answer is [C. Gradual lowering of the target weight].

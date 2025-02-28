@@ -1,6 +1,0 @@
-## Answer
-The Systolic Blood Pressure Intervention Trial (SPRINT) showed that in patients at high risk for cardiovascular events but without diabetes, targeting a systolic blood pressure of less than 120 mmHg, as compared to less than 140 mmHg, resulted in lower rates of fatal and nonfatal major cardiovascular events and death from any cause. The patient in the question is at high risk due to her age, hypertension, hyperlipidemia, and active smoking. Therefore, it would be beneficial to aim for a lower systolic blood pressure. 
-
-Option A is not the best choice because her current treatment is not bringing her systolic blood pressure below 120 mmHg. Option B is not appropriate because it suggests increasing her systolic blood pressure, which is contrary to the findings of the SPRINT trial. Option C is not the best choice because it suggests targeting a systolic blood pressure of less than 140 mmHg, which is higher than the target suggested by the SPRINT trial. Option E is not the best choice because it suggests stopping lisinopril, which is an effective medication for hypertension.
-
-Therefore, the answer is D. Add amlodipine, targeting a systolic BP of < 120 mmHg. This option aligns with the findings of the SPRINT trial and would be the most beneficial for the patient.

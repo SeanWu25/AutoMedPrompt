@@ -1,8 +1,0 @@
-## Answer
-Autosomal dominant polycystic kidney disease (ADPKD) is a genetic disorder characterized by the growth of numerous cysts in the kidneys. Hypertension is a common finding in ADPKD and can lead to faster progression of the disease. Therefore, controlling blood pressure is a key aspect of managing ADPKD. 
-
-The Kidney Disease: Improving Global Outcomes (KDIGO) guidelines recommend a target blood pressure of less than 130/80 mmHg for patients with chronic kidney disease, including those with ADPKD. This recommendation is based on evidence that tighter blood pressure control can slow the progression of kidney disease and reduce the risk of cardiovascular events. 
-
-The other options (140/80 mmHg, 120/75 mmHg, and 110/75 mmHg) are not recommended targets for blood pressure in patients with ADPKD. A target of 140/80 mmHg is too high and may not provide sufficient protection against disease progression. On the other hand, targets of 120/75 mmHg and 110/75 mmHg are lower than the recommended target and may increase the risk of side effects from antihypertensive medications without providing additional benefits in terms of slowing disease progression.
-
-Therefore, the answer is [B. 130/80 mmHg].

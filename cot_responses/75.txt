@@ -1,8 +1,0 @@
-## Answer
-Alpha-1 microglobulin (A1M) is a low molecular weight protein that is freely filtered by the glomerulus and then reabsorbed and metabolized by the proximal tubule. Therefore, increased urinary excretion of A1M signifies tubular injury, not glomerular injury. This rules out option B. 
-
-Regarding option C, studies have shown that urinary levels of A1M do correlate with the duration of diabetes, as longer duration of diabetes is associated with more significant kidney damage, including tubular injury. Therefore, option C is incorrect.
-
-As for option D, tenofovir is a medication known to cause nephrotoxicity, and increased urinary levels of A1M have been shown to predict tenofovir nephrotoxicity. Therefore, option D is also incorrect.
-
-Therefore, the answer is A. It is freely ﬁltered and then metabolized by the proximal tubule.

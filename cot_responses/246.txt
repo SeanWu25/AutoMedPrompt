@@ -1,8 +1,0 @@
-## Answer
-Hepatorenal syndrome (HRS) is a type of kidney failure that occurs in advanced liver disease, particularly in patients with cirrhosis and ascites. The International Club of Ascites has outlined specific criteria for the diagnosis of HRS. These include a serum creatinine >1.5 mg/dl (option A), no improvement in serum creatinine after ascitic drainage (option E), and a fractional urinary sodium excretion <1% (option D). Therefore, these options would not exclude the diagnosis of HRS.
-
-However, the presence of active bacterial infection, such as untreated spontaneous bacterial peritonitis with septic shock (option C), would exclude the diagnosis of HRS. This is because the kidney failure in HRS is not due to an active infection but rather to circulatory changes related to advanced liver disease. 
-
-Treated bacterial sepsis (option B) would not necessarily exclude the diagnosis of HRS, as the kidney failure could still be due to the circulatory changes associated with advanced liver disease, even if the infection has been treated.
-
-Therefore, the answer is C. Untreated spontaneous bacterial peritonitis with septic shock.

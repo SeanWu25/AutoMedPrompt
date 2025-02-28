@@ -1,4 +1,0 @@
-## Answer
-The patient's symptoms of perioral numbness, confusion, tachypnea, and hand paresthesias, along with the presence of a Trousseau sign (carpopedal spasm induced by inflating a blood pressure cuff above systolic pressure) and prolonged QTc interval on EKG, are suggestive of hypocalcemia. Hypocalcemia can occur due to citrate toxicity. Citrate is used as an anticoagulant in the catheter lock solution. It works by chelating calcium, which is necessary for the coagulation cascade. In patients with normal kidney function, citrate is rapidly metabolized in the liver. However, in patients with impaired kidney function, such as this patient with stage 4 CKD and AKI, citrate can accumulate and cause systemic hypocalcemia by chelating calcium in the blood. Therefore, the most likely cause of this patient's symptoms is a complication from the use of the citrate lock solution.
-
-Therefore, the answer is B. A complication from use of the citrate lock solution.
