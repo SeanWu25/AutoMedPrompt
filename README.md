@@ -1,5 +1,4 @@
-# AutoMedPrompt 🚀  
-**A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients**
+# AutoMedPrompt: **A New Framework for Optimizing LLM Medical Prompts Using Textual Gradients**
 
 <img width="966" alt="Screenshot 2025-02-22 at 10 26 46 PM" src="https://github.com/user-attachments/assets/2d61106e-87f7-442f-b8c5-bb5cef7c3d8c" />
 
